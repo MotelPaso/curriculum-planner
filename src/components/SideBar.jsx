@@ -12,15 +12,12 @@ export default function SideBar({ colorMode, setColorMode }) {
 			<p className="font-bold text-center">Colores:</p>
 			<div className="flex flex-col items-start w-full">
 				<button
-					className="p-1 border-y w-full"
+					className="p-1 w-full"
 					onClick={() => setColorMode("Dificultad")}
 				>
 					Dificultad
 				</button>
-				<button
-					className="p-1 border-y w-full"
-					onClick={() => setColorMode("Simple")}
-				>
+				<button className="p-1 w-full" onClick={() => setColorMode("Simple")}>
 					Simple
 				</button>
 			</div>

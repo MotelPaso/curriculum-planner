@@ -47,7 +47,15 @@ function getDifficultyLabel(approvalRate) {
 }
 
 export default function CourseNode({ data }) {
-	const { title, credits, approvalRate, status, isElective, colorMode } = data;
+	const {
+		title,
+		credits,
+		approvalRate,
+		status,
+		isElective,
+		colorMode,
+		highlighted,
+	} = data;
 
 	// Decide which style to use based on colorMode
 	let style;
@@ -76,6 +84,9 @@ export default function CourseNode({ data }) {
 				fontFamily: "'Inter', sans-serif",
 				boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
 				position: "relative",
+				opacity: highlighted === "dimmed" ? 0.25 : 1,
+				outline: highlighted === "active" ? "3px solid #f59e0b" : "none",
+				transition: "opacity 0.2s, outline 0.2s",
 			}}
 		>
 			{/* Incoming handle — left side */}

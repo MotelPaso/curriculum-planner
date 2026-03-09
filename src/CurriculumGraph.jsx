@@ -1,4 +1,4 @@
-import { useMemo, useState, useCallback } from "react";
+import { useMemo, useState, useCallback, useEffect } from "react";
 import {
 	ReactFlow,
 	Background,
@@ -19,9 +19,7 @@ const COURSE_HEIGHT = 100;
 
 const nodeTypes = { courseNode: CourseNode };
 
-// Build nodes and edges from courses + progress state
 function buildGraph(courses, progress, colorMode) {
-	// Group courses by semester for Y positioning
 	const bySemester = {};
 	for (const course of courses) {
 		if (!bySemester[course.semester]) bySemester[course.semester] = [];
@@ -35,7 +33,7 @@ function buildGraph(courses, progress, colorMode) {
 		return {
 			id: course.code,
 			type: "courseNode",
-			width: 180,
+			width: 200,
 			height: 70,
 			position: {
 				x: (course.semester - 1) * SEMESTER_WIDTH,
@@ -57,7 +55,7 @@ function buildGraph(courses, progress, colorMode) {
 			id: `${prereq}->${course.code}`,
 			source: prereq,
 			target: course.code,
-			style: { stroke: "#94a3b8", strokeWidth: 2 },
+			style: { stroke: "#94a3b8", strokeWidth: 1 },
 			type: "default",
 		})),
 	);
@@ -68,6 +66,7 @@ function buildGraph(courses, progress, colorMode) {
 export default function CurriculumGraph({ courses, progress = {} }) {
 	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(true);
+	const [selectedEdge, setSelectedEdge] = useState(null);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, colorMode),
@@ -75,6 +74,48 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 	);
 	const [nodes, setNodes] = useState(initialNodes);
 	const [edges, setEdges] = useState(initialEdges);
+
+	const highlightedIds = useMemo(() => {
+		if (!selectedEdge) return new Set();
+
+		const result = new Set();
+
+		function collectPrereqs(courseCode) {
+			const course = courses.find((c) => c.code === courseCode);
+			if (!course) return;
+			result.add(courseCode);
+			for (const prereq of course.prereqs) {
+				if (!result.has(prereq)) {
+					collectPrereqs(prereq);
+				}
+			}
+		}
+
+		collectPrereqs(selectedEdge.target);
+		return result;
+	}, [selectedEdge, courses]);
+	useEffect(() => {
+		setNodes((prevNodes) =>
+			prevNodes.map((node) => {
+				const updated = initialNodes.find((n) => n.id === node.id); // returns bool if found
+				return updated
+					? {
+							...node, // keep the node
+							data: {
+								// change only the highlight
+								...updated.data,
+								highlighted:
+									highlightedIds.size === 0
+										? null
+										: highlightedIds.has(node.id)
+											? "active"
+											: "dimmed",
+							},
+						}
+					: node;
+			}),
+		);
+	}, [colorMode, highlightedIds]);
 
 	const onNodesChange = useCallback(
 		(changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
@@ -93,6 +134,10 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 				edges={edges}
 				onNodesChange={onNodesChange}
 				onEdgesChange={onEdgesChange}
+				onEdgeClick={(event, edge) =>
+					setSelectedEdge((prev) => (prev?.id === edge.id ? null : edge))
+				}
+				onPaneClick={() => setSelectedEdge(null)}
 				nodeTypes={nodeTypes}
 				minZoom={0.3}
 				maxZoom={2}
@@ -120,14 +165,8 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 					maskColor="rgba(248,250,252,0.7)"
 				/>
 				{showSideBar && (
-					<Panel
-						position="bottom-left"
-						style={{ marginLeft: "54px" }}
-					>
-						<SideBar
-							colorMode={colorMode}
-							setColorMode={setColorMode}
-						/>
+					<Panel position="bottom-left" style={{ marginLeft: "54px" }}>
+						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
 					</Panel>
 				)}
 			</ReactFlow>
