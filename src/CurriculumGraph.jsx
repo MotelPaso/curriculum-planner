@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useCallback } from "react";
 import {
 	ReactFlow,
 	Background,
@@ -6,6 +6,8 @@ import {
 	ControlButton,
 	MiniMap,
 	Panel,
+	applyEdgeChanges,
+	applyNodeChanges,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
@@ -13,7 +15,7 @@ import SideBar from "./components/SideBar";
 
 // Layout constants
 const SEMESTER_WIDTH = 300;
-const COURSE_HEIGHT = 150;
+const COURSE_HEIGHT = 100;
 
 const nodeTypes = { courseNode: CourseNode };
 
@@ -64,11 +66,24 @@ function buildGraph(courses, progress, colorMode) {
 }
 
 export default function CurriculumGraph({ courses, progress = {} }) {
-	const [colorMode, setColorMode] = useState("status");
+	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(true);
-	const { nodes, edges } = useMemo(
+
+	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, colorMode),
 		[progress, colorMode],
+	);
+	const [nodes, setNodes] = useState(initialNodes);
+	const [edges, setEdges] = useState(initialEdges);
+
+	const onNodesChange = useCallback(
+		(changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
+		[],
+	);
+
+	const onEdgesChange = useCallback(
+		(changes) => setEdges((eds) => applyEdgeChanges(changes, eds)),
+		[],
 	);
 
 	return (
@@ -76,6 +91,8 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 			<ReactFlow
 				nodes={nodes}
 				edges={edges}
+				onNodesChange={onNodesChange}
+				onEdgesChange={onEdgesChange}
 				nodeTypes={nodeTypes}
 				minZoom={0.3}
 				maxZoom={2}
@@ -103,8 +120,14 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 					maskColor="rgba(248,250,252,0.7)"
 				/>
 				{showSideBar && (
-					<Panel position="bottom-left" style={{ marginLeft: "54px" }}>
-						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
+					<Panel
+						position="bottom-left"
+						style={{ marginLeft: "54px" }}
+					>
+						<SideBar
+							colorMode={colorMode}
+							setColorMode={setColorMode}
+						/>
 					</Panel>
 				)}
 			</ReactFlow>
