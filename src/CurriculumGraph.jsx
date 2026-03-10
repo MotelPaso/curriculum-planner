@@ -44,7 +44,7 @@ function buildGraph(courses, progress, colorMode) {
 				title: course.title,
 				credits: course.credits,
 				approvalRate: course.approvalRate,
-				isElective: course.options.length > 0,
+				isElective: course.options.length > 0 || course.requiresElectiveLine,
 				status: progress[course.code] ?? "No Cursado",
 				colorMode,
 			},
