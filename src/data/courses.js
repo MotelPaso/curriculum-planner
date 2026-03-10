@@ -685,7 +685,7 @@ export const ICCI = [
 	},
 ];
 
-export const courses = [
+export const ICI = [
 	// Semester 1
 	{
 		code: "DCCB-00106",
