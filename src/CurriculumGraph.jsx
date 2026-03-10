@@ -12,6 +12,7 @@ import {
 import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
 import SideBar from "./components/SideBar";
+import BackButton from "./components/BackButton";
 
 // Layout constants
 const SEMESTER_WIDTH = 300;
@@ -63,7 +64,11 @@ function buildGraph(courses, progress, colorMode) {
 	return { nodes, edges };
 }
 
-export default function CurriculumGraph({ courses, progress = {} }) {
+export default function CurriculumGraph({
+	courses,
+	progress = {},
+	setShowGraph,
+}) {
 	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(true);
 	const [selectedEdge, setSelectedEdge] = useState(null);
@@ -145,7 +150,7 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 				fitView
 			>
 				<Background color="#e2e8f0" gap={20} />
-				<Controls showInteractive={false}>
+				<Controls>
 					<ControlButton
 						onClick={() => setShowSideBar((prev) => !prev)}
 						title="Toggle sidebar"
@@ -169,6 +174,9 @@ export default function CurriculumGraph({ courses, progress = {} }) {
 						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
 					</Panel>
 				)}
+				<Panel position="top-left">
+					<BackButton setShowGraph={setShowGraph}></BackButton>
+				</Panel>
 			</ReactFlow>
 		</div>
 	);

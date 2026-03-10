@@ -78,7 +78,7 @@ export default function CourseNode({ data }) {
 		<div
 			style={{
 				background: style.bg,
-				border: `2px solid ${style.border}`,
+				border: highlighted !== "active" ? `2px solid ${style.border}` : 0,
 				padding: "10px 14px",
 				width: "180px",
 				fontFamily: "'Inter', sans-serif",

@@ -8,12 +8,11 @@ export default function App() {
 	return (
 		<div className="w-screen h-screen bg-grey-100">
 			{!showGraph && (
-				<CareerSelector
-					setCareer={setCareer}
-					setShowGraph={setShowGraph}
-				/>
+				<CareerSelector setCareer={setCareer} setShowGraph={setShowGraph} />
 			)}
-			{showGraph && <CurriculumGraph courses={career} />}
+			{showGraph && (
+				<CurriculumGraph courses={career} setShowGraph={setShowGraph} />
+			)}
 		</div>
 	);
 }
