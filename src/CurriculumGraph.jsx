@@ -13,6 +13,7 @@ import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
 import SideBar from "./components/SideBar";
 import BackButton from "./components/BackButton";
+import TopBar from "./components/TopBar";
 
 // Layout constants
 const SEMESTER_WIDTH = 300;
@@ -70,9 +71,10 @@ export default function CurriculumGraph({
 	setShowGraph,
 }) {
 	const [colorMode, setColorMode] = useState("Dificultad");
-	const [showSideBar, setShowSideBar] = useState(true);
-	const [selectedEdge, setSelectedEdge] = useState(null);
+	const [showSideBar, setShowSideBar] = useState(false);
+	const [showTopBar, setShowTopBar] = useState(true);
 	const [selectedCourse, setSelectedCourse] = useState(null);
+	const [editMode, toggleEditMode] = useState(false);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, colorMode),
@@ -99,6 +101,7 @@ export default function CurriculumGraph({
 		collectPrereqs(selectedCourse.id);
 		return result;
 	}, [selectedCourse, courses]);
+
 	useEffect(() => {
 		setNodes((prevNodes) =>
 			prevNodes.map((node) => {
@@ -120,6 +123,17 @@ export default function CurriculumGraph({
 					: node;
 			}),
 		);
+		setEdges((prevEdges) =>
+			prevEdges.map((edge) => {
+				if (highlightedIds.size === 0)
+					return { ...edge, style: { stroke: "#94a3b8", strokeWidth: 1 } };
+				const isHighlighted =
+					highlightedIds.has(edge.source) && highlightedIds.has(edge.target);
+				return isHighlighted
+					? { ...edge, style: { stroke: "#222222", strokeWidth: 3 } }
+					: { ...edge, style: { stroke: "#94a3b8", strokeWidth: 0 } }; // reset when not highlighted
+			}),
+		);
 	}, [colorMode, highlightedIds]);
 
 	const onNodesChange = useCallback(
@@ -139,14 +153,10 @@ export default function CurriculumGraph({
 				edges={edges}
 				onNodesChange={onNodesChange}
 				onEdgesChange={onEdgesChange}
-				onEdgeClick={(event, edge) =>
-					setSelectedEdge((prev) => (prev?.id === edge.id ? null : edge))
-				}
 				onNodeClick={(event, node) => {
 					setSelectedCourse((prev) => (prev?.id == node.id ? null : node));
 				}}
 				onPaneClick={() => {
-					setSelectedEdge(null);
 					setSelectedCourse(null);
 				}}
 				nodeTypes={nodeTypes}
@@ -161,7 +171,13 @@ export default function CurriculumGraph({
 						onClick={() => setShowSideBar((prev) => !prev)}
 						title="Toggle sidebar"
 					>
-						{showSideBar ? ">" : "<"}
+						{!showSideBar ? ">" : "<"}
+					</ControlButton>
+					<ControlButton
+						onClick={() => toggleEditMode((prev) => !prev)}
+						title="Toggle Edit Mode"
+					>
+						{!editMode ? "E" : "!E"}
 					</ControlButton>
 				</Controls>
 				<MiniMap
@@ -180,9 +196,11 @@ export default function CurriculumGraph({
 						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
 					</Panel>
 				)}
-				<Panel position="top-left">
-					<BackButton setShowGraph={setShowGraph}></BackButton>
-				</Panel>
+				{showTopBar && (
+					<Panel position="top-center">
+						<TopBar setShowGraph={setShowGraph} />
+					</Panel>
+				)}
 			</ReactFlow>
 		</div>
 	);
