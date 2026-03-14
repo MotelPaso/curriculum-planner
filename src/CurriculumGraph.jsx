@@ -72,6 +72,7 @@ export default function CurriculumGraph({
 	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(true);
 	const [selectedEdge, setSelectedEdge] = useState(null);
+	const [selectedCourse, setSelectedCourse] = useState(null);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, colorMode),
@@ -81,10 +82,9 @@ export default function CurriculumGraph({
 	const [edges, setEdges] = useState(initialEdges);
 
 	const highlightedIds = useMemo(() => {
-		if (!selectedEdge) return new Set();
+		if (!selectedCourse) return new Set();
 
 		const result = new Set();
-
 		function collectPrereqs(courseCode) {
 			const course = courses.find((c) => c.code === courseCode);
 			if (!course) return;
@@ -96,9 +96,9 @@ export default function CurriculumGraph({
 			}
 		}
 
-		collectPrereqs(selectedEdge.target);
+		collectPrereqs(selectedCourse.id);
 		return result;
-	}, [selectedEdge, courses]);
+	}, [selectedCourse, courses]);
 	useEffect(() => {
 		setNodes((prevNodes) =>
 			prevNodes.map((node) => {
@@ -142,7 +142,13 @@ export default function CurriculumGraph({
 				onEdgeClick={(event, edge) =>
 					setSelectedEdge((prev) => (prev?.id === edge.id ? null : edge))
 				}
-				onPaneClick={() => setSelectedEdge(null)}
+				onNodeClick={(event, node) => {
+					setSelectedCourse((prev) => (prev?.id == node.id ? null : node));
+				}}
+				onPaneClick={() => {
+					setSelectedEdge(null);
+					setSelectedCourse(null);
+				}}
 				nodeTypes={nodeTypes}
 				minZoom={0.3}
 				maxZoom={2}
