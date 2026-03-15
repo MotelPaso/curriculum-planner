@@ -72,7 +72,7 @@ export default function CurriculumGraph({
 }) {
 	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(false);
-	const [showTopBar, setShowTopBar] = useState(true);
+	const [showTopBar, setShowTopBar] = useState(false);
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [editMode, toggleEditMode] = useState(false);
 
