@@ -69,10 +69,12 @@ export default function CurriculumGraph({
 	courses,
 	progress = {},
 	setShowGraph,
+	setTheme,
+	theme,
 }) {
 	const [colorMode, setColorMode] = useState("Dificultad");
 	const [showSideBar, setShowSideBar] = useState(false);
-	const [showTopBar, setShowTopBar] = useState(false);
+	const [showTopBar, setShowTopBar] = useState(true);
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [editMode, toggleEditMode] = useState(false);
 
@@ -147,7 +149,7 @@ export default function CurriculumGraph({
 	);
 
 	return (
-		<div style={{ width: "100vw", height: "100vh", background: "#f8fafc" }}>
+		<div style={{ width: "100vw", height: "100vh" }}>
 			<ReactFlow
 				nodes={nodes}
 				edges={edges}
@@ -164,9 +166,15 @@ export default function CurriculumGraph({
 				maxZoom={2}
 				nodeOrigin={[0, 0]}
 				fitView
+				proOptions={{ hideAttribution: true }}
+				colorMode={theme}
 			>
-				<Background color="#e2e8f0" gap={20} />
-				<Controls>
+				<Background
+					bgColor={theme == "light" ? "#ffffff" : "#111111"}
+					gap={20}
+					lineWidth={0}
+				/>
+				<Controls showZoom={false} showFitView={false}>
 					<ControlButton
 						onClick={() => setShowSideBar((prev) => !prev)}
 						title="Toggle sidebar"
@@ -180,17 +188,6 @@ export default function CurriculumGraph({
 						{!editMode ? "E" : "!E"}
 					</ControlButton>
 				</Controls>
-				<MiniMap
-					pannable
-					nodeColor={(node) => {
-						const status = node.data?.status;
-						if (status === "Aprobado") return "#22c55e";
-						if (status === "Reprobado") return "#ef4444";
-						if (status === "Inscrito") return "#3b82f6";
-						return "#cbd5e1";
-					}}
-					maskColor="rgba(248,250,252,0.7)"
-				/>
 				{showSideBar && (
 					<Panel position="bottom-left" style={{ marginLeft: "54px" }}>
 						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
@@ -198,7 +195,11 @@ export default function CurriculumGraph({
 				)}
 				{showTopBar && (
 					<Panel position="top-center">
-						<TopBar setShowGraph={setShowGraph} />
+						<TopBar
+							setShowGraph={setShowGraph}
+							theme={theme}
+							setTheme={setTheme}
+						/>
 					</Panel>
 				)}
 			</ReactFlow>

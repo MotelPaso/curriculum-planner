@@ -3,3 +3,12 @@
 :root {
 	font-family: "Lato";
 }
+[data-theme="light"] {
+	--color-bg: #ffffff;
+	--color-border: #000000;
+}
+
+[data-theme="dark"] {
+	--color-bg: #111111;
+	--color-border: #757575;
+}

@@ -1,3 +1,3 @@
 export default function CourseMain({ course }) {
-	return <div></div>;
+	return <div>{course.title}</div>;
 }
