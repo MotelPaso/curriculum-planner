@@ -2,7 +2,7 @@ export const ICCI = [
 	// Semester 1
 	{
 		code: "DCCB-00106",
-		title: "CÁLCULO I",
+		title: "Cálculo I",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -13,7 +13,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00107",
-		title: "ÁLGEBRA I",
+		title: "Álgebra I",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -24,7 +24,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00119",
-		title: "INTRODUCCIÓN A LA FÍSICA",
+		title: "Introducción A La Física",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -35,7 +35,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00100",
-		title: "PR. INTRO. A LA INGENIERÍA",
+		title: "Pr. Intro. A La Ingeniería",
 		credits: 5,
 		semester: 1,
 		status: "No Cursado",
@@ -46,7 +46,7 @@ export const ICCI = [
 	},
 	{
 		code: "SSED-00102",
-		title: "COMUNICACIÓN EFECTIVA I",
+		title: "Comunicación Efectiva I",
 		credits: 2,
 		semester: 1,
 		status: "No Cursado",
@@ -57,7 +57,7 @@ export const ICCI = [
 	},
 	{
 		code: "SSED-01184",
-		title: "INGLÉS 1",
+		title: "Inglés 1",
 		credits: 4,
 		semester: 1,
 		status: "No Cursado",
@@ -68,7 +68,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCTE-00000",
-		title: "IDENTIDAD, UNIV. Y EQ. DE GÉN.",
+		title: "Identidad, Univ. Y Eq. De Gén.",
 		credits: 2,
 		semester: 1,
 		status: "No Cursado",
@@ -81,7 +81,7 @@ export const ICCI = [
 	// Semester 2
 	{
 		code: "DCCB-00216",
-		title: "MECÁNICA",
+		title: "Mecánica",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -92,7 +92,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00265",
-		title: "CÁLCULO II",
+		title: "Cálculo II",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -103,7 +103,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00266",
-		title: "ÁLGEBRA II",
+		title: "Álgebra II",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -114,7 +114,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00201",
-		title: "PROGRAMACIÓN",
+		title: "Programación",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -125,7 +125,7 @@ export const ICCI = [
 	},
 	{
 		code: "SSED-02184",
-		title: "INGLÉS 2",
+		title: "Inglés 2",
 		credits: 4,
 		semester: 2,
 		status: "No Cursado",
@@ -136,7 +136,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFV-02002",
-		title: "FORMACIÓN GENERAL VALÓRICA 2",
+		title: "Formación General Valórica 2",
 		credits: 2,
 		semester: 2,
 		status: "No Cursado",
@@ -152,7 +152,7 @@ export const ICCI = [
 	// Semester 3
 	{
 		code: "DCCB-00264",
-		title: "QUÍMICA GENERAL",
+		title: "Química General",
 		credits: 6,
 		semester: 3,
 		status: "No Cursado",
@@ -163,7 +163,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00301",
-		title: "ECUACIONES DIFERENCIALES",
+		title: "Ecuaciones Diferenciales",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -174,7 +174,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCCB-00401",
-		title: "CÁLCULO III",
+		title: "Cálculo III",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -185,7 +185,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00307",
-		title: "PROGRAMACIÓN ORIENTADA A OBJET",
+		title: "Programación Orientada A Objetos",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -196,7 +196,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00308",
-		title: "TÉC. Y MET. DE PROG. AVANZADA",
+		title: "Téc. Y Met. De Prog. Avanzada",
 		credits: 2,
 		semester: 3,
 		status: "No Cursado",
@@ -207,7 +207,7 @@ export const ICCI = [
 	},
 	{
 		code: "SSED-02020",
-		title: "COMUNICACIÓN EFECTIVA II",
+		title: "Comunicación Efectiva II",
 		credits: 2,
 		semester: 3,
 		status: "No Cursado",
@@ -218,7 +218,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFE-10001",
-		title: "FORMACIÓN GENERAL ELECTIVA I",
+		title: "Formación General Electiva I",
 		credits: 2,
 		semester: 3,
 		status: "No Cursado",
@@ -234,7 +234,7 @@ export const ICCI = [
 	// Semester 4
 	{
 		code: "DCCB-00505",
-		title: "ELECTROMAGNETISMO",
+		title: "Electromagnetismo",
 		credits: 6,
 		semester: 4,
 		status: "No Cursado",
@@ -245,7 +245,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00336",
-		title: "ESTADÍSTICA",
+		title: "Estadística",
 		credits: 6,
 		semester: 4,
 		status: "No Cursado",
@@ -256,7 +256,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00407",
-		title: "ESTRUCTURAS DE DATOS",
+		title: "Estructuras De Datos",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -267,7 +267,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00408",
-		title: "PROYECTO DISEÑO E INNOVACIÓN",
+		title: "Proyecto Diseño E Innovación",
 		credits: 4,
 		semester: 4,
 		status: "No Cursado",
@@ -278,7 +278,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00409",
-		title: "ING. Y DESARROLLO SUSTENTABLE",
+		title: "Ing. Y Desarrollo Sustentable",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -289,7 +289,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00498",
-		title: "EMPRENDIMIENTO",
+		title: "Emprendimiento",
 		credits: 3,
 		semester: 4,
 		status: "No Cursado",
@@ -302,7 +302,7 @@ export const ICCI = [
 	// Semester 5
 	{
 		code: "ECIN-00404",
-		title: "DISEÑO DE SISTEMAS DIGITALES",
+		title: "Diseño De Sistemas Digitales",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -313,7 +313,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00507",
-		title: "BASES DE DATOS",
+		title: "Bases De Datos",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -324,7 +324,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00510",
-		title: "ELECTROTECNIA",
+		title: "Electrotecnia",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -335,7 +335,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00512",
-		title: "INTRODUCCIÓN A DATA SCIENCE",
+		title: "Introducción A Data Science",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -346,7 +346,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00513",
-		title: "PROY. INTEGRADOR PROG. AVANZAD",
+		title: "Proy. Integrador Prog. Avanzad",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -357,7 +357,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-50001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -373,7 +373,7 @@ export const ICCI = [
 	// Semester 6
 	{
 		code: "ECIN-00506",
-		title: "FUNDAMENTOS DE LA COMPUTACIÓN",
+		title: "Fundamentos De La Computación",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -384,7 +384,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00508",
-		title: "ARQ. Y ORG. DE COMPUTADORES",
+		title: "Arq. Y Org. De Computadores",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -395,7 +395,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00610",
-		title: "INGENIERÍA DE SOFTWARE",
+		title: "Ingeniería De Software",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -406,7 +406,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00618",
-		title: "INT. AL DESARROLLO WEB/MÓVIL",
+		title: "Int. Al Desarrollo Web/móvil",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -417,7 +417,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00619",
-		title: "PROYECTO INTEGRADOR SOFTWARE",
+		title: "Proyecto Integrador Software",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -428,7 +428,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-60001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -444,7 +444,7 @@ export const ICCI = [
 	// Semester 7
 	{
 		code: "ECIN-00608",
-		title: "DISEÑO Y ANÁLISIS DE ALGORITMO",
+		title: "Diseño Y Análisis De Algoritmo",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -455,7 +455,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00609",
-		title: "LENGUAJES DE PROGRAMACIÓN",
+		title: "Lenguajes De Programación",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -466,7 +466,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00706",
-		title: "SISTEMAS OPERATIVOS",
+		title: "Sistemas Operativos",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -477,7 +477,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00708",
-		title: "PROYECTO INTEGRADOR PLATAFORMA",
+		title: "Proyecto Integrador Plataforma",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -488,7 +488,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00805",
-		title: "SISTEMAS DE INFORMACIÓN I",
+		title: "Sistemas De Información I",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -499,7 +499,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-70001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -510,7 +510,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFV-03003",
-		title: "FORMACIÓN GENERAL VALÓRICA 3",
+		title: "Formación General Valórica 3",
 		credits: 2,
 		semester: 7,
 		status: "No Cursado",
@@ -526,7 +526,7 @@ export const ICCI = [
 	// Semester 8
 	{
 		code: "ECIN-00705",
-		title: "GESTIÓN DE PROYECTOS TI",
+		title: "Gestión De Proyectos TI",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -537,7 +537,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00806",
-		title: "REDES DE COMPUTADORES",
+		title: "Redes De Computadores",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -548,7 +548,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00808",
-		title: "ARQUITECTURA DE SISTEMAS",
+		title: "Arquitectura De Sistemas",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -559,7 +559,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00809",
-		title: "PROYECTO INTEGRADOR GESTIÓN TI",
+		title: "Proyecto Integrador Gestión TI",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -570,7 +570,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-00907",
-		title: "SISTEMAS DE INFORMACIÓN II",
+		title: "Sistemas De Información II",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -581,7 +581,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-80001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -592,7 +592,7 @@ export const ICCI = [
 	},
 	{
 		code: "DCTE-00005",
-		title: "ÉTICA PROFESIONAL",
+		title: "Ética Profesional",
 		credits: 2,
 		semester: 8,
 		status: "No Cursado",
@@ -605,7 +605,7 @@ export const ICCI = [
 	// Semester 9
 	{
 		code: "ECIN-00910",
-		title: "EVALUACIÓN DE PROYECTOS TI",
+		title: "Evaluación De Proyectos TI",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -616,7 +616,7 @@ export const ICCI = [
 	},
 	{
 		code: "ECIN-08606",
-		title: "PRÁCTICA PRE-PROFESIONAL",
+		title: "Práctica Pre-Profesional",
 		credits: 12,
 		semester: 9,
 		status: "No Cursado",
@@ -633,7 +633,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-90001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -644,7 +644,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-90002",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -655,7 +655,7 @@ export const ICCI = [
 	},
 	{
 		code: "UNFP-90003",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -668,7 +668,7 @@ export const ICCI = [
 	// Semester 10
 	{
 		code: "ECIN-01000",
-		title: "CAPSTONE PROJECT",
+		title: "Capstone Project",
 		credits: 30,
 		semester: 10,
 		status: "No Cursado",
@@ -689,7 +689,7 @@ export const ICI = [
 	// Semester 1
 	{
 		code: "DCCB-00106",
-		title: "CÁLCULO I",
+		title: "Cálculo I",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -700,7 +700,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00107",
-		title: "ÁLGEBRA I",
+		title: "Álgebra I",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -711,7 +711,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00119",
-		title: "INTRODUCCIÓN A LA FÍSICA",
+		title: "Introducción A La Física",
 		credits: 6,
 		semester: 1,
 		status: "No Cursado",
@@ -722,7 +722,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00100",
-		title: "PR. INTRO. A LA INGENIERÍA",
+		title: "Pr. Intro. A La Ingeniería",
 		credits: 5,
 		semester: 1,
 		status: "No Cursado",
@@ -733,7 +733,7 @@ export const ICI = [
 	},
 	{
 		code: "SSED-00102",
-		title: "COMUNICACIÓN EFECTIVA I",
+		title: "Comunicación Efectiva I",
 		credits: 2,
 		semester: 1,
 		status: "No Cursado",
@@ -744,7 +744,7 @@ export const ICI = [
 	},
 	{
 		code: "SSED-01184",
-		title: "INGLÉS 1",
+		title: "Inglés 1",
 		credits: 4,
 		semester: 1,
 		status: "No Cursado",
@@ -755,7 +755,7 @@ export const ICI = [
 	},
 	{
 		code: "DCTE-00000",
-		title: "IDENTIDAD, UNIV. Y EQ. DE GÉN.",
+		title: "Identidad, Univ. Y Eq. De Gén.",
 		credits: 2,
 		semester: 1,
 		status: "No Cursado",
@@ -768,7 +768,7 @@ export const ICI = [
 	// Semester 2
 	{
 		code: "DCCB-00216",
-		title: "MECÁNICA",
+		title: "Mecánica",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -779,7 +779,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00264",
-		title: "QUÍMICA GENERAL",
+		title: "Química General",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -790,7 +790,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00265",
-		title: "CÁLCULO II",
+		title: "Cálculo II",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -801,7 +801,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00266",
-		title: "ÁLGEBRA II",
+		title: "Álgebra II",
 		credits: 6,
 		semester: 2,
 		status: "No Cursado",
@@ -812,7 +812,7 @@ export const ICI = [
 	},
 	{
 		code: "SSED-02184",
-		title: "INGLÉS 2",
+		title: "Inglés 2",
 		credits: 4,
 		semester: 2,
 		status: "No Cursado",
@@ -823,7 +823,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFV-02002",
-		title: "FORMACIÓN GENERAL VALÓRICA 2",
+		title: "Formación General Valórica 2",
 		credits: 2,
 		semester: 2,
 		status: "No Cursado",
@@ -839,7 +839,7 @@ export const ICI = [
 	// Semester 3
 	{
 		code: "DCCB-00301",
-		title: "ECUACIONES DIFERENCIALES",
+		title: "Ecuaciones Diferenciales",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -850,7 +850,7 @@ export const ICI = [
 	},
 	{
 		code: "DCCB-00401",
-		title: "CÁLCULO III",
+		title: "Cálculo III",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -861,7 +861,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00200",
-		title: "PROGRAMACIÓN",
+		title: "Programación",
 		credits: 5,
 		semester: 3,
 		status: "No Cursado",
@@ -872,7 +872,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00336",
-		title: "ESTADÍSTICA",
+		title: "Estadística",
 		credits: 6,
 		semester: 3,
 		status: "No Cursado",
@@ -883,7 +883,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00337",
-		title: "PROYECTO : DISEÑO E INNOVACIÓN",
+		title: "Proyecto : Diseño E Innovación",
 		credits: 6,
 		semester: 3,
 		status: "No Cursado",
@@ -894,7 +894,7 @@ export const ICI = [
 	},
 	{
 		code: "SSED-02020",
-		title: "COMUNICACIÓN EFECTIVA II",
+		title: "Comunicación Efectiva II",
 		credits: 2,
 		semester: 3,
 		status: "No Cursado",
@@ -905,7 +905,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFE-10001",
-		title: "FORMACIÓN GENERAL ELECTIVA I",
+		title: "Formación General Electiva I",
 		credits: 2,
 		semester: 3,
 		status: "No Cursado",
@@ -918,7 +918,7 @@ export const ICI = [
 	// Semester 4
 	{
 		code: "DCCB-00505",
-		title: "ELECTROMAGNETISMO",
+		title: "Electromagnetismo",
 		credits: 6,
 		semester: 4,
 		status: "No Cursado",
@@ -929,7 +929,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00402",
-		title: "ECONOMÍA",
+		title: "Economía",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -940,7 +940,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00500",
-		title: "ESTADÍSTICA APLICADA",
+		title: "Estadística Aplicada",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -951,7 +951,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00504",
-		title: "ADM. DE LA PRODUCCIÓN I",
+		title: "Adm. De La Producción I",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -962,7 +962,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00600",
-		title: "TERMODINÁMICA",
+		title: "Termodinámica",
 		credits: 5,
 		semester: 4,
 		status: "No Cursado",
@@ -975,7 +975,7 @@ export const ICI = [
 	// Semester 5
 	{
 		code: "ECIN-00505",
-		title: "INVESTIGACIÓN OPERATIVA I",
+		title: "Investigación Operativa I",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -986,7 +986,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00519",
-		title: "CIENCIA DE DATOS",
+		title: "Ciencia De Datos",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -997,7 +997,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00605",
-		title: "CONTABILIDAD DE DIRECCIÓN",
+		title: "Contabilidad De Dirección",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -1008,7 +1008,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00704",
-		title: "PROYECTO: SISTEMAS PRODUCTIVOS",
+		title: "Proyecto: Sistemas Productivos",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -1019,7 +1019,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00501",
-		title: "DIBUJO DE INGENIERÍA",
+		title: "Dibujo De Ingeniería",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -1030,7 +1030,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-50001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 5,
 		status: "No Cursado",
@@ -1043,7 +1043,7 @@ export const ICI = [
 	// Semester 6
 	{
 		code: "ECIN-00098",
-		title: "EMPRENDIMIENTO",
+		title: "Emprendimiento",
 		credits: 3,
 		semester: 6,
 		status: "No Cursado",
@@ -1054,7 +1054,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00403",
-		title: "PROYECTO: CALIDAD",
+		title: "Proyecto: Calidad",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -1065,7 +1065,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00603",
-		title: "INGENIERÍA ECONÓMICA",
+		title: "Ingeniería Económica",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -1076,7 +1076,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00604",
-		title: "INVESTIGACIÓN OPERATIVA II",
+		title: "Investigación Operativa II",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -1087,7 +1087,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00802",
-		title: "ADM. DE LA PRODUCCIÓN II",
+		title: "Adm. De La Producción II",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -1098,7 +1098,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-60001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 6,
 		status: "No Cursado",
@@ -1111,7 +1111,7 @@ export const ICI = [
 	// Semester 7
 	{
 		code: "ECIN-00301",
-		title: "TECNOLOGÍAS DE INFORMACIÓN",
+		title: "Tecnologías De Información",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1122,7 +1122,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00606",
-		title: "PR. FORM. EVA. PROY. INVERSIÓN",
+		title: "Pr. Form. Eva. Proy. Inversión",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1133,7 +1133,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00700",
-		title: "SIMULACIÓN",
+		title: "Simulación",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1144,7 +1144,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00703",
-		title: "CADENA DE SUMINISTROS",
+		title: "Cadena De Suministros",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1155,7 +1155,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00800",
-		title: "ING. Y DESARROLLO SUSTENTABLE",
+		title: "Ing. Y Desarrollo Sustentable",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1166,7 +1166,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-08616",
-		title: "PRÁCTICA PRE-PROFESIONAL",
+		title: "Práctica Pre-Profesional",
 		credits: 12,
 		semester: 7,
 		status: "No Cursado",
@@ -1177,7 +1177,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-70001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 7,
 		status: "No Cursado",
@@ -1188,7 +1188,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFV-03003",
-		title: "FORMACIÓN GENERAL VALÓRICA 3",
+		title: "Formación General Valórica 3",
 		credits: 2,
 		semester: 7,
 		status: "No Cursado",
@@ -1201,7 +1201,7 @@ export const ICI = [
 	// Semester 8
 	{
 		code: "DCTE-00005",
-		title: "ÉTICA PROFESIONAL",
+		title: "Ética Profesional",
 		credits: 2,
 		semester: 8,
 		status: "No Cursado",
@@ -1212,7 +1212,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00803",
-		title: "PLANIFICACIÓN ESTRATÉGICA",
+		title: "Planificación Estratégica",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -1233,18 +1233,18 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00804",
-		title: "PROYECTO CADENA DE SUMINISTROS",
+		title: "Proyecto Cadena De Suministros",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
 		approvalRate: 0.9981617647058824,
-		prereqs: ["ECIN-00606", "ECIN-00703"],
+		prereqs: ["ECIN-00666", "ECIN-00703"],
 		requiresElectiveLine: false,
 		options: [],
 	},
 	{
 		code: "ECIN-00901",
-		title: "GESTIÓN DE ACTIVOS",
+		title: "Gestión De Activos",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -1255,7 +1255,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00905",
-		title: "ORGANIZACIÓN DIGITAL",
+		title: "Organización Digital",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -1266,7 +1266,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-80001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 8,
 		status: "No Cursado",
@@ -1279,7 +1279,7 @@ export const ICI = [
 	// Semester 9
 	{
 		code: "ECIN-00904",
-		title: "GESTIÓN DE LA INNOVACIÓN",
+		title: "Gestión De La Innovación",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -1290,7 +1290,7 @@ export const ICI = [
 	},
 	{
 		code: "ECIN-00910",
-		title: "EVALUACIÓN DE PROYECTOS TI",
+		title: "Evaluación De Proyectos TI",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -1301,7 +1301,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-90001",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -1312,7 +1312,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-90002",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -1323,7 +1323,7 @@ export const ICI = [
 	},
 	{
 		code: "UNFP-90003",
-		title: "FORMACIÓN PROFESIONAL ELECTIVA",
+		title: "Formación Profesional Electiva",
 		credits: 5,
 		semester: 9,
 		status: "No Cursado",
@@ -1336,7 +1336,7 @@ export const ICI = [
 	// Semester 10
 	{
 		code: "ECIN-01000",
-		title: "CAPSTONE PROJECT",
+		title: "Capstone Project",
 		credits: 30,
 		semester: 10,
 		status: "No Cursado",

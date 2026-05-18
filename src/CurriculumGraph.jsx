@@ -8,20 +8,20 @@ import {
 	Panel,
 	applyEdgeChanges,
 	applyNodeChanges,
+	BackgroundVariant,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
-import SideBar from "./components/SideBar";
-import BackButton from "./components/BackButton";
+import CourseNextNode from "./components/CourseNextNode";
 import TopBar from "./components/TopBar";
 
 // Layout constants
-const SEMESTER_WIDTH = 300;
+const SEMESTER_WIDTH = 360;
 const COURSE_HEIGHT = 100;
 
-const nodeTypes = { courseNode: CourseNode };
+const nodeTypes = { courseNode: CourseNextNode };
 
-function buildGraph(courses, progress, colorMode) {
+function buildGraph(courses, progress, theme) {
 	const bySemester = {};
 	for (const course of courses) {
 		if (!bySemester[course.semester]) bySemester[course.semester] = [];
@@ -35,7 +35,7 @@ function buildGraph(courses, progress, colorMode) {
 		return {
 			id: course.code,
 			type: "courseNode",
-			width: 200,
+			width: 276,
 			height: 70,
 			position: {
 				x: (course.semester - 1) * SEMESTER_WIDTH,
@@ -46,8 +46,7 @@ function buildGraph(courses, progress, colorMode) {
 				credits: course.credits,
 				approvalRate: course.approvalRate,
 				isElective: course.options.length > 0 || course.requiresElectiveLine,
-				status: progress[course.code] ?? "No Cursado",
-				colorMode,
+				theme: theme,
 			},
 		};
 	});
@@ -57,7 +56,10 @@ function buildGraph(courses, progress, colorMode) {
 			id: `${prereq}->${course.code}`,
 			source: prereq,
 			target: course.code,
-			style: { stroke: "#94a3b8", strokeWidth: 1 },
+			style: {
+				stroke: theme == "light" ? "#94a3b8" : "#222222",
+				strokeWidth: 1,
+			},
 			type: "default",
 		})),
 	);
@@ -72,15 +74,13 @@ export default function CurriculumGraph({
 	setTheme,
 	theme,
 }) {
-	const [colorMode, setColorMode] = useState("Dificultad");
-	const [showSideBar, setShowSideBar] = useState(false);
 	const [showTopBar, setShowTopBar] = useState(true);
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [editMode, toggleEditMode] = useState(false);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
-		() => buildGraph(courses, progress, colorMode),
-		[progress, colorMode],
+		() => buildGraph(courses, progress, theme),
+		[progress, theme],
 	);
 	const [nodes, setNodes] = useState(initialNodes);
 	const [edges, setEdges] = useState(initialEdges);
@@ -136,7 +136,7 @@ export default function CurriculumGraph({
 					: { ...edge, style: { stroke: "#94a3b8", strokeWidth: 0 } }; // reset when not highlighted
 			}),
 		);
-	}, [colorMode, highlightedIds]);
+	}, [theme, highlightedIds]);
 
 	const onNodesChange = useCallback(
 		(changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
@@ -171,16 +171,13 @@ export default function CurriculumGraph({
 			>
 				<Background
 					bgColor={theme == "light" ? "#ffffff" : "#111111"}
+					variant={
+						theme == "light" ? BackgroundVariant.Lines : BackgroundVariant.Dots
+					}
 					gap={20}
-					lineWidth={0}
+					lineWidth={1}
 				/>
 				<Controls showZoom={false} showFitView={false}>
-					<ControlButton
-						onClick={() => setShowSideBar((prev) => !prev)}
-						title="Toggle sidebar"
-					>
-						{!showSideBar ? ">" : "<"}
-					</ControlButton>
 					<ControlButton
 						onClick={() => toggleEditMode((prev) => !prev)}
 						title="Toggle Edit Mode"
@@ -188,11 +185,6 @@ export default function CurriculumGraph({
 						{!editMode ? "E" : "!E"}
 					</ControlButton>
 				</Controls>
-				{showSideBar && (
-					<Panel position="bottom-left" style={{ marginLeft: "54px" }}>
-						<SideBar colorMode={colorMode} setColorMode={setColorMode} />
-					</Panel>
-				)}
 				{showTopBar && (
 					<Panel position="top-center">
 						<TopBar

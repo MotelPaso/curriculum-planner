@@ -6,9 +6,15 @@
 [data-theme="light"] {
 	--color-bg: #ffffff;
 	--color-border: #000000;
+	--course-main: #f6f6f6;
+	--course-font: #000000;
+	--course-elective: #2770de;
 }
 
 [data-theme="dark"] {
-	--color-bg: #111111;
+	--color-bg: #1e1e1e;
 	--color-border: #757575;
+	--course-main: #313131;
+	--course-font: #fdfdfd;
+	--course-elective: #2770de;
 }
