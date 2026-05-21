@@ -5,10 +5,14 @@ import CareerSelector from "./components/CareerSelector";
 export default function App() {
 	const [showGraph, setShowGraph] = useState(false);
 	const [career, setCareer] = useState(null);
+	const [editMode, setEditMode] = useState(false);
 	const [theme, setTheme] = useState(
-		() => localStorage.getItem("theme") || "light",
+		() => localStorage.getItem("theme") || "dark",
 	);
-
+	const [progress, setProgress] = useState(() => {
+		const saved = localStorage.getItem("progress");
+		return saved ? JSON.parse(saved) : {};
+	});
 	const toggleTheme = () => {
 		const next = localStorage.getItem("theme") === "light" ? "dark" : "light";
 		setTheme(next);
@@ -32,8 +36,12 @@ export default function App() {
 			{showGraph && (
 				<CurriculumGraph
 					courses={career}
+					progress={progress}
+					setProgress={setProgress}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}
+					setEditMode={setEditMode}
+					editMode={editMode}
 					theme={theme}
 				/>
 			)}

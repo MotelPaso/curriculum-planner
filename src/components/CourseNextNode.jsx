@@ -2,17 +2,34 @@ import { Handle, Position } from "@xyflow/react";
 import { FaAngleDown } from "react-icons/fa";
 
 export default function CourseNextNode({ data }) {
-	const { title, credits, approvalRate, isElective, theme, highlighted } = data;
+	const {
+		title,
+		credits,
+		approvalRate,
+		isElective,
+		theme,
+		highlighted,
+		editMode,
+		status,
+	} = data;
+
+	const PROGRESS_STYLES = {
+		ongoing: { outline: "5px solid #3b82f6" }, // blue
+		completed: { opacity: 0.35 }, // dimmed
+		not_taking: {}, // red
+	};
+	const progressStyle = PROGRESS_STYLES[status] ?? {};
 
 	return (
-		<div className=" flex flex-col items-end ">
+		<div className="flex flex-col items-end">
 			{data.isElective && (
 				<div
 					className="relative top-2 left-3 w-20 text-center text-sm"
 					style={{
 						backgroundColor: "var(--course-elective)",
 						color: "#FFFFFF",
-						opacity: highlighted === "dimmed" ? 0.25 : 1,
+						opacity:
+							highlighted === "dimmed" ? 0.25 : (progressStyle.opacity ?? 1),
 						transition: "opacity 0.4s, outline 0.4s",
 					}}
 				>
@@ -29,13 +46,17 @@ export default function CourseNextNode({ data }) {
 				}}
 			/>
 			<div
-				className="border-3 w-full h-[87px] rounded-md"
+				className="border-2 w-full h-[87px] rounded-md"
 				style={{
 					backgroundColor: "var(--course-main)",
 					boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
-					opacity: highlighted === "dimmed" ? 0.25 : 1,
-					outline: highlighted === "active" ? "3px solid #f59e0b" : "none",
-					transition: "opacity 0.4s, outline 0.4s",
+					opacity:
+						highlighted === "dimmed" ? 0.25 : (progressStyle.opacity ?? 1),
+					outline:
+						highlighted === "active"
+							? "3px solid #f59e0b"
+							: (progressStyle.outline ?? "none"),
+					transition: "opacity 0.5s, outline 0.5s",
 				}}
 			>
 				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5">

@@ -14,14 +14,21 @@ import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
 import CourseNextNode from "./components/CourseNextNode";
 import TopBar from "./components/TopBar";
+import BotBar from "./components/BotBar";
+import { SiConcourse } from "react-icons/si";
 
 // Layout constants
 const SEMESTER_WIDTH = 360;
-const COURSE_HEIGHT = 100;
+const COURSE_HEIGHT = 150;
+const TYPES_PROGRESS = {
+	completed: "ongoing",
+	ongoing: "not_taking",
+	not_taking: "completed",
+};
 
 const nodeTypes = { courseNode: CourseNextNode };
 
-function buildGraph(courses, progress, theme) {
+function buildGraph(courses, progress, theme, editMode) {
 	const bySemester = {};
 	for (const course of courses) {
 		if (!bySemester[course.semester]) bySemester[course.semester] = [];
@@ -47,6 +54,8 @@ function buildGraph(courses, progress, theme) {
 				approvalRate: course.approvalRate,
 				isElective: course.options.length > 0 || course.requiresElectiveLine,
 				theme: theme,
+				editMode: editMode,
+				status: progress[course.code],
 			},
 		};
 	});
@@ -72,22 +81,22 @@ export default function CurriculumGraph({
 	progress = {},
 	setShowGraph,
 	setTheme,
+	setEditMode,
+	setProgress,
+	editMode,
 	theme,
 }) {
-	const [showTopBar, setShowTopBar] = useState(true);
 	const [selectedCourse, setSelectedCourse] = useState(null);
-	const [editMode, toggleEditMode] = useState(false);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
-		() => buildGraph(courses, progress, theme),
-		[progress, theme],
+		() => buildGraph(courses, progress, theme, editMode),
+		[progress, theme, editMode],
 	);
 	const [nodes, setNodes] = useState(initialNodes);
 	const [edges, setEdges] = useState(initialEdges);
 
 	const highlightedIds = useMemo(() => {
 		if (!selectedCourse) return new Set();
-
 		const result = new Set();
 		function collectPrereqs(courseCode) {
 			const course = courses.find((c) => c.code === courseCode);
@@ -114,6 +123,7 @@ export default function CurriculumGraph({
 							data: {
 								// change only the highlight
 								...updated.data,
+								status: progress[node.id] ?? "not_taking",
 								highlighted:
 									highlightedIds.size === 0
 										? null
@@ -136,7 +146,12 @@ export default function CurriculumGraph({
 					: { ...edge, style: { stroke: "#94a3b8", strokeWidth: 0 } }; // reset when not highlighted
 			}),
 		);
-	}, [theme, highlightedIds]);
+	}, [theme, highlightedIds, progress]);
+
+	// for updating the progress
+	useEffect(() => {
+		localStorage.setItem("progress", JSON.stringify(progress));
+	}, [progress]);
 
 	const onNodesChange = useCallback(
 		(changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
@@ -148,6 +163,7 @@ export default function CurriculumGraph({
 		[],
 	);
 
+	const resetView = () => {};
 	return (
 		<div style={{ width: "100vw", height: "100vh" }}>
 			<ReactFlow
@@ -156,18 +172,47 @@ export default function CurriculumGraph({
 				onNodesChange={onNodesChange}
 				onEdgesChange={onEdgesChange}
 				onNodeClick={(event, node) => {
-					setSelectedCourse((prev) => (prev?.id == node.id ? null : node));
+					if (editMode) {
+						const result = new Set();
+						function collectPrereqs(courseCode) {
+							const course = courses.find((c) => c.code === courseCode);
+							if (!course) return;
+							result.add(courseCode);
+							for (const prereq of course.prereqs) {
+								if (!result.has(prereq)) {
+									collectPrereqs(prereq);
+								}
+							}
+						}
+						collectPrereqs(node.id);
+						setProgress((prev) => {
+							const status = TYPES_PROGRESS[prev[node.id] ?? "not_taking"];
+							const next = { ...prev };
+							for (const course of result) {
+								if (status !== "ongoing") next[course] = status;
+							}
+							next[node.id] = status;
+							return next;
+						});
+					} else {
+						setSelectedCourse((prev) => (prev?.id == node.id ? null : node));
+					}
 				}}
 				onPaneClick={() => {
 					setSelectedCourse(null);
 				}}
 				nodeTypes={nodeTypes}
-				minZoom={0.3}
-				maxZoom={2}
-				nodeOrigin={[0, 0]}
 				fitView
+				fitViewOptions={{
+					maxZoom: 0.6,
+					nodes: [{ id: "ECIN-00407" }, { id: "ECIN-00200" }],
+				}}
+				minZoom={0.3}
+				maxZoom={3}
+				nodeOrigin={[0, 0]}
 				proOptions={{ hideAttribution: true }}
 				colorMode={theme}
+				snapToGrid={true}
 			>
 				<Background
 					bgColor={theme == "light" ? "#ffffff" : "#111111"}
@@ -177,23 +222,23 @@ export default function CurriculumGraph({
 					gap={20}
 					lineWidth={1}
 				/>
-				<Controls showZoom={false} showFitView={false}>
-					<ControlButton
-						onClick={() => toggleEditMode((prev) => !prev)}
-						title="Toggle Edit Mode"
-					>
-						{!editMode ? "E" : "!E"}
-					</ControlButton>
-				</Controls>
-				{showTopBar && (
-					<Panel position="top-center">
-						<TopBar
-							setShowGraph={setShowGraph}
-							theme={theme}
-							setTheme={setTheme}
-						/>
-					</Panel>
-				)}
+				<Panel position="top-center">
+					<TopBar
+						setShowGraph={setShowGraph}
+						theme={theme}
+						setTheme={setTheme}
+						setEditMode={setEditMode}
+					/>
+				</Panel>
+				<Panel position="bottom-left">
+					<BotBar
+						theme={theme}
+						setEditMode={setEditMode}
+						editMode={editMode}
+						resetView={resetView}
+						setProgress={setProgress}
+					/>
+				</Panel>
 			</ReactFlow>
 		</div>
 	);
