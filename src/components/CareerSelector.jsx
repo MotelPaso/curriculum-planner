@@ -1,16 +1,21 @@
-import { ICCI, ICI } from "../data/courses";
-import { useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
+import BACKEND from "../services/API";
 export default function CareerSelector({
 	setCareer,
 	setShowGraph,
 	setTheme,
 	theme,
 }) {
-	const buttonToggle = (career) => {
-		setCareer(career);
-		setShowGraph(true);
+	const getCourseData = async (career) => {
+		try {
+			const response = await BACKEND.get("/courses");
+			const courses = response.data;
+			setCareer(courses);
+			setShowGraph(true);
+		} catch (error) {
+			console.error(error);
+		}
 	};
 
 	return (
@@ -23,13 +28,13 @@ export default function CareerSelector({
 				<div className="flex flex-row w-full justify-around">
 					<button
 						className="cursor-pointer w-[40%] p-4 text-2xl rounded-2xl bg-blue-100"
-						onClick={() => buttonToggle(ICCI)}
+						onClick={() => getCourseData("ICCI")}
 					>
 						ICCI
 					</button>
 					<button
 						className="cursor-pointer w-[40%] p-4 text-2xl rounded-2xl bg-orange-200 "
-						onClick={() => buttonToggle(ICI)}
+						onClick={() => getCourseData("ICI")}
 					>
 						ICI
 					</button>

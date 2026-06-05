@@ -1,6 +1,17 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import connection as c
 app = FastAPI()
+origins = ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
+
+courses = c.getCourses()
 
 @app.get("/")
 async def read_root():
@@ -8,4 +19,4 @@ async def read_root():
 
 @app.get("/courses")
 async def courses():
-    return c.getCourses()
+    return courses

@@ -51,8 +51,8 @@ function buildGraph(courses, progress, theme, editMode) {
 			data: {
 				title: course.title,
 				credits: course.credits,
-				approvalRate: course.approvalRate,
-				isElective: course.options.length > 0 || course.requiresElectiveLine,
+				approvalRate: course.approvalrate,
+				isElective: course.iselective,
 				theme: theme,
 				editMode: editMode,
 				status: progress[course.code],
@@ -61,7 +61,7 @@ function buildGraph(courses, progress, theme, editMode) {
 	});
 
 	const edges = courses.flatMap((course) =>
-		course.prereqs.map((prereq) => ({
+		course.prerequisites.map((prereq) => ({
 			id: `${prereq}->${course.code}`,
 			source: prereq,
 			target: course.code,
@@ -102,7 +102,7 @@ export default function CurriculumGraph({
 			const course = courses.find((c) => c.code === courseCode);
 			if (!course) return;
 			result.add(courseCode);
-			for (const prereq of course.prereqs) {
+			for (const prereq of course.prerequisites) {
 				if (!result.has(prereq)) {
 					collectPrereqs(prereq);
 				}
@@ -178,7 +178,7 @@ export default function CurriculumGraph({
 							const course = courses.find((c) => c.code === courseCode);
 							if (!course) return;
 							result.add(courseCode);
-							for (const prereq of course.prereqs) {
+							for (const prereq of course.prerequisites) {
 								if (!result.has(prereq)) {
 									collectPrereqs(prereq);
 								}
