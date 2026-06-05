@@ -19,10 +19,8 @@ def formatTitle(title: str) -> str:
     for i, word in enumerate(words):
         if word.upper() in ROMANS:
             formatted.append(word.upper())
-        elif i == 0:
-            formatted.append(word)
         else:
-            formatted.append(word.lower())
+            formatted.append(word)
     return ' '.join(formatted)
 courses = []
 prerequisites = []

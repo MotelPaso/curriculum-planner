@@ -101,7 +101,7 @@
 			"opportunity": 1,
 			"lastUpdated": false,
 			"originalCourse": {
-				"name": "PR. INTRO. A LA INGENIERÍA",
+				"name": "PROYECTO. INTRO. A LA INGENIERÍA",
 				"code": "ECIN-00100",
 				"credits": 5,
 				"equivalents": ["FAIC-00102"],
@@ -112,7 +112,7 @@
 				"requiresElectiveLine": false
 			},
 			"enrolledCourse": {
-				"name": "PR. INTRO. A LA INGENIERÍA",
+				"name": "PROYECTO. INTRO. A LA INGENIERÍA",
 				"code": "ECIN-00100",
 				"credits": 5,
 				"prerequisites": [],
@@ -631,7 +631,7 @@
 			"opportunity": 1,
 			"lastUpdated": false,
 			"originalCourse": {
-				"name": "PROGRAMACIÓN ORIENTADA A OBJET",
+				"name": "PROGRAMACIÓN ORIENTADA A OBJ.",
 				"code": "ECIN-00307",
 				"credits": 5,
 				"equivalents": ["MNOR-00059"],
@@ -642,7 +642,7 @@
 				"requiresElectiveLine": false
 			},
 			"enrolledCourse": {
-				"name": "PROGRAMACIÓN ORIENTADA A OBJET",
+				"name": "PROGRAMACIÓN ORIENTADA A OBJ.",
 				"code": "ECIN-00307",
 				"credits": 5,
 				"prerequisites": ["DAIS-00204", "ECIN-00201"],
@@ -1449,7 +1449,7 @@
 			"opportunity": 0,
 			"lastUpdated": false,
 			"originalCourse": {
-				"name": "PROY. INTEGRADOR PROG. AVANZAD",
+				"name": "PROYECTO: INTEGRADOR PROG. AVANZADA",
 				"code": "ECIN-00513",
 				"credits": 5,
 				"equivalents": [],
@@ -5003,7 +5003,7 @@
 						"approvalRate": 0.9411764705882353,
 						"credits": 5,
 						"equivalents": [],
-						"name": "PR. DESARROLLO ÁGIL ESCALADO",
+						"name": "PROYECTO: DESARROLLO ÁGIL ESCALADO",
 						"prerequisites": ["ECIN-00660"],
 						"levelPrerequisites": [],
 						"requiresElectiveLine": false
@@ -5715,7 +5715,7 @@
 						"approvalRate": 0.9411764705882353,
 						"credits": 5,
 						"equivalents": [],
-						"name": "PR. DESARROLLO ÁGIL ESCALADO",
+						"name": "PROYECTO: DESARROLLO ÁGIL ESCALADO",
 						"prerequisites": ["ECIN-00660"],
 						"levelPrerequisites": [],
 						"requiresElectiveLine": false
@@ -6427,7 +6427,7 @@
 						"approvalRate": 0.9411764705882353,
 						"credits": 5,
 						"equivalents": [],
-						"name": "PR. DESARROLLO ÁGIL ESCALADO",
+						"name": "PROYECTO: DESARROLLO ÁGIL ESCALADO",
 						"prerequisites": ["ECIN-00660"],
 						"levelPrerequisites": [],
 						"requiresElectiveLine": false
@@ -7139,7 +7139,7 @@
 						"approvalRate": 0.9411764705882353,
 						"credits": 5,
 						"equivalents": [],
-						"name": "PR. DESARROLLO ÁGIL ESCALADO",
+						"name": "PROYECCTO: DESARROLLO ÁGIL ESCALADO",
 						"prerequisites": ["ECIN-00660"],
 						"levelPrerequisites": [],
 						"requiresElectiveLine": false
@@ -7851,7 +7851,7 @@
 						"approvalRate": 0.9411764705882353,
 						"credits": 5,
 						"equivalents": [],
-						"name": "PR. DESARROLLO ÁGIL ESCALADO",
+						"name": "PROYECTO: DESARROLLO ÁGIL ESCALADO",
 						"prerequisites": ["ECIN-00660"],
 						"levelPrerequisites": [],
 						"requiresElectiveLine": false
