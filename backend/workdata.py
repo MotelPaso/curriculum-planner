@@ -12,7 +12,18 @@ DB_CONFIG = {
     'password': os.getenv('DB_PASSWORD'),
     'port': os.getenv('DB_PORT')
 }
-
+def formatTitle(title: str) -> str:
+    ROMANS = {'I', 'II', 'III'}
+    words = title.strip().title().split()
+    formatted = []
+    for i, word in enumerate(words):
+        if word.upper() in ROMANS:
+            formatted.append(word.upper())
+        elif i == 0:
+            formatted.append(word)
+        else:
+            formatted.append(word.lower())
+    return ' '.join(formatted)
 courses = []
 prerequisites = []
 with open('ICCI.json', 'r') as file:
@@ -21,7 +32,7 @@ with open('ICCI.json', 'r') as file:
 for course in data['advancement']:
   course_data = {
     'code': course['originalCourse']['code'],
-    'title': course['originalCourse']['name'],
+    'title': formatTitle(course['originalCourse']['name']),
     'credits': course['originalCourse']['credits'],
     'semester' : course['semester'],
     'approvalRate': course['originalCourse']['approvalRate'],

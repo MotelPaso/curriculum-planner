@@ -11,6 +11,8 @@ DB_CONFIG = {
     'password': os.getenv('DB_PASSWORD'),
     'port': os.getenv('DB_PORT')
 }
+
+
 def getCourses():
   conn = psycopg2.connect(**DB_CONFIG)
   cur = conn.cursor(cursor_factory=RealDictCursor)
@@ -32,3 +34,4 @@ def getCourses():
   conn.close()
   return list(courses)
 
+courses = getCourses()
