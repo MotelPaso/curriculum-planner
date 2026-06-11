@@ -29,7 +29,7 @@ export default function CourseNextNode({ data }) {
 						backgroundColor: "var(--course-elective)",
 						color: "#FFFFFF",
 						opacity:
-							highlighted === "dimmed" ? 0.25 : (progressStyle.opacity ?? 1),
+							highlighted === "dimmed" ? 0.15 : (progressStyle.opacity ?? 1),
 						transition: "opacity 0.4s, outline 0.4s",
 					}}
 				>
@@ -49,12 +49,12 @@ export default function CourseNextNode({ data }) {
 				className="border-2 w-full h-[87px] rounded-md"
 				style={{
 					backgroundColor: "var(--course-main)",
-					boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+					boxShadow: "0 3px 8px rgba(0,0,0,0.08)",
 					opacity:
 						highlighted === "dimmed" ? 0.25 : (progressStyle.opacity ?? 1),
 					outline:
 						highlighted === "active"
-							? "3px solid #f59e0b"
+							? "3px solid var(--course-selected)"
 							: (progressStyle.outline ?? "none"),
 					transition: "opacity 0.5s, outline 0.5s",
 				}}

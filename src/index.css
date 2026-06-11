@@ -3,12 +3,16 @@
 :root {
 	font-family: "Lato";
 }
+
 [data-theme="light"] {
-	--color-bg: #ffffff;
+	--color-bg: #fff1eb;
 	--color-border: #000000;
-	--course-main: #f6f6f6;
+	--course-main: #f8f8f8;
 	--course-font: #000000;
 	--course-elective: #2770de;
+	--course-selected: #a4d4b4;
+	--prereq-low: #2a1423;
+	--prereq-high: #c383af;
 }
 
 [data-theme="dark"] {
@@ -17,4 +21,10 @@
 	--course-main: #313131;
 	--course-font: #fdfdfd;
 	--course-elective: #2770de;
+	--course-selected: #037a9e;
+	--prereq-low: #a0c1d1;
+	--prereq-high: #a0c1d1;
+}
+.is-resetting .react-flow__node {
+	transition: transform 0.3s ease-in-out;
 }

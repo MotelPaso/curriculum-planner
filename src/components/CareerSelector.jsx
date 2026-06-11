@@ -9,7 +9,12 @@ export default function CareerSelector({
 }) {
 	const getCourseData = async (career) => {
 		try {
-			const response = await BACKEND.get("/courses");
+			const response = await BACKEND.get("/courses", {
+				timeout: 5000,
+				params: {
+					career,
+				},
+			});
 			const courses = response.data;
 			setCareer(courses);
 			setShowGraph(true);

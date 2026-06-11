@@ -22,9 +22,10 @@ def formatTitle(title: str) -> str:
         else:
             formatted.append(word)
     return ' '.join(formatted)
+CAREER = 'ICI'
 courses = []
 prerequisites = []
-with open('ICCI.json', 'r') as file:
+with open(f'{CAREER}.json', 'r') as file:
   data = json.load(file)
 
 for course in data['advancement']:
@@ -35,35 +36,55 @@ for course in data['advancement']:
     'semester' : course['semester'],
     'approvalRate': course['originalCourse']['approvalRate'],
     'isElective': course['originalCourse']['requiresElectiveLine'],
-    'career': 'ICCI'
+    'career': CAREER,
   }
   courses.append(course_data)
   for code in course['originalCourse']['prerequisites']:
     if any(pattern in code for pattern in ('DCCB', 'ECIN', 'MNOR', 'SSED')):
-      prerequisites.append((course_data['code'], code))
+        prerequisites.append({
+        "code": course_data['code'],
+        "prereq_code": code,
+        "career": CAREER})
 
 
 conn = psycopg2.connect(**DB_CONFIG)
 cur = conn.cursor()
 try:
-    # Courses
+    # primero inserto todo a la base de datos
     execute_batch(cur, """
-        INSERT INTO courses (code, title, credits, semester, approvalRate, isElective, career)
-        VALUES (%(code)s, %(title)s, %(credits)s, %(semester)s, %(approvalRate)s, %(isElective)s, %(career)s)
-        ON CONFLICT (code) DO UPDATE SET
-            title = EXCLUDED.title,
-            credits = EXCLUDED.credits,
-            semester = EXCLUDED.semester,
-            approvalRate = EXCLUDED.approvalRate,
-            isElective = EXCLUDED.isElective
+    INSERT INTO courses (code, career, title, credits, semester, approvalrate, isElective)
+    VALUES (%(code)s, %(career)s, %(title)s, %(credits)s, %(semester)s, %(approvalRate)s, %(isElective)s)
+    ON CONFLICT (code, career) DO UPDATE SET
+        title        = EXCLUDED.title,
+        credits      = EXCLUDED.credits,
+        semester     = EXCLUDED.semester,
+        approvalrate = EXCLUDED.approvalrate,
+        isElective   = EXCLUDED.isElective
     """, courses)
 
-    # Prerequisites
+    # consigo la id y la convierto en un diccionario
+    cur.execute("SELECT id, code, career FROM courses")
+    course_map = {(row[1], row[2]): row[0] for row in cur.fetchall()}
+
+    prereq_rows = []
+    missing = []
+    for p in prerequisites:
+        key = (p["prereq_code"], p["career"])
+        if key not in course_map:
+            missing.append(p["prereq_code"])
+            continue
+        prereq_rows.append({
+            "course_id": course_map[(p["code"], p["career"])],
+            "prereq_id": course_map[key]
+        })
+
+    if missing:
+        print(f"Skipped {len(missing)} unknown prerequisites: {missing}")
     execute_batch(cur, """
-        INSERT INTO course_prerequisites (course_code, prerequisite_code)
-        VALUES (%s, %s)
-        ON CONFLICT DO NOTHING
-    """, prerequisites)
+    INSERT INTO prerequisites (course_id, prereq_id)
+    VALUES (%(course_id)s, %(prereq_id)s)
+    ON CONFLICT DO NOTHING
+    """, prereq_rows)
 
     conn.commit()
     print(f"Inserted {len(courses)} courses and {len(prerequisites)} prerequisites.")

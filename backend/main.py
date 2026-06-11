@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 import connection as c
 app = FastAPI()
 
+courses_icci = []
+
 origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
@@ -17,5 +19,5 @@ async def read_root():
     return {"Hello": "World"}
 
 @app.get("/courses")
-async def courses():
-    return c.courses
+async def courses(career:str):
+    return c.getCourses(career)

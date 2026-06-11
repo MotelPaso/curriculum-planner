@@ -9,6 +9,7 @@ import {
 	applyEdgeChanges,
 	applyNodeChanges,
 	BackgroundVariant,
+	useReactFlow,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import CourseNode from "./components/CourseNode";
@@ -66,7 +67,7 @@ function buildGraph(courses, progress, theme, editMode) {
 			source: prereq,
 			target: course.code,
 			style: {
-				stroke: theme == "light" ? "#94a3b8" : "#222222",
+				stroke: "var(--prereq-arrow)",
 				strokeWidth: 1,
 			},
 			type: "default",
@@ -87,6 +88,7 @@ export default function CurriculumGraph({
 	theme,
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
+	const [isResetting, setIsResetting] = useState(false);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, theme, editMode),
@@ -116,7 +118,7 @@ export default function CurriculumGraph({
 	useEffect(() => {
 		setNodes((prevNodes) =>
 			prevNodes.map((node) => {
-				const updated = initialNodes.find((n) => n.id === node.id); // returns bool if found
+				const updated = initialNodes.find((n) => n.id === node.id);
 				return updated
 					? {
 							...node, // keep the node
@@ -138,12 +140,15 @@ export default function CurriculumGraph({
 		setEdges((prevEdges) =>
 			prevEdges.map((edge) => {
 				if (highlightedIds.size === 0)
-					return { ...edge, style: { stroke: "#94a3b8", strokeWidth: 1 } };
+					return {
+						...edge,
+						style: { stroke: "var(--prereq-low)", strokeWidth: 1 },
+					};
 				const isHighlighted =
 					highlightedIds.has(edge.source) && highlightedIds.has(edge.target);
 				return isHighlighted
-					? { ...edge, style: { stroke: "#222222", strokeWidth: 3 } }
-					: { ...edge, style: { stroke: "#94a3b8", strokeWidth: 0 } }; // reset when not highlighted
+					? { ...edge, style: { stroke: "var(--prereq-high)", strokeWidth: 3 } }
+					: { ...edge, style: { stroke: "var(--prereq-low)", strokeWidth: 0 } }; // reset when not highlighted
 			}),
 		);
 	}, [theme, highlightedIds, progress]);
@@ -163,9 +168,16 @@ export default function CurriculumGraph({
 		[],
 	);
 
-	const resetView = () => {};
+	const resetLayout = useCallback(() => {
+		setIsResetting(true);
+		setNodes(initialNodes.map((n) => ({ ...n })));
+		setTimeout(() => setIsResetting(false), 500);
+	}, [initialNodes]);
 	return (
-		<div style={{ width: "100vw", height: "100vh" }}>
+		<div
+			style={{ width: "100vw", height: "100vh" }}
+			className={isResetting ? "is-resetting" : ""}
+		>
 			<ReactFlow
 				nodes={nodes}
 				edges={edges}
@@ -215,7 +227,7 @@ export default function CurriculumGraph({
 				snapToGrid={true}
 			>
 				<Background
-					bgColor={theme == "light" ? "#ffffff" : "#111111"}
+					bgColor={"var(--color-bg)"}
 					variant={
 						theme == "light" ? BackgroundVariant.Lines : BackgroundVariant.Dots
 					}
@@ -235,7 +247,7 @@ export default function CurriculumGraph({
 						theme={theme}
 						setEditMode={setEditMode}
 						editMode={editMode}
-						resetView={resetView}
+						resetLayout={resetLayout}
 						setProgress={setProgress}
 					/>
 				</Panel>

@@ -631,7 +631,7 @@
 			"opportunity": 1,
 			"lastUpdated": false,
 			"originalCourse": {
-				"name": "PROGRAMACIÓN ORIENTADA A OBJET",
+				"name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
 				"code": "ECIN-00307",
 				"credits": 5,
 				"equivalents": ["MNOR-00059"],
@@ -642,7 +642,7 @@
 				"requiresElectiveLine": false
 			},
 			"enrolledCourse": {
-				"name": "PROGRAMACIÓN ORIENTADA A OBJET",
+				"name": "PROGRAMACIÓN ORIENTADA A OBJETOS",
 				"code": "ECIN-00307",
 				"credits": 5,
 				"prerequisites": ["DAIS-00204", "ECIN-00201"],
@@ -1449,7 +1449,7 @@
 			"opportunity": 0,
 			"lastUpdated": false,
 			"originalCourse": {
-				"name": "PROY. INTEGRADOR PROG. AVANZAD",
+				"name": "PROY. INTEGRADOR PROG. AVANZADA",
 				"code": "ECIN-00513",
 				"credits": 5,
 				"equivalents": [],

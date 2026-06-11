@@ -12,7 +12,6 @@ createRoot(document.getElementById("root")).render(
  *   Enhance the UX of seeing a prerequisite
  *   Add a button to hold the course
  *   Add more animations
- *   When clicking a course, apply a blur effect to everything except its prereqs and show the edges.
  *   Add more coloring options and a nicer toggle for the coloring
  *   Actually make the planning thing with it.
  */
