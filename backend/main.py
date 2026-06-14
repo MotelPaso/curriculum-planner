@@ -1,9 +1,8 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 import connection as c
 app = FastAPI()
-
-courses_icci = []
 
 origins = ["*"]
 app.add_middleware(
@@ -14,6 +13,10 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+class ProyeccionReq(BaseModel):
+    career: str
+    courses_sent: list[str]
+
 @app.get("/")
 async def read_root():
     return {"Hello": "World"}
@@ -21,3 +24,7 @@ async def read_root():
 @app.get("/courses")
 async def courses(career:str):
     return c.getCourses(career)
+
+@app.post("/proyection")
+async def proyection(req: ProyeccionReq):
+    return c.getProyeccion(req.courses_sent, req.career)

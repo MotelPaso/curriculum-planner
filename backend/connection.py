@@ -1,4 +1,5 @@
 import psycopg2
+
 from psycopg2.extras import RealDictCursor
 import os
 from dotenv import load_dotenv
@@ -11,9 +12,13 @@ DB_CONFIG = {
     'password': os.getenv('DB_PASSWORD'),
     'port': os.getenv('DB_PORT')
 }
-
+cache: dict[str, list] = {}
+CREDITLIMIT = 32
 
 def getCourses(career: str):
+    if career in cache:
+        return cache[career]
+
     conn = psycopg2.connect(**DB_CONFIG)
     cur = conn.cursor(cursor_factory=RealDictCursor)
 
@@ -42,9 +47,60 @@ def getCourses(career: str):
 
     cur.close()
     conn.close()
-    return list(courses)
+    cache[career] = list(courses)
 
-def getProyection(courses: dict[str]):
+    return cache[career]
 
-    return None
 
+def getProyeccion(courses_sent: list, career:str):
+    courses = getCourses(career)
+    proyection = {}
+    credits = 0
+    semester = 1
+    if courses_sent:
+        for course in courses:
+            if course['code'] not in courses_sent:
+                break
+            semester = course['semester'] if course['semester'] > semester else semester
+        semester += 1
+
+    currCourses: list = []
+    passedCourses: list = [] + courses_sent
+    skippedCourses: list = []
+    for i in range(len(courses)):
+        course = courses[i]
+        if course['code'] == 'ECIN-08606':
+            continue
+
+        if course['code'] in passedCourses:
+            continue
+        if not checkPrereqs(course, passedCourses):
+            skippedCourses.append(course)
+            continue
+
+        if credits + course['credits'] > CREDITLIMIT:
+            proyection[semester] = {'courses': currCourses, 'credits': credits}
+            credits = 0
+            semester += 1
+            passedCourses += currCourses
+
+            currCourses = []
+            temp = []
+            for skip in skippedCourses:
+                if checkPrereqs(skip, passedCourses):
+                    currCourses.append(skip['code'])
+                    credits += skip['credits']
+                else:
+                    temp.append(skip)
+            skippedCourses.clear()
+            skippedCourses += temp
+            print(currCourses)
+        credits += course['credits']
+        currCourses.append(course['code'])
+
+    if currCourses:
+        proyection[semester] = {'courses': currCourses, 'credits': credits}
+    return proyection
+
+def checkPrereqs(course, passedCourses):
+    return all(code in passedCourses for code in course['prerequisites'])
