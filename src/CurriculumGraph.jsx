@@ -50,6 +50,7 @@ function buildGraph(courses, progress, theme, editMode) {
 				y: indexInSem * COURSE_HEIGHT,
 			},
 			data: {
+				code: course.code,
 				title: course.title,
 				credits: course.credits,
 				approvalRate: course.approvalrate,

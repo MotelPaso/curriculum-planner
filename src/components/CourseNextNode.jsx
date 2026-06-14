@@ -3,6 +3,7 @@ import { FaAngleDown } from "react-icons/fa";
 
 export default function CourseNextNode({ data }) {
 	const {
+		code,
 		title,
 		credits,
 		approvalRate,
@@ -76,6 +77,7 @@ export default function CourseNextNode({ data }) {
 					}}
 				>
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
+					<p>{data.code}</p>
 					<FaAngleDown color={data.theme == "light" ? "black" : "white"} />
 					<p className="font-medium pr-2">
 						{data.credits} <span className="font-light">SCT</span>
