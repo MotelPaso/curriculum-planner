@@ -17,6 +17,7 @@ import CourseNextNode from "./components/CourseNextNode";
 import TopBar from "./components/TopBar";
 import BotBar from "./components/BotBar";
 import { SiConcourse } from "react-icons/si";
+import { getProyection } from "./services/API";
 
 // Layout constants
 const SEMESTER_WIDTH = 360;
@@ -79,12 +80,15 @@ function buildGraph(courses, progress, theme, editMode) {
 }
 
 export default function CurriculumGraph({
+	career,
 	courses,
-	progress = {},
+	progress,
 	setShowGraph,
 	setTheme,
 	setEditMode,
 	setProgress,
+	setProyection,
+	setSeeProyection,
 	editMode,
 	theme,
 }) {
@@ -174,6 +178,24 @@ export default function CurriculumGraph({
 		setNodes(initialNodes.map((n) => ({ ...n })));
 		setTimeout(() => setIsResetting(false), 500);
 	}, [initialNodes]);
+
+	const handleSendProgress = async () => {
+		const saved = localStorage.getItem("progress");
+		const progress = saved ? JSON.parse(saved) : {};
+
+		const courses_sent = [];
+		for (const [course, status] of Object.entries(progress)) {
+			if (status === "completed") {
+				courses_sent.push(course);
+			}
+		}
+
+		const data = await getProyection(career, courses_sent);
+		if (data) {
+			setProyection(data);
+			setSeeProyection(true);
+		}
+	};
 	return (
 		<div
 			style={{ width: "100vw", height: "100vh" }}
@@ -246,6 +268,8 @@ export default function CurriculumGraph({
 				<Panel position="bottom-left">
 					<BotBar
 						theme={theme}
+						career={career}
+						sendProgress={handleSendProgress}
 						setEditMode={setEditMode}
 						editMode={editMode}
 						resetLayout={resetLayout}

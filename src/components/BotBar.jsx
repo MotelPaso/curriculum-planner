@@ -5,10 +5,12 @@ import { useReactFlow } from "@xyflow/react";
 
 export default function BotBar({
 	theme,
+	career,
 	setEditMode,
 	editMode,
 	resetLayout,
 	setProgress,
+	sendProgress,
 }) {
 	const flow = useReactFlow();
 	const resetAll = () => {
@@ -20,7 +22,11 @@ export default function BotBar({
 		<div className="flex flex-col justify-start text-3xl">
 			{editMode && (
 				<>
-					<button className="pl-0 p-2 cursor-pointer" title="Enviar Progreso">
+					<button
+						className="pl-0 p-2 cursor-pointer"
+						onClick={() => sendProgress()}
+						title="Enviar Progreso"
+					>
 						enviar
 					</button>
 					<button

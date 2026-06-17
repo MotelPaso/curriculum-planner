@@ -1,26 +1,18 @@
 import { FaMoon } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
-import BACKEND from "../services/API";
+import { getCourseData } from "../services/API";
 export default function CareerSelector({
+	setCourses,
 	setCareer,
 	setShowGraph,
 	setTheme,
 	theme,
 }) {
-	const getCourseData = async (career) => {
-		try {
-			const response = await BACKEND.get("/courses", {
-				timeout: 5000,
-				params: {
-					career,
-				},
-			});
-			const courses = response.data;
-			setCareer(courses);
-			setShowGraph(true);
-		} catch (error) {
-			console.error(error);
-		}
+	const sendCourseData = async (career) => {
+		const courses = await getCourseData(career);
+		setCareer(career);
+		setCourses(courses);
+		setShowGraph(true);
 	};
 
 	return (
@@ -33,13 +25,13 @@ export default function CareerSelector({
 				<div className="flex flex-row w-full justify-around">
 					<button
 						className="cursor-pointer w-[40%] p-4 text-2xl rounded-2xl bg-blue-100"
-						onClick={() => getCourseData("ICCI")}
+						onClick={() => sendCourseData("ICCI")}
 					>
 						ICCI
 					</button>
 					<button
 						className="cursor-pointer w-[40%] p-4 text-2xl rounded-2xl bg-orange-200 "
-						onClick={() => getCourseData("ICI")}
+						onClick={() => sendCourseData("ICI")}
 					>
 						ICI
 					</button>

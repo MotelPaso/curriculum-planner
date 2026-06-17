@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import CurriculumGraph from "./CurriculumGraph";
 import CareerSelector from "./components/CareerSelector";
+import ProyectionGraph from "./components/ProyectionGraph";
 
 export default function App() {
 	const [showGraph, setShowGraph] = useState(false);
-	const [career, setCareer] = useState(null);
+	const [courses, setCourses] = useState(null);
+	const [career, setCareer] = useState("");
 	const [editMode, setEditMode] = useState(false);
 	const [theme, setTheme] = useState(
 		() => localStorage.getItem("theme") || "dark",
@@ -13,6 +15,9 @@ export default function App() {
 		const saved = localStorage.getItem("progress");
 		return saved ? JSON.parse(saved) : {};
 	});
+	const [proyection, setProyection] = useState(null);
+	const [seeProyection, setSeeProyection] = useState(false);
+
 	const toggleTheme = () => {
 		const next = localStorage.getItem("theme") === "light" ? "dark" : "light";
 		setTheme(next);
@@ -27,22 +32,33 @@ export default function App() {
 		>
 			{!showGraph && (
 				<CareerSelector
+					setCourses={setCourses}
 					setCareer={setCareer}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}
 					theme={theme}
 				/>
 			)}
-			{showGraph && (
+			{showGraph && !seeProyection && (
 				<CurriculumGraph
-					courses={career}
+					courses={courses}
+					career={career}
 					progress={progress}
 					setProgress={setProgress}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}
 					setEditMode={setEditMode}
 					editMode={editMode}
+					setProyection={setProyection}
+					setSeeProyection={setSeeProyection}
 					theme={theme}
+				/>
+			)}
+			{showGraph && seeProyection && (
+				<ProyectionGraph
+					courses={courses}
+					proyection={proyection}
+					setShowProyection={setSeeProyection}
 				/>
 			)}
 		</div>

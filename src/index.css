@@ -8,6 +8,7 @@
 	--color-bg: #fff1eb;
 	--color-border: #000000;
 	--course-main: #f8f8f8;
+	--course-border: #444444;
 	--course-font: #000000;
 	--course-elective: #2770de;
 	--course-selected: #a4d4b4;
@@ -19,6 +20,7 @@
 	--color-bg: #1e1e1e;
 	--color-border: #757575;
 	--course-main: #313131;
+	--course-border: #444444;
 	--course-font: #fdfdfd;
 	--course-elective: #2770de;
 	--course-selected: #037a9e;
