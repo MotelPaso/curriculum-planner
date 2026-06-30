@@ -54,6 +54,12 @@ def getCourses(career: str):
 
 def getProyeccion(courses_sent: list, career:str):
     courses = getCourses(career)
+    
+    for course in courses_sent:
+        if course not in courses:
+            print("error...")
+            return ""
+
     proyection = {}
     credits = 0
     semester = 1
