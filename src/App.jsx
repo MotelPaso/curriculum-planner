@@ -17,7 +17,8 @@ export default function App() {
 	});
 	const [proyection, setProyection] = useState(null);
 	const [seeProyection, setSeeProyection] = useState(false);
-
+	const [loading, setLoading] = useState(null);
+	const [error, setError] = useState(false);
 	const toggleTheme = () => {
 		const next = localStorage.getItem("theme") === "light" ? "dark" : "light";
 		setTheme(next);
@@ -36,6 +37,10 @@ export default function App() {
 					setCareer={setCareer}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}
+					error={error}
+					setError={setError}
+					loading={loading}
+					setLoading={setLoading}
 					theme={theme}
 				/>
 			)}

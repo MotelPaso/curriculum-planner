@@ -18,6 +18,7 @@ import TopBar from "./components/TopBar";
 import BotBar from "./components/BotBar";
 import { SiConcourse } from "react-icons/si";
 import { getProyection } from "./services/API";
+import { getPrereq } from "./utils/prereqs";
 
 // Layout constants
 const SEMESTER_WIDTH = 360;
@@ -105,19 +106,7 @@ export default function CurriculumGraph({
 	const highlightedIds = useMemo(() => {
 		if (!selectedCourse) return new Set();
 		const result = new Set();
-		function collectPrereqs(courseCode) {
-			const course = courses.find((c) => c.code === courseCode);
-			if (!course) return;
-			result.add(courseCode);
-			for (const prereq of course.prerequisites) {
-				if (!result.has(prereq)) {
-					collectPrereqs(prereq);
-				}
-			}
-		}
-
-		collectPrereqs(selectedCourse.id);
-		return result;
+		return getPrereq(selectedCourse.id, courses);
 	}, [selectedCourse, courses]);
 
 	useEffect(() => {
@@ -208,18 +197,7 @@ export default function CurriculumGraph({
 				onEdgesChange={onEdgesChange}
 				onNodeClick={(event, node) => {
 					if (editMode) {
-						const result = new Set();
-						function collectPrereqs(courseCode) {
-							const course = courses.find((c) => c.code === courseCode);
-							if (!course) return;
-							result.add(courseCode);
-							for (const prereq of course.prerequisites) {
-								if (!result.has(prereq)) {
-									collectPrereqs(prereq);
-								}
-							}
-						}
-						collectPrereqs(node.id);
+						const result = getPrereq(node.id, courses);
 						setProgress((prev) => {
 							const status = TYPES_PROGRESS[prev[node.id] ?? "not_taking"];
 							const next = { ...prev };
@@ -250,7 +228,7 @@ export default function CurriculumGraph({
 				snapToGrid={true}
 			>
 				<Background
-					bgColor={"var(--color-bg)"}
+					bgColor={!editMode ? "var(--color-bg)" : "var(--edit-mode-bg)"}
 					variant={
 						theme == "light" ? BackgroundVariant.Lines : BackgroundVariant.Dots
 					}

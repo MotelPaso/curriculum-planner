@@ -15,17 +15,17 @@ export default function CourseNextNode({ data }) {
 	} = data;
 
 	const PROGRESS_STYLES = {
-		ongoing: { outline: "5px solid #3b82f6" }, // blue
-		completed: { opacity: 0.35 }, // dimmed
-		not_taking: {}, // red
+		ongoing: { outline: "5px solid #3b82f6" },
+		completed: { opacity: 0.35 },
+		not_taking: {},
 	};
 	const progressStyle = PROGRESS_STYLES[status] ?? {};
 
 	return (
-		<div className="flex flex-col items-end">
-			{data.isElective && (
+		<div className="relative">
+			{isElective && (
 				<div
-					className="relative top-2 left-3 w-20 text-center text-sm"
+					className="absolute -top-3 right-3 w-20 text-center text-sm z-10"
 					style={{
 						backgroundColor: "var(--course-elective)",
 						color: "#FFFFFF",
@@ -62,19 +62,15 @@ export default function CourseNextNode({ data }) {
 			>
 				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5">
 					<h1
-						className=" text-xl font-extrabold text-center "
-						style={{
-							color: "var(--course-font)",
-						}}
+						className="text-xl font-extrabold text-center"
+						style={{ color: "var(--course-font)" }}
 					>
 						{data.title}
 					</h1>
 				</div>
 				<div
 					className="w-full flex flex-row items-center justify-between text-sm"
-					style={{
-						color: "var(--course-font)",
-					}}
+					style={{ color: "var(--course-font)" }}
 				>
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
 					<p>{data.code}</p>

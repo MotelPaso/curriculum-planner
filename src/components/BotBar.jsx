@@ -1,7 +1,9 @@
+import { useReactFlow } from "@xyflow/react";
 import { VscEdit, VscEditSparkle } from "react-icons/vsc";
+import { GrPlan } from "react-icons/gr";
 import { TbFocusCentered } from "react-icons/tb";
 import { RiResetLeftLine } from "react-icons/ri";
-import { useReactFlow } from "@xyflow/react";
+import { FiSend, FiRotateCcw, FiMaximize, FiServer } from "react-icons/fi";
 
 export default function BotBar({
 	theme,
@@ -13,48 +15,56 @@ export default function BotBar({
 	sendProgress,
 }) {
 	const flow = useReactFlow();
+	const iconColor = theme == "light" ? "black" : "white";
+
 	const resetAll = () => {
 		resetLayout();
 		setTimeout(() => flow.fitView({ duration: 300 }), 0);
 	};
 
 	return (
-		<div className="flex flex-col justify-start text-3xl">
+		<div className="flex flex-col justify-start gap-1 text-2xl text-(--color-text) bg-(--color-bg) rounded-2xl p-2">
 			{editMode && (
 				<>
 					<button
-						className="pl-0 p-2 cursor-pointer"
+						className="flex items-center gap-2 p-2 cursor-pointer"
 						onClick={() => sendProgress()}
 						title="Enviar Progreso"
 					>
-						enviar
+						<FiSend color={iconColor} />
+						<span className="text-sm font-medium">Ver Proyeccion</span>
 					</button>
 					<button
-						className="pl-0 p-2 cursor-pointer"
+						className="flex items-center gap-2 p-2 cursor-pointer"
 						onClick={() => setProgress((prev) => "")}
 						title="Reiniciar Progreso"
 					>
-						<RiResetLeftLine color={theme == "light" ? "black" : "white"} />
+						<FiRotateCcw color={iconColor} />
+						<span className="text-sm font-medium">Reiniciar</span>
 					</button>
 				</>
 			)}
 			<button
-				className="pl-0 p-2 cursor-pointer"
+				className="flex items-center gap-2 p-2 cursor-pointer"
 				onClick={() => setEditMode(!editMode)}
-				title="Alternar modo edicion"
+				title="Alternar modo edición"
 			>
 				{editMode ? (
-					<VscEditSparkle color={theme == "light" ? "black" : "white"} />
+					<FiServer color={iconColor} />
 				) : (
-					<VscEdit color={theme == "light" ? "black" : "white"} />
+					<VscEdit color={iconColor} />
 				)}
+				<span className="text-sm font-medium">
+					{editMode ? "Ver Malla" : "Editar"}
+				</span>
 			</button>
 			<button
-				className="pl-0 p-2 cursor-pointer"
+				className="flex items-center gap-2 p-2 cursor-pointer"
 				onClick={() => resetAll()}
 				title="Centrar vista"
 			>
-				<TbFocusCentered color={theme == "light" ? "black" : "white"} />
+				<FiMaximize color={iconColor} />
+				<span className="text-sm font-medium">Centrar</span>
 			</button>
 		</div>
 	);

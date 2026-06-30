@@ -2,24 +2,29 @@ import { useMemo } from "react";
 import { ReactFlow, Background, BackgroundVariant, Panel } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import CourseNextNode from "./CourseNextNode";
+import { FaArrowLeft } from "react-icons/fa";
 
 const SEMESTER_WIDTH = 360;
 const COURSE_HEIGHT = 150;
-const HEADER_HEIGHT = 60;
+const HEADER_HEIGHT = 80;
 
 function SemesterHeader({ data }) {
 	return (
 		<div
+			className="bg-(--color-semester-header) backdrop-blur-3xl rounded-4sxl"
 			style={{
 				width: 276,
 				textAlign: "center",
 				fontWeight: 700,
-
 				color: "var(--course-font)",
+				maskImage:
+					"radial-gradient(circle at center, black 40%, transparent 100%)",
+				WebkitMaskImage:
+					"radial-gradient(ellipse at center, black 50%, transparent 100%)",
 			}}
 		>
 			<p className="text-3xl">{data.semester}</p>
-			<p style={{ fontWeight: 400, fontSize: 13 }}>{data.credits} SCT</p>
+			<p className="text-lg font-medium">{data.credits} SCT</p>
 		</div>
 	);
 }
@@ -133,9 +138,13 @@ export default function ProyectionGraph({
 					lineWidth={1}
 				/>
 				<Panel position="top-left">
-					<div>
-						<button onClick={returnToMalla} title="Volver a la malla">
-							SALIR
+					<div className="text-2xl">
+						<button
+							className="cursor-pointer"
+							onClick={returnToMalla}
+							title="Volver a la malla"
+						>
+							<FaArrowLeft color={theme == "light" ? "black" : "white"} />
 						</button>
 					</div>
 				</Panel>

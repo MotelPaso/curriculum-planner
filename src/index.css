@@ -18,7 +18,10 @@
 
 [data-theme="dark"] {
 	--color-bg: #1e1e1e;
+	--edit-mode-bg: #15191e;
+	--color-semester-header: rgba(46, 57, 61, 0.5);
 	--color-border: #757575;
+	--color-text: #ffffff;
 	--course-main: #313131;
 	--course-border: #444444;
 	--course-font: #fdfdfd;
@@ -29,4 +32,10 @@
 }
 .is-resetting .react-flow__node {
 	transition: transform 0.3s ease-in-out;
+}
+.react-flow__background {
+	transition: background-color 300ms ease;
+}
+.react-flow__node {
+	transition: background-color 300ms ease;
 }

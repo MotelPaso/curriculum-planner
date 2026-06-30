@@ -25,8 +25,12 @@ export const getCourseData = async (career) => {
 			},
 		});
 		const courses = response.data;
-		return courses;
+		return { state: true, data: courses };
 	} catch (error) {
 		console.error(error);
+		return {
+			state: false,
+			error: "Ha ocurrido un error cargando la malla.\nIntenta más tarde.",
+		};
 	}
 };
