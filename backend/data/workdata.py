@@ -10,7 +10,8 @@ DB_CONFIG = {
     'dbname': os.getenv('DB_NAME'),
     'user': os.getenv('DB_USER'),
     'password': os.getenv('DB_PASSWORD'),
-    'port': os.getenv('DB_PORT')
+    'port': os.getenv('DB_PORT'),
+    'sslmode': 'require'
 }
 def formatTitle(title: str) -> str:
     ROMANS = {'I', 'II', 'III'}
@@ -22,7 +23,7 @@ def formatTitle(title: str) -> str:
         else:
             formatted.append(word)
     return ' '.join(formatted)
-CAREER = 'ICI'
+CAREER = 'ICCI'
 courses = []
 prerequisites = []
 with open(f'{CAREER}.json', 'r') as file:

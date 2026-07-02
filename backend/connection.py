@@ -10,18 +10,20 @@ DB_CONFIG = {
     'dbname': os.getenv('DB_NAME'),
     'user': os.getenv('DB_USER'),
     'password': os.getenv('DB_PASSWORD'),
-    'port': os.getenv('DB_PORT')
+    'port': os.getenv('DB_PORT'),
+    'sslmode': 'require'
 }
+print("DB_HOST:", os.getenv('DB_HOST'))
 cache: dict[str, list] = {}
 CREDITLIMIT = 32
 
 def getCourses(career: str):
-    if career in cache:
+    if career in cache and cache[career] != []:
         return cache[career]
 
     conn = psycopg2.connect(**DB_CONFIG)
     cur = conn.cursor(cursor_factory=RealDictCursor)
-
+    print("Connected!")
     cur.execute("""
         SELECT code, title, credits, semester, approvalrate, iselective
         FROM courses
@@ -54,7 +56,7 @@ def getCourses(career: str):
 
 def getProyeccion(courses_sent: list, career:str):
     courses = getCourses(career)
-    
+
     for course in courses_sent:
         if course not in courses:
             print("error...")
