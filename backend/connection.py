@@ -55,10 +55,18 @@ def getCourses(career: str):
     return cache[career]
 
 
-def getProyeccion(courses_sent: list, career:str):
-    courses = getCourses(career)
+DISPERSION_LIMIT = 2
 
+def checkDispersion(course, leastSemester):
+    return course['semester'] - leastSemester < DISPERSION_LIMIT
+
+def checkPrereqs(course, passedCourses):
+    return all(code in passedCourses for code in course['prerequisites'])
+
+def getProyeccion(courses_sent: list, career: str):
+    courses = getCourses(career)
     proyection = {}
+    internships = ['ECIN-08606', 'ECIN-08266', 'ECIN-08616']
     credits = 0
     semester = 1
     leastSemester = 1
@@ -72,47 +80,67 @@ def getProyeccion(courses_sent: list, career:str):
     currCourses: list = []
     passedCourses: list = [] + courses_sent
     skippedCourses: list = []
+
     for i in range(len(courses)):
         course = courses[i]
-
-        if course['code'] == 'ECIN-08606':
+        if course['code'] in internships:
             continue
-
         if course['code'] in passedCourses:
             continue
-
-        if not checkPrereqs(course, passedCourses) or (currCourses and not checkDispersion(course, leastSemester)):
+        if not checkPrereqs(course, passedCourses):
             skippedCourses.append(course)
             continue
-
+        if currCourses and not checkDispersion(course, leastSemester):
+            skippedCourses.append(course)
+            continue
         if credits + course['credits'] > CREDIT_LIMIT:
             proyection[semester] = {'courses': [c['code'] for c in currCourses], 'credits': credits}
             credits = 0
             semester += 1
             passedCourses += [c['code'] for c in currCourses]
-
             currCourses.clear()
+
             temp = []
             for skip in skippedCourses:
-                if checkPrereqs(skip, passedCourses) and credits + skip['credits'] <= CREDIT_LIMIT:
+                fits_credits = credits + skip['credits'] <= CREDIT_LIMIT
+                fits_dispersion = not currCourses or checkDispersion(skip, min(c['semester'] for c in currCourses))
+                if checkPrereqs(skip, passedCourses) and fits_credits and fits_dispersion:
                     currCourses.append(skip)
                     credits += skip['credits']
                 else:
                     temp.append(skip)
             skippedCourses.clear()
             skippedCourses += temp
+
         credits += course['credits']
         currCourses.append(course)
         leastSemester = min([c['semester'] for c in currCourses])
+
     if currCourses:
         proyection[semester] = {'courses': [c['code'] for c in currCourses], 'credits': credits}
-    if skippedCourses:
-        proyection[semester+1] = {'courses': [c['code'] for c in skippedCourses], 'credits': sum([c['credits'] for c in skippedCourses ])}
+        passedCourses += [c['code'] for c in currCourses]
+        semester += 1
+
+    while skippedCourses:
+        currCourses = []
+        credits = 0
+        leastSemester = None
+        temp = []
+        for skip in skippedCourses:
+            fits_credits = credits + skip['credits'] <= CREDIT_LIMIT
+            fits_dispersion = leastSemester is None or checkDispersion(skip, leastSemester)
+            if checkPrereqs(skip, passedCourses) and fits_credits and fits_dispersion:
+                currCourses.append(skip)
+                credits += skip['credits']
+                leastSemester = skip['semester'] if leastSemester is None else min(leastSemester, skip['semester'])
+            else:
+                temp.append(skip)
+        if not currCourses:
+            proyection[semester] = {'courses': [c['code'] for c in temp], 'credits': 0}
+            break
+        proyection[semester] = {'courses': [c['code'] for c in currCourses], 'credits': credits}
+        passedCourses += [c['code'] for c in currCourses]
+        semester += 1
+        skippedCourses = temp
 
     return proyection
-
-def checkPrereqs(course, passedCourses):
-    return all(code in passedCourses for code in course['prerequisites'])
-
-def checkDispersion(course, leastSemester):
-    return course['semester'] - leastSemester < DISPERSION_LIMIT
