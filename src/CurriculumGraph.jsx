@@ -187,7 +187,7 @@ export default function CurriculumGraph({
 	};
 	return (
 		<div
-			style={{ width: "100vw", height: "100vh" }}
+			style={{ width: "100dvw", height: "100dvh" }}
 			className={isResetting ? "is-resetting" : ""}
 		>
 			<ReactFlow

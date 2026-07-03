@@ -28,7 +28,7 @@ export default function App() {
 	return (
 		<div
 			data-theme={theme}
-			className={`w-screen h-screen flex items-center justify-center `}
+			className={`w-dvw h-dvh flex items-center justify-center `}
 			style={{ background: "var(--color-bg)" }}
 		>
 			{!showGraph && (

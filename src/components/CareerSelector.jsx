@@ -1,6 +1,6 @@
 import { FaMoon } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
-import { getCourseData } from "../services/API";
+import { getCoursesBase, wakeBackend } from "../services/API";
 import ErrorMessage from "./ErrorMessage";
 export default function CareerSelector({
 	setCourses,
@@ -15,12 +15,14 @@ export default function CareerSelector({
 }) {
 	const sendCourseData = async (career) => {
 		setLoading(career);
-		const courses = await getCourseData(career);
+		const courses = await getCoursesBase(career);
 		setLoading(null);
-		if (!courses.state) {
+		if (courses.error) {
 			setError(courses.error);
 			return;
 		}
+		wakeBackend();
+		setError("");
 		setCareer(career);
 		setCourses(courses.data);
 		setShowGraph(true);
@@ -51,7 +53,6 @@ export default function CareerSelector({
 				</div>
 				{error && <ErrorMessage error={error} />}
 			</div>
-			{/* Theme selector */}
 			<div className="absolute top-0 right-0 flex flex-col justify-evenly">
 				<button className="p-4 text-3xl " onClick={() => setTheme()}>
 					{theme == "light" ? <FaMoon /> : <MdLightMode color="white" />}
