@@ -13,5 +13,5 @@ createRoot(document.getElementById("root")).render(
  *   Add a button to hold the course
  *   Add more animations
  *   Add more coloring options and a nicer toggle for the coloring
- *   Actually make the planning thing with it.
+ *
  */

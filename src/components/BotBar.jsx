@@ -3,7 +3,13 @@ import { VscEdit, VscEditSparkle } from "react-icons/vsc";
 import { GrPlan } from "react-icons/gr";
 import { TbFocusCentered } from "react-icons/tb";
 import { RiResetLeftLine } from "react-icons/ri";
-import { FiSend, FiRotateCcw, FiMaximize, FiServer } from "react-icons/fi";
+import {
+	FiSend,
+	FiRotateCcw,
+	FiMaximize,
+	FiServer,
+	FiLoader,
+} from "react-icons/fi";
 
 export default function BotBar({
 	theme,
@@ -13,13 +19,14 @@ export default function BotBar({
 	resetLayout,
 	setProgress,
 	sendProgress,
+	loadingProyection,
 }) {
 	const flow = useReactFlow();
 	const iconColor = theme == "light" ? "black" : "white";
 
 	const resetAll = () => {
 		resetLayout();
-		setTimeout(() => flow.fitView({ duration: 300 }), 0);
+		setTimeout(() => flow.fitView({ minZoom: 0.5, duration: 300 }), 0);
 	};
 
 	return (
@@ -27,12 +34,23 @@ export default function BotBar({
 			{editMode && (
 				<>
 					<button
-						className="flex items-center gap-2 p-2 cursor-pointer"
+						className="flex items-center gap-2 p-2 cursor-pointer disabled:cursor-not-allowed disabled:opacity-70 "
 						onClick={() => sendProgress()}
+						disabled={loadingProyection}
 						title="Enviar Progreso"
 					>
-						<FiSend color={iconColor} />
-						<span className="text-sm font-medium">Ver Proyeccion</span>
+						{!loadingProyection && (
+							<>
+								<FiSend color={iconColor} />
+								<span className="text-sm font-medium">Ver Proyeccion</span>
+							</>
+						)}
+						{loadingProyection && (
+							<>
+								<FiLoader color={iconColor} className="animate-spin" />
+								<span className="text-sm font-medium">Procesando...</span>
+							</>
+						)}
 					</button>
 					<button
 						className="flex items-center gap-2 p-2 cursor-pointer"
@@ -40,7 +58,7 @@ export default function BotBar({
 						title="Reiniciar Progreso"
 					>
 						<FiRotateCcw color={iconColor} />
-						<span className="text-sm font-medium">Reiniciar</span>
+						<span className="text-sm font-medium">Reiniciar Progreso</span>
 					</button>
 				</>
 			)}
@@ -55,7 +73,7 @@ export default function BotBar({
 					<VscEdit color={iconColor} />
 				)}
 				<span className="text-sm font-medium">
-					{editMode ? "Ver Malla" : "Editar"}
+					{editMode ? "Ver Malla" : "Editar Progreso"}
 				</span>
 			</button>
 			<button
@@ -64,7 +82,7 @@ export default function BotBar({
 				title="Centrar vista"
 			>
 				<FiMaximize color={iconColor} />
-				<span className="text-sm font-medium">Centrar</span>
+				<span className="text-sm font-medium">Centrar Vista</span>
 			</button>
 		</div>
 	);

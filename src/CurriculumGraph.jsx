@@ -95,6 +95,7 @@ export default function CurriculumGraph({
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [isResetting, setIsResetting] = useState(false);
+	const [loadingProyection, setLoadingProyection] = useState();
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, theme, editMode),
@@ -109,6 +110,7 @@ export default function CurriculumGraph({
 		return getPrereq(selectedCourse.id, courses);
 	}, [selectedCourse, courses]);
 
+	// toggle highlights on prereqs
 	useEffect(() => {
 		setNodes((prevNodes) =>
 			prevNodes.map((node) => {
@@ -174,13 +176,15 @@ export default function CurriculumGraph({
 
 		const courses_sent = [];
 		for (const [course, status] of Object.entries(progress)) {
-			if (status === "completed") {
+			if (status === "completed" || status == "ongoing") {
 				courses_sent.push(course);
 			}
 		}
 
+		setLoadingProyection(true);
 		const data = await getProyection(career, courses_sent);
 		if (data) {
+			setLoadingProyection(false);
 			setProyection(data);
 			setSeeProyection(true);
 		}
@@ -217,21 +221,19 @@ export default function CurriculumGraph({
 				nodeTypes={nodeTypes}
 				fitView
 				fitViewOptions={{
-					maxZoom: 0.6,
-					nodes: [{ id: "ECIN-00407" }, { id: "ECIN-00200" }],
+					maxZoom: 0.5,
+					duration: 500,
 				}}
 				minZoom={0.3}
 				maxZoom={3}
-				nodeOrigin={[0, 0]}
+				nodeOrigin={[100, 0]}
 				proOptions={{ hideAttribution: true }}
 				colorMode={theme}
 				snapToGrid={true}
 			>
 				<Background
 					bgColor={!editMode ? "var(--color-bg)" : "var(--edit-mode-bg)"}
-					variant={
-						theme == "light" ? BackgroundVariant.Lines : BackgroundVariant.Dots
-					}
+					variant={BackgroundVariant.Dots}
 					gap={20}
 					lineWidth={1}
 				/>
@@ -252,6 +254,7 @@ export default function CurriculumGraph({
 						editMode={editMode}
 						resetLayout={resetLayout}
 						setProgress={setProgress}
+						loadingProyection={loadingProyection}
 					/>
 				</Panel>
 			</ReactFlow>

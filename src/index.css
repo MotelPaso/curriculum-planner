@@ -14,15 +14,21 @@ body {
 }
 
 [data-theme="light"] {
-	--color-bg: #fff1eb;
-	--color-border: #000000;
-	--course-main: #f8f8f8;
-	--course-border: #444444;
-	--course-font: #000000;
+	--color-bg: #eef1f6;
+	--edit-mode-bg: #e0e7f3;
+	--color-semester-header: #cbd8e8;
+	--color-border: #33415580;
+	--color-text: #1e293b;
+
+	--course-main: #f8fbff;
+	--course-border: #33415560;
+	--course-font: #1e293b;
+
 	--course-elective: #2770de;
-	--course-selected: #a4d4b4;
-	--prereq-low: #2a1423;
-	--prereq-high: #c383af;
+	--course-selected: #16a34a;
+
+	--prereq-low: #64748b;
+	--prereq-high: #b45309;
 }
 
 [data-theme="dark"] {
@@ -31,6 +37,7 @@ body {
 	--color-semester-header: rgba(46, 57, 61, 0.5);
 	--color-border: #757575;
 	--color-text: #ffffff;
+
 	--course-main: #313131;
 	--course-border: #444444;
 	--course-font: #fdfdfd;

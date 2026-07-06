@@ -22,7 +22,7 @@ export default function CourseNextNode({ data }) {
 	const progressStyle = PROGRESS_STYLES[status] ?? {};
 
 	return (
-		<div className="relative">
+		<div className="relative ">
 			{isElective && (
 				<div
 					className="absolute -top-3 right-3 w-20 text-center text-sm z-10"
@@ -60,7 +60,7 @@ export default function CourseNextNode({ data }) {
 					transition: "opacity 0.5s, outline 0.5s",
 				}}
 			>
-				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5">
+				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5 cursor-pointer">
 					<h1
 						className="text-xl font-extrabold text-center"
 						style={{ color: "var(--course-font)" }}
@@ -74,8 +74,7 @@ export default function CourseNextNode({ data }) {
 				>
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
 					<p>{data.code}</p>
-					<FaAngleDown color={data.theme == "light" ? "black" : "white"} />
-					<p className="font-medium pr-2">
+					<p className="font-bold pr-2">
 						{data.credits} <span className="font-light">SCT</span>
 					</p>
 				</div>

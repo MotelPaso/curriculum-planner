@@ -18,9 +18,9 @@ function SemesterHeader({ data }) {
 				fontWeight: 700,
 				color: "var(--course-font)",
 				maskImage:
-					"radial-gradient(circle at center, black 40%, transparent 100%)",
+					"radial-gradient(circle at center, var(--color-semester-header) 50%, transparent 100%)",
 				WebkitMaskImage:
-					"radial-gradient(ellipse at center, black 50%, transparent 100%)",
+					"radial-gradient(circle at center, var(--color-semester-header) 60%, transparent 100%)",
 			}}
 		>
 			<p className="text-3xl">{data.semester}</p>
@@ -56,6 +56,7 @@ function buildGraph(courses, proyection, theme) {
 			data: { semester: semesterNum, credits },
 			draggable: false,
 			selectable: false,
+			theme: theme,
 		});
 
 		codes.forEach((code, index) => {
