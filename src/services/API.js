@@ -11,10 +11,13 @@ export async function getProyection(career, courses_sent) {
 	const data = { career, courses_sent };
 	try {
 		const response = await BACKEND.post("/proyection", data);
-		return response.data;
+		return { state: true, data: response.data };
 	} catch (error) {
 		console.error(error);
-		return null;
+		return {
+			state: false,
+			error: "Ha ocurrido un error procesando sus datos...",
+		};
 	}
 }
 export const getCourseData = async (career) => {
