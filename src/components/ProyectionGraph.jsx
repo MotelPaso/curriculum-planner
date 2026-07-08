@@ -139,7 +139,7 @@ export default function ProyectionGraph({
 					lineWidth={1}
 				/>
 				<Panel position="top-left">
-					<div className="text-2xl">
+					<div className="text-3xl">
 						<button
 							className="cursor-pointer"
 							onClick={returnToMalla}
