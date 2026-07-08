@@ -30,11 +30,11 @@ export default function BotBar({
 	};
 
 	return (
-		<div className="flex flex-col justify-start gap-1 text-2xl text-(--color-text) bg-(--color-bg) rounded-2xl p-2">
+		<div className="flex flex-col justify-start gap-1 text-2xl text-(--color-text) bg-(--color-bg) rounded-2xl p-2 w-48">
 			{editMode && (
 				<>
 					<button
-						className="flex items-center gap-2 p-2 cursor-pointer disabled:cursor-not-allowed disabled:opacity-70 "
+						className="flex items-center gap-2 p-2 cursor-pointer  disabled:cursor-not-allowed disabled:opacity-70 bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 						onClick={() => sendProgress()}
 						disabled={loadingProyection}
 						title="Enviar Progreso"
@@ -42,7 +42,7 @@ export default function BotBar({
 						{!loadingProyection && (
 							<>
 								<FiSend color={iconColor} />
-								<span className="text-sm font-medium">Ver Proyeccion</span>
+								<span className="text-sm font-medium">Ver Proyección</span>
 							</>
 						)}
 						{loadingProyection && (
@@ -53,7 +53,7 @@ export default function BotBar({
 						)}
 					</button>
 					<button
-						className="flex items-center gap-2 p-2 cursor-pointer"
+						className="flex items-center  gap-2 p-2 cursor-pointer bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 						onClick={() => setProgress((prev) => "")}
 						title="Reiniciar Progreso"
 					>
@@ -63,7 +63,7 @@ export default function BotBar({
 				</>
 			)}
 			<button
-				className="flex items-center gap-2 p-2 cursor-pointer"
+				className="flex items-center justify- gap-2 p-2 cursor-pointer bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 				onClick={() => setEditMode(!editMode)}
 				title="Alternar modo edición"
 			>
@@ -77,7 +77,7 @@ export default function BotBar({
 				</span>
 			</button>
 			<button
-				className="flex items-center gap-2 p-2 cursor-pointer"
+				className="flex items-center gap-2 p-2 cursor-pointer bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 				onClick={() => resetAll()}
 				title="Centrar vista"
 			>

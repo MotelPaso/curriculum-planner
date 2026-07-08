@@ -12,13 +12,13 @@ import {
 	useReactFlow,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import CourseNode from "./components/CourseNode";
 import CourseNextNode from "./components/CourseNextNode";
 import TopBar from "./components/TopBar";
 import BotBar from "./components/BotBar";
 import { SiConcourse } from "react-icons/si";
 import { getProyection } from "./services/API";
 import { getPrereq } from "./utils/prereqs";
+import ErrorProyection from "./components/ErrorProyection";
 
 // Layout constants
 const SEMESTER_WIDTH = 360;
@@ -95,7 +95,9 @@ export default function CurriculumGraph({
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [isResetting, setIsResetting] = useState(false);
-	const [loadingProyection, setLoadingProyection] = useState();
+	const [loadingProyection, setLoadingProyection] = useState(false);
+
+	const [showError, setShowError] = useState(null);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress, theme, editMode),
@@ -182,12 +184,16 @@ export default function CurriculumGraph({
 		}
 
 		setLoadingProyection(true);
-		const data = await getProyection(career, courses_sent);
-		if (data) {
-			setLoadingProyection(false);
-			setProyection(data);
-			setSeeProyection(true);
+		const result = await getProyection(career, courses_sent);
+		setLoadingProyection(false);
+
+		if (!result.state) {
+			setShowError(result.error);
+			return;
 		}
+
+		setProyection(result.data);
+		setSeeProyection(true);
 	};
 	return (
 		<div
@@ -256,6 +262,14 @@ export default function CurriculumGraph({
 						setProgress={setProgress}
 						loadingProyection={loadingProyection}
 					/>
+				</Panel>
+				<Panel position="bottom-right">
+					{showError && (
+						<ErrorProyection
+							message={showError}
+							onClose={() => setShowError(false)}
+						/>
+					)}
 				</Panel>
 			</ReactFlow>
 		</div>

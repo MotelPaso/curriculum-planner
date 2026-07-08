@@ -29,10 +29,13 @@ body {
 
 	--prereq-low: #64748b;
 	--prereq-high: #b45309;
+	--color-danger: #dc2626;
 }
 
 [data-theme="dark"] {
 	--color-bg: #1e1e1e;
+	--color-btn-bar: #1e1e1e;
+	--hover-btn-bar: #222222;
 	--edit-mode-bg: #15191e;
 	--color-semester-header: rgba(46, 57, 61, 0.5);
 	--color-border: #757575;
@@ -45,6 +48,8 @@ body {
 	--course-selected: #037a9e;
 	--prereq-low: #a0c1d1;
 	--prereq-high: #a0c1d1;
+
+	--color-danger: #ef4444;
 }
 .is-resetting .react-flow__node {
 	transition: transform 0.3s ease-in-out;
@@ -54,4 +59,19 @@ body {
 }
 .react-flow__node {
 	transition: background-color 300ms ease;
+}
+
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateY(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.error {
+	animation: slideIn 0.2s ease-out;
 }
