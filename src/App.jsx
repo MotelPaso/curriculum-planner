@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CurriculumGraph from "./CurriculumGraph";
 import CareerSelector from "./components/CareerSelector";
 import ProyectionGraph from "./components/ProyectionGraph";
+import { getMinors } from "./services/API";
 
 export default function App() {
 	const [showGraph, setShowGraph] = useState(false);
@@ -49,6 +50,7 @@ export default function App() {
 					courses={courses}
 					career={career}
 					progress={progress}
+					setCourses={setCourses}
 					setProgress={setProgress}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}

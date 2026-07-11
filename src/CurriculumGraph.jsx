@@ -16,9 +16,10 @@ import CourseNextNode from "./components/CourseNextNode";
 import TopBar from "./components/TopBar";
 import BotBar from "./components/BotBar";
 import { SiConcourse } from "react-icons/si";
-import { getProyection } from "./services/API";
+import { getMinors, getProyection, getMinorCourses } from "./services/API";
 import { getPrereq } from "./utils/prereqs";
 import ErrorProyection from "./components/ErrorProyection";
+import MinorToggle from "./components/MinorToggle";
 
 // Layout constants
 const SEMESTER_WIDTH = 360;
@@ -28,10 +29,17 @@ const TYPES_PROGRESS = {
 	ongoing: "not_taking",
 	not_taking: "completed",
 };
+const MINOR_CODES = new Set([
+	"UNFP-40001",
+	"UNFP-50001",
+	"UNFP-60001",
+	"UNFP-70001",
+	"UNFP-80001",
+]);
 
 const nodeTypes = { courseNode: CourseNextNode };
 
-function buildGraph(courses, progress, theme, editMode) {
+function buildGraph(courses, progress, theme) {
 	const bySemester = {};
 	for (const course of courses) {
 		if (!bySemester[course.semester]) bySemester[course.semester] = [];
@@ -58,7 +66,6 @@ function buildGraph(courses, progress, theme, editMode) {
 				approvalRate: course.approvalrate,
 				isElective: course.iselective,
 				theme: theme,
-				editMode: editMode,
 				status: progress[course.code],
 			},
 		};
@@ -80,37 +87,57 @@ function buildGraph(courses, progress, theme, editMode) {
 	return { nodes, edges };
 }
 
+function applyMinorToCourses(courses, minorCourses) {
+	const minorBySemester = Object.fromEntries(
+		minorCourses.map((c) => [c.semester, c]),
+	);
+	console.table(minorBySemester);
+	return courses.map((course) =>
+		MINOR_CODES.has(course.code)
+			? (minorBySemester[course.semester] ?? course)
+			: course,
+	);
+}
+
 export default function CurriculumGraph({
 	career,
 	courses,
 	progress,
+	setCourses,
 	setShowGraph,
 	setTheme,
 	setEditMode,
 	setProgress,
 	setProyection,
 	setSeeProyection,
+	setMinorId,
 	editMode,
 	theme,
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [isResetting, setIsResetting] = useState(false);
 	const [loadingProyection, setLoadingProyection] = useState(false);
-
-	const [showError, setShowError] = useState(null);
+	const [minors, setMinors] = useState([]);
+	const [originalCourses, setOriginalCourses] = useState([]);
+	const [selectedMinorId, setSelectedMinorId] = useState(0);
+	const [showError, setShowError] = useState(false);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
-		() => buildGraph(courses, progress, theme, editMode),
-		[progress, theme, editMode],
+		() => buildGraph(courses, progress, theme),
+		[courses, progress, selectedMinorId],
 	);
 	const [nodes, setNodes] = useState(initialNodes);
 	const [edges, setEdges] = useState(initialEdges);
 
 	const highlightedIds = useMemo(() => {
 		if (!selectedCourse) return new Set();
-		const result = new Set();
 		return getPrereq(selectedCourse.id, courses);
 	}, [selectedCourse, courses]);
+
+	useEffect(() => {
+		setNodes(initialNodes);
+		setEdges(initialEdges);
+	}, [initialNodes, initialEdges, selectedMinorId]);
 
 	// toggle highlights on prereqs
 	useEffect(() => {
@@ -156,6 +183,20 @@ export default function CurriculumGraph({
 		localStorage.setItem("progress", JSON.stringify(progress));
 	}, [progress]);
 
+	// on load
+	useEffect(() => {
+		async function fetchMinors() {
+			const result = await getMinors(career);
+			if (!result.state) {
+				setShowError(result.error);
+				return;
+			}
+			setMinors(result.data);
+		}
+		fetchMinors();
+		setOriginalCourses(courses);
+	}, [career]);
+
 	const onNodesChange = useCallback(
 		(changes) => setNodes((nds) => applyNodeChanges(changes, nds)),
 		[],
@@ -184,7 +225,7 @@ export default function CurriculumGraph({
 		}
 
 		setLoadingProyection(true);
-		const result = await getProyection(career, courses_sent);
+		const result = await getProyection(career, courses_sent, selectedMinorId);
 		setLoadingProyection(false);
 
 		if (!result.state) {
@@ -194,6 +235,23 @@ export default function CurriculumGraph({
 
 		setProyection(result.data);
 		setSeeProyection(true);
+	};
+
+	const handleMinorChange = async (minorId) => {
+		setSelectedMinorId(minorId);
+		if (minorId === 0) {
+			setCourses(originalCourses);
+			return;
+		}
+
+		const result = await getMinorCourses(minorId);
+		console.log(result);
+		if (!result.state) {
+			setShowError(result.error);
+			return;
+		}
+
+		setCourses(applyMinorToCourses(originalCourses, result.data));
 	};
 	return (
 		<div
@@ -261,9 +319,14 @@ export default function CurriculumGraph({
 						resetLayout={resetLayout}
 						setProgress={setProgress}
 						loadingProyection={loadingProyection}
+						minors={minors}
+						selectedMinorId={selectedMinorId}
+						onChange={(id) => {
+							handleMinorChange(id);
+						}}
 					/>
 				</Panel>
-				<Panel position="bottom-right">
+				<Panel position="bottom-center" style={{ zIndex: 50 }}>
 					{showError && (
 						<ErrorProyection
 							message={showError}

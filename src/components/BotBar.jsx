@@ -10,6 +10,7 @@ import {
 	FiServer,
 	FiLoader,
 } from "react-icons/fi";
+import MinorToggle from "./MinorToggle";
 
 export default function BotBar({
 	theme,
@@ -20,6 +21,9 @@ export default function BotBar({
 	setProgress,
 	sendProgress,
 	loadingProyection,
+	minors,
+	selectedMinorId,
+	onChange,
 }) {
 	const flow = useReactFlow();
 	const iconColor = theme == "light" ? "black" : "white";
@@ -33,6 +37,11 @@ export default function BotBar({
 		<div className="flex flex-col justify-start gap-1 text-2xl text-(--color-text) bg-(--color-bg) rounded-2xl p-2 w-48">
 			{editMode && (
 				<>
+					<MinorToggle
+						minors={minors}
+						selectedMinorId={selectedMinorId}
+						onChange={onChange}
+					/>
 					<button
 						className="flex items-center gap-2 p-2 cursor-pointer  disabled:cursor-not-allowed disabled:opacity-70 bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 						onClick={() => sendProgress()}

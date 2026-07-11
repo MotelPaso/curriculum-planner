@@ -10,7 +10,6 @@ export default function CourseNextNode({ data }) {
 		isElective,
 		theme,
 		highlighted,
-		editMode,
 		status,
 	} = data;
 

@@ -11,11 +11,11 @@ export default function ErrorProyection({ message, onClose }) {
 
 	return (
 		<div
-			className="error fixed bottom-8 right-4 px-4 py-3 rounded-lg shadow-lg flex items-center gap-3"
+			className="error z-10 px-4 py-3 rounded-lg shadow-lg flex items-center flex-row gap-3 justify-center"
 			style={{ background: "var(--color-danger, #dc2626)", color: "#fff" }}
 			role="alert"
 		>
-			<span className="text-md font-medium">{message}</span>
+			<span className="text-md font-medium text-nowrap">{message}</span>
 			<button onClick={onClose} className="text-white/80 hover:text-white">
 				✕
 			</button>
