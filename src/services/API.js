@@ -7,12 +7,10 @@ const BACKEND = axios.create({
 	baseURL: API_URL,
 });
 
-export async function getProyection(career, courses_sent) {
-	const data = { career, courses_sent };
+export async function getProyection(career, courses_sent, minor_id) {
+	const data = { career, courses_sent, minor_id };
 	try {
-		const response = await BACKEND.post("/proyection", data, {
-			timeout: 10000,
-		});
+		const response = await BACKEND.post("/proyection", data);
 		return { state: true, data: response.data };
 	} catch (error) {
 		console.error(error);
@@ -47,7 +45,7 @@ export const getCoursesBase = async (career) => {
 			.from("courses")
 			.select("code, title, credits, semester, approvalrate, iselective")
 			.eq("career", career)
-			.is("is_minor", true);
+			.is("is_minor", false);
 
 		if (coursesError) throw coursesError;
 
@@ -94,3 +92,36 @@ export const wakeBackend = async () => {
 		console.log(error);
 	}
 };
+
+export const getMinors = async (career) => {
+	try {
+		const { data: minors, error: minorsError } = await supabase
+			.from("minors")
+			.select("id, name")
+			.eq("career", career);
+		if (minorsError) throw minorsError;
+		console.table(minors);
+
+		return { state: true, data: minors };
+	} catch (error) {
+		console.error(error);
+		return {
+			state: false,
+			error: "Ha ocurrido un error obteniendo los minors...",
+		};
+	}
+};
+
+export async function getMinorCourses(minorId) {
+	try {
+		const response = await BACKEND.get(`/minors/${minorId}/courses`);
+		console.table(response.data);
+		return { state: true, data: response.data };
+	} catch (error) {
+		console.error(error);
+		return {
+			state: false,
+			error: "Ha ocurrido un error obteniendo los cursos del minor...",
+		};
+	}
+}

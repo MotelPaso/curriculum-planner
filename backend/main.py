@@ -18,6 +18,7 @@ app.add_middleware(
 class ProyeccionReq(BaseModel):
     career: str
     courses_sent: list[str]
+    minor_id: int | None
 
 @app.get("/")
 async def read_root():
@@ -27,6 +28,12 @@ async def read_root():
 async def courses(career:str):
     return c.getCourses(career)
 
+@app.get("/minors/{minor_id}/courses")
+def get_minor_courses_endpoint(minor_id: int):
+    return c.getMinorCourses(minor_id)
+
 @app.post("/proyection")
 async def proyection(req: ProyeccionReq):
-    return c.getProyeccion(req.courses_sent, req.career)
+    return c.getProyeccion(req.courses_sent, req.career, req.minor_id)
+
+
