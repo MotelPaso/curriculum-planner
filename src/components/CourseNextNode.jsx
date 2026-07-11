@@ -73,7 +73,7 @@ export default function CourseNextNode({ data }) {
 					style={{ color: "var(--course-font)" }}
 				>
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
-					<p>{data.code}</p>
+					<p className="pl-2.5 text-center">{data.code}</p>
 					<p className="font-bold pr-2">
 						{data.credits} <span className="font-light">SCT</span>
 					</p>

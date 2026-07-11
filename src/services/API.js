@@ -10,7 +10,9 @@ const BACKEND = axios.create({
 export async function getProyection(career, courses_sent) {
 	const data = { career, courses_sent };
 	try {
-		const response = await BACKEND.post("/proyection", data);
+		const response = await BACKEND.post("/proyection", data, {
+			timeout: 10000,
+		});
 		return { state: true, data: response.data };
 	} catch (error) {
 		console.error(error);
@@ -44,7 +46,8 @@ export const getCoursesBase = async (career) => {
 		const { data: courses, error: coursesError } = await supabase
 			.from("courses")
 			.select("code, title, credits, semester, approvalrate, iselective")
-			.eq("career", career);
+			.eq("career", career)
+			.is("is_minor", true);
 
 		if (coursesError) throw coursesError;
 
