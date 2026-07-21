@@ -1,10 +1,7 @@
-import { useState } from "react";
-import { RiArrowLeftSLine } from "react-icons/ri";
 import { FaMoon, FaArrowLeft } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
+import ThemeButton from "./ThemeButton";
 export default function TopBar({ setShowGraph, theme, setTheme, setEditMode }) {
-	const [showMessage, setShowMessage] = useState(true);
-
 	return (
 		<div className="w-screen flex flex-row items-center justify-between ">
 			<button
@@ -14,15 +11,10 @@ export default function TopBar({ setShowGraph, theme, setTheme, setEditMode }) {
 					setShowGraph(false);
 				}}
 			>
-				<FaArrowLeft color={theme == "light" ? "black" : "white"} />
+				<FaArrowLeft color={theme === "light" ? "black" : "white"} />
 			</button>
 
-			<button
-				className="font-bold text-3xl pr-4 cursor-pointer"
-				onClick={() => setTheme()}
-			>
-				{theme == "light" ? <FaMoon /> : <MdLightMode color="white" />}
-			</button>
+			<ThemeButton theme={theme} setTheme={setTheme} />
 		</div>
 	);
 }

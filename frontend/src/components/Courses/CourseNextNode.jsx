@@ -1,5 +1,4 @@
 import { Handle, Position } from "@xyflow/react";
-import { FaAngleDown } from "react-icons/fa";
 
 export default function CourseNextNode({ data }) {
 	const {
@@ -21,13 +20,11 @@ export default function CourseNextNode({ data }) {
 	const progressStyle = PROGRESS_STYLES[status] ?? {};
 
 	return (
-		<div className="relative ">
+		<div className="relative">
 			{isElective && (
 				<div
-					className="absolute -top-3 right-3 w-20 text-center text-sm z-10"
+					className="absolute -top-4 -right-3 w-20 text-center align-middle text-md z-10 bg-(--course-elective) text-white"
 					style={{
-						backgroundColor: "var(--course-elective)",
-						color: "#FFFFFF",
 						opacity:
 							highlighted === "dimmed" ? 0.15 : (progressStyle.opacity ?? 1),
 						transition: "opacity 0.4s, outline 0.4s",
@@ -46,10 +43,8 @@ export default function CourseNextNode({ data }) {
 				}}
 			/>
 			<div
-				className="border-2 w-full h-[87px] rounded-md"
+				className="border-2 w-full h-[87px] rounded-md bg-(--course-main) shadow-black shadow-2xs"
 				style={{
-					backgroundColor: "var(--course-main)",
-					boxShadow: "0 3px 8px rgba(0,0,0,0.08)",
 					opacity:
 						highlighted === "dimmed" ? 0.25 : (progressStyle.opacity ?? 1),
 					outline:
@@ -60,19 +55,13 @@ export default function CourseNextNode({ data }) {
 				}}
 			>
 				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5 cursor-pointer">
-					<h1
-						className="text-xl font-extrabold text-center"
-						style={{ color: "var(--course-font)" }}
-					>
+					<h1 className="text-xl font-extrabold text-center text-(--course-font)">
 						{data.title}
 					</h1>
 				</div>
-				<div
-					className="w-full flex flex-row items-center justify-between text-sm"
-					style={{ color: "var(--course-font)" }}
-				>
+				<div className="w-full flex flex-row items-center justify-between text-sm text-(--course-font)">
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
-					<p className="pl-2.5 text-center">{data.code}</p>
+					<p className="pl-2 text-center">{data.code}</p>
 					<p className="font-bold pr-2">
 						{data.credits} <span className="font-light">SCT</span>
 					</p>

@@ -7,7 +7,7 @@ const BACKEND = axios.create({
 	baseURL: API_URL,
 });
 
-export async function getProyection(career, courses_sent, minor_id) {
+export const getProyection = async (career, courses_sent, minor_id) => {
 	const data = { career, courses_sent, minor_id };
 	try {
 		const response = await BACKEND.post("/proyection", data);
@@ -19,7 +19,9 @@ export async function getProyection(career, courses_sent, minor_id) {
 			error: "Ha ocurrido un error procesando sus datos...",
 		};
 	}
-}
+};
+
+// local backend version of getCoursedata, kept just in case
 export const getCourseData = async (career) => {
 	try {
 		const response = await BACKEND.get("/courses", {
@@ -100,7 +102,6 @@ export const getMinors = async (career) => {
 			.select("id, name")
 			.eq("career", career);
 		if (minorsError) throw minorsError;
-		console.table(minors);
 
 		return { state: true, data: minors };
 	} catch (error) {
@@ -112,10 +113,10 @@ export const getMinors = async (career) => {
 	}
 };
 
-export async function getMinorCourses(minorId) {
+export const getMinorCourses = async (minorId) => {
 	try {
 		const response = await BACKEND.get(`/minors/${minorId}/courses`);
-		console.table(response.data);
+
 		return { state: true, data: response.data };
 	} catch (error) {
 		console.error(error);
@@ -124,4 +125,4 @@ export async function getMinorCourses(minorId) {
 			error: "Ha ocurrido un error obteniendo los cursos del minor...",
 		};
 	}
-}
+};

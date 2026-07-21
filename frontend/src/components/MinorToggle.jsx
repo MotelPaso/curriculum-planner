@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HiChevronUp } from "react-icons/hi";
+import { HiChevronDown, HiChevronUp } from "react-icons/hi";
 import { FaClipboardList } from "react-icons/fa";
 
 export default function MinorToggle({ minors, selectedMinorId, onChange }) {
@@ -22,7 +22,7 @@ export default function MinorToggle({ minors, selectedMinorId, onChange }) {
 					<select
 						value={selectedMinorId ?? ""}
 						onChange={handleSelect}
-						className="w-full appearance-none rounded-md border border-transparent bg-(--color-bg) text-(--color-text) py-2 text-sm hover:border-blue-500 focus:outline-none hover:bg-(--hover-btn-bar) text-center"
+						className="w-full appearance-none rounded-md border border-transparent bg-(--color-bg) text-(--color-text) text-center text-wrap py-2 text-sm hover:border-blue-500 focus:outline-none hover:bg-(--hover-btn-bar) "
 					>
 						{minors.length === 0 && (
 							<option value="">Cargando minors...</option>
@@ -31,12 +31,12 @@ export default function MinorToggle({ minors, selectedMinorId, onChange }) {
 							Sin Minor
 						</option>
 						{minors.map((m) => (
-							<option key={m.id} value={m.id}>
+							<option key={m.id} value={m.id} className="flex flex-wrap">
 								{m.name}
 							</option>
 						))}
 					</select>
-					<HiChevronUp
+					<HiChevronDown
 						size={16}
 						className="pointer-events-none absolute right-2 top-1/2 -translate-y-1/2 text-(--color-text)"
 					/>
@@ -48,7 +48,7 @@ export default function MinorToggle({ minors, selectedMinorId, onChange }) {
 				role="switch"
 				aria-checked={enabled}
 				onClick={handleToggle}
-				className="flex items-center gap-2 p-2 cursor-pointer  disabled:cursor-not-allowed disabled:opacity-70 bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
+				className="flex items-center gap-2 p-2 cursor-pointer disabled:cursor-not-allowed disabled:opacity-70 bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
 			>
 				<FaClipboardList />
 				<span className="text-sm font-medium text-(--color-text) ">

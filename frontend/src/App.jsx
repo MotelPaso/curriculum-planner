@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import CurriculumGraph from "./CurriculumGraph";
-import CareerSelector from "./components/CareerSelector";
-import ProyectionGraph from "./components/ProyectionGraph";
-import { getMinors } from "./services/API";
+import CurriculumGraph from "./components/Graphs/CurriculumGraph";
+import CareerSelector from "./components/CareerSelector/CareerSelector";
+import ProyectionGraph from "./components/Graphs/ProyectionGraph";
 
 export default function App() {
 	const [showGraph, setShowGraph] = useState(false);
@@ -13,8 +12,12 @@ export default function App() {
 		() => localStorage.getItem("theme") || "dark",
 	);
 	const [progress, setProgress] = useState(() => {
-		const saved = localStorage.getItem("progress");
-		return saved ? JSON.parse(saved) : {};
+		try {
+			const saved = localStorage.getItem("progress");
+			return saved ? JSON.parse(saved) : {};
+		} catch (error) {
+			console.log(error);
+		}
 	});
 	const [proyection, setProyection] = useState(null);
 	const [seeProyection, setSeeProyection] = useState(false);
