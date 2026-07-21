@@ -20,13 +20,16 @@ class ProyeccionReq(BaseModel):
     courses_sent: list[str]
     minor_id: int | None
 
+
 @app.get("/")
 async def read_root():
     return {"Hello": "World"}
 
 @app.get("/courses")
 async def courses(career:str):
-    return c.getCourses(career)
+    career_list = ['ICCI', 'ICI', 'ITI']
+    if career.upper() in career_list:
+        return c.getCourses(career)
 
 @app.get("/minors/{minor_id}/courses")
 def get_minor_courses_endpoint(minor_id: int):

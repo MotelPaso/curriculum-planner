@@ -1,23 +1,12 @@
 import psycopg2
-
 from psycopg2.extras import RealDictCursor
-import os
-from dotenv import load_dotenv
+from variables import DB_CONFIG
 
-load_dotenv()
-DB_CONFIG = {
-    'host': os.getenv('DB_HOST'),
-    'dbname': os.getenv('DB_NAME'),
-    'user': os.getenv('DB_USER'),
-    'password': os.getenv('DB_PASSWORD'),
-    'port': os.getenv('DB_PORT'),
-    'sslmode': 'require'
-}
-print("DB_HOST:", os.getenv('DB_HOST'))
 cache: dict[str, list] = {}
 minor_cache = {}
 CREDIT_LIMIT = 32
 DISPERSION_LIMIT = 2
+PLACEHOLDER_ELECTIVE_CODES = {f"UNFP-{sem}0001": sem for sem in range(4, 9)}
 
 def getCourses(career: str):
     if career in cache and cache[career] != []:
@@ -25,7 +14,6 @@ def getCourses(career: str):
 
     conn = psycopg2.connect(**DB_CONFIG)
     cur = conn.cursor(cursor_factory=RealDictCursor)
-    print("Connected!")
     cur.execute("""
         SELECT code, title, credits, semester, approvalrate, iselective
         FROM courses
@@ -106,9 +94,6 @@ def getMinorCourses(minor_id: int):
     return minor_cache[minor_id]
 
 
-
-DISPERSION_LIMIT = 2
-PLACEHOLDER_ELECTIVE_CODES = {f"UNFP-{sem}0001": sem for sem in range(4, 9)}
 
 
 def checkDispersion(course, leastSemester):
