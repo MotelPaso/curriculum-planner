@@ -11,7 +11,6 @@ import MinorToggle from "./MinorToggle";
 
 export default function BotBar({
 	theme,
-	career,
 	setEditMode,
 	editMode,
 	resetLayout,
@@ -59,7 +58,7 @@ export default function BotBar({
 					</button>
 					<button
 						className="flex items-center  gap-2 p-2 cursor-pointer bg-(--color-btn-bar) hover:bg-(--hover-btn-bar) rounded-2xl"
-						onClick={() => setProgress((prev) => ({}))}
+						onClick={() => setProgress(() => ({}))}
 						title="Reiniciar Progreso"
 					>
 						<FiRotateCcw color={theme} />

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { HiChevronDown, HiChevronUp } from "react-icons/hi";
+import { HiChevronDown } from "react-icons/hi";
 import { FaClipboardList } from "react-icons/fa";
 
 export default function MinorToggle({ minors, selectedMinorId, onChange }) {

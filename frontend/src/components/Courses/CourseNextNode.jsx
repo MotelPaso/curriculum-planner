@@ -7,7 +7,6 @@ export default function CourseNextNode({ data }) {
 		credits,
 		approvalRate,
 		isElective,
-		theme,
 		highlighted,
 		status,
 	} = data;
@@ -21,7 +20,7 @@ export default function CourseNextNode({ data }) {
 
 	return (
 		<div className="relative">
-			{(data.code.includes("MNOR") || isElective) && (
+			{(code.includes("MNOR") || isElective) && (
 				<div
 					className="absolute -top-4 -right-3 w-20 text-center align-middle text-md z-10 bg-(--course-elective) text-white"
 					style={{
@@ -56,14 +55,14 @@ export default function CourseNextNode({ data }) {
 			>
 				<div className="w-full h-[56px] flex items-center justify-center text-wrap pt-0.5 cursor-pointer">
 					<h1 className="text-xl font-extrabold text-center text-(--course-font)">
-						{data.title}
+						{title}
 					</h1>
 				</div>
 				<div className="w-full flex flex-row items-center justify-between text-sm text-(--course-font)">
 					<p className="pl-2">{Math.round(approvalRate * 100)}%</p>
-					<p className="pl-2 text-center">{data.code}</p>
+					<p className="pl-2 text-center">{code}</p>
 					<p className="font-bold pr-2">
-						{data.credits} <span className="font-light">SCT</span>
+						{credits} <span className="font-light">SCT</span>
 					</p>
 				</div>
 				<Handle

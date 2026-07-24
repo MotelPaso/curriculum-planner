@@ -1,5 +1,3 @@
-import { FaMoon } from "react-icons/fa";
-import { MdLightMode } from "react-icons/md";
 import { getCoursesBase, wakeBackend } from "../../services/API";
 import ErrorMessage from "../ErrorMessage";
 import ThemeButton from "../ThemeButton";

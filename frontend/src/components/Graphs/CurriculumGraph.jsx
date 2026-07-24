@@ -47,8 +47,8 @@ export default function CurriculumGraph({
 	const { cycleProgress } = useProgressSync(progress, setProgress);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
-		() => buildGraph(courses, progress, theme),
-		[courses, progress, theme],
+		() => buildGraph(courses, progress),
+		[courses, progress],
 	);
 
 	const highlightedIds = useMemo(() => {

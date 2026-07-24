@@ -1,5 +1,4 @@
-import { FaMoon, FaArrowLeft } from "react-icons/fa";
-import { MdLightMode } from "react-icons/md";
+import { FaArrowLeft } from "react-icons/fa";
 import ThemeButton from "./ThemeButton";
 export default function TopBar({ setShowGraph, theme, setTheme, setEditMode }) {
 	return (

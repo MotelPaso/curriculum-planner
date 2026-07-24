@@ -1,6 +1,6 @@
 import { SEMESTER_WIDTH, COURSE_HEIGHT, MINOR_CODES } from "./constants";
 
-export function buildGraph(courses, progress, theme) {
+export function buildGraph(courses, progress) {
 	const bySemester = {};
 	for (const course of courses) {
 		if (!bySemester[course.semester]) bySemester[course.semester] = [];
@@ -26,7 +26,6 @@ export function buildGraph(courses, progress, theme) {
 				credits: course.credits,
 				approvalRate: course.approvalrate,
 				isElective: course.iselective,
-				theme: theme,
 				status: progress[course.code],
 			},
 		};
