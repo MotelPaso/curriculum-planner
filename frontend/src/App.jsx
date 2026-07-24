@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import CurriculumGraph from "./components/Graphs/CurriculumGraph";
 import CareerSelector from "./components/CareerSelector/CareerSelector";
 import ProyectionGraph from "./components/Graphs/ProyectionGraph";
@@ -21,6 +21,8 @@ export default function App() {
 	});
 	const [proyection, setProyection] = useState(null);
 	const [seeProyection, setSeeProyection] = useState(false);
+	const [selectedMinorId, setSelectedMinorId] = useState(0);
+	const [baseCourses, setBaseCourses] = useState(null);
 	const [loading, setLoading] = useState(null);
 	const [error, setError] = useState(false);
 	const toggleTheme = () => {
@@ -38,7 +40,9 @@ export default function App() {
 			{!showGraph && (
 				<CareerSelector
 					setCourses={setCourses}
+					setBaseCourses={setBaseCourses}
 					setCareer={setCareer}
+					setSelectedMinorId={setSelectedMinorId}
 					setShowGraph={setShowGraph}
 					setTheme={toggleTheme}
 					error={error}
@@ -61,6 +65,9 @@ export default function App() {
 					editMode={editMode}
 					setProyection={setProyection}
 					setSeeProyection={setSeeProyection}
+					selectedMinorId={selectedMinorId}
+					setSelectedMinorId={setSelectedMinorId}
+					baseCourses={baseCourses}
 					theme={theme}
 				/>
 			)}

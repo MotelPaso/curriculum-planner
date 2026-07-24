@@ -6,7 +6,9 @@ import ThemeButton from "../ThemeButton";
 import CareerButton from "./CareerButton";
 export default function CareerSelector({
 	setCourses,
+	setBaseCourses,
 	setCareer,
+	setSelectedMinorId,
 	setShowGraph,
 	setTheme,
 	error,
@@ -26,6 +28,8 @@ export default function CareerSelector({
 		wakeBackend();
 		setCareer(career);
 		setCourses(courses.data);
+		setBaseCourses(courses.data);
+		setSelectedMinorId(0);
 		setShowGraph(true);
 	};
 

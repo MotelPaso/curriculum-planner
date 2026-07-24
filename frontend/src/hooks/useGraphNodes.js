@@ -42,12 +42,12 @@ export function useGraphNodes(
 				if (highlightedIds.size === 0)
 					return {
 						...edge,
-						style: { stroke: "var(--prereq-low)", strokeWidth: 1 },
+						style: { stroke: "var(--prereq-low)", strokeWidth: 2 },
 					};
 				const isHighlighted =
 					highlightedIds.has(edge.source) && highlightedIds.has(edge.target);
 				return isHighlighted
-					? { ...edge, style: { stroke: "var(--prereq-high)", strokeWidth: 3 } }
+					? { ...edge, style: { stroke: "var(--prereq-high)", strokeWidth: 4 } }
 					: { ...edge, style: { stroke: "var(--prereq-low)", strokeWidth: 0 } };
 			}),
 		);

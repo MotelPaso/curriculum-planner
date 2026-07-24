@@ -27,17 +27,22 @@ export default function CurriculumGraph({
 	setSeeProyection,
 	editMode,
 	theme,
+	selectedMinorId,
+	setSelectedMinorId,
+	baseCourses,
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [isResetting, setIsResetting] = useState(false);
 	const [loadingProyection, setLoadingProyection] = useState(false);
 	const [showError, setShowError] = useState(false);
 
-	const originalCoursesRef = useRef(courses);
+	const originalCoursesRef = useRef(baseCourses);
 
-	const { minors, selectedMinorId, applyMinor } = useMinors(
+	const { minors, applyMinor } = useMinors(
 		career,
 		originalCoursesRef,
+		selectedMinorId,
+		setSelectedMinorId,
 	);
 	const { cycleProgress } = useProgressSync(progress, setProgress);
 
@@ -60,8 +65,8 @@ export default function CurriculumGraph({
 	} = useGraphNodes(initialNodes, initialEdges, progress, highlightedIds);
 
 	useEffect(() => {
-		originalCoursesRef.current = courses;
-	}, [career, courses]);
+		originalCoursesRef.current = baseCourses;
+	}, [career, baseCourses]);
 
 	const resetLayout = useCallback(() => {
 		setIsResetting(true);

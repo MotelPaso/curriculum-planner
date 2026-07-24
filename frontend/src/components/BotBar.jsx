@@ -30,7 +30,7 @@ export default function BotBar({
 	};
 
 	return (
-		<div className="flex flex-col justify-start gap-1 text-2xl text-(--color-text) bg-(--color-bg) rounded-2xl p-2 w-48">
+		<div className="flex flex-col justify-start gap-0.5 text-2xl text-(--color-text) bg-(--color-bg) rounded-xl p-2 w-48 inset-4 shadow-2xl">
 			{editMode && (
 				<>
 					<MinorToggle

@@ -14,21 +14,23 @@ body {
 }
 
 [data-theme="light"] {
-	--color-bg: #eef1f6;
-	--edit-mode-bg: #e0e7f3;
+	--color-bg: #fff2e2;
+	--color-btn-bar: #fff2e2;
+	--hover-btn-bar: #f6ead8;
+	--edit-mode-bg: #fde8cf;
 	--color-semester-header: #cbd8e8;
-	--color-border: #33415580;
-	--color-text: #1e293b;
+	--color-border: #282828;
+	--color-text: #000000;
 
-	--course-main: #f8fbff;
-	--course-border: #33415560;
+	--course-main: #fffef3;
+	--course-border: #7c6f64;
 	--course-font: #1e293b;
 
 	--course-elective: #2770de;
-	--course-selected: #16a34a;
+	--course-selected: #98971a;
 
-	--prereq-low: #64748b;
-	--prereq-high: #b45309;
+	--prereq-low: #7c6f64;
+	--prereq-high: #d65d0e;
 	--color-danger: #dc2626;
 }
 
@@ -44,11 +46,12 @@ body {
 	--course-main: #313131;
 	--course-border: #444444;
 	--course-font: #fdfdfd;
+
 	--course-elective: #2770de;
 	--course-selected: #037a9e;
-	--prereq-low: #a0c1d1;
-	--prereq-high: #a0c1d1;
 
+	--prereq-low: #a0c1d1;
+	--prereq-high: #037a9e;
 	--color-danger: #ef4444;
 }
 .is-resetting .react-flow__node {

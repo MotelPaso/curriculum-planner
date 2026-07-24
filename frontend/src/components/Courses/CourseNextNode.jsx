@@ -21,7 +21,7 @@ export default function CourseNextNode({ data }) {
 
 	return (
 		<div className="relative">
-			{isElective && (
+			{(data.code.includes("MNOR") || isElective) && (
 				<div
 					className="absolute -top-4 -right-3 w-20 text-center align-middle text-md z-10 bg-(--course-elective) text-white"
 					style={{
@@ -30,7 +30,7 @@ export default function CourseNextNode({ data }) {
 						transition: "opacity 0.4s, outline 0.4s",
 					}}
 				>
-					<p>Electivo</p>
+					<p>{data.code.includes("MNOR") ? "Minor" : "Electivo"}</p>
 				</div>
 			)}
 			<Handle

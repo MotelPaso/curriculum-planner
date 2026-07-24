@@ -2,9 +2,8 @@ import { useState, useEffect, useCallback } from "react";
 import { getMinors, getMinorCourses } from "../services/API";
 import { applyMinorToCourses } from "../utils/buildGraph";
 
-export function useMinors(career, originalCoursesRef) {
+export function useMinors(career, originalCoursesRef, selectedMinorId, setSelectedMinorId) {
 	const [minors, setMinors] = useState([]);
-	const [selectedMinorId, setSelectedMinorId] = useState(0);
 
 	useEffect(() => {
 		async function fetchMinors() {
@@ -34,7 +33,7 @@ export function useMinors(career, originalCoursesRef) {
 				return null;
 			}
 		},
-		[originalCoursesRef],
+		[originalCoursesRef, setSelectedMinorId],
 	);
 
 	return { minors, selectedMinorId, applyMinor };
