@@ -1,0 +1,647 @@
+[
+	{
+		"code": "DCCB-00106",
+		"title": "Cálculo I",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.72,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00107",
+		"title": "Álgebra I",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.71,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00119",
+		"title": "Introducción A La Física",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.8,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCTE-00000",
+		"title": "Identidad, Univ. Y Eq. De Gén.",
+		"credits": 2,
+		"semester": 1,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00100",
+		"title": "Pr. Intro. A La Ingeniería",
+		"credits": 5,
+		"semester": 1,
+		"approvalrate": 0.86,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "SSED-00102",
+		"title": "Comunicación Efectiva I",
+		"credits": 2,
+		"semester": 1,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "SSED-01184",
+		"title": "Inglés 1",
+		"credits": 4,
+		"semester": 1,
+		"approvalrate": 0.93,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00216",
+		"title": "Mecánica",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.81,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00106",
+			"DCCB-00119"
+		]
+	},
+	{
+		"code": "DCCB-00264",
+		"title": "Química General",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.9,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00265",
+		"title": "Cálculo II",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.85,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00106"
+		]
+	},
+	{
+		"code": "DCCB-00266",
+		"title": "Álgebra II",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.76,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00107"
+		]
+	},
+	{
+		"code": "SSED-02184",
+		"title": "Inglés 2",
+		"credits": 4,
+		"semester": 2,
+		"approvalrate": 0.94,
+		"iselective": false,
+		"prerequisites": [
+			"SSED-01184"
+		]
+	},
+	{
+		"code": "UNFV-02002",
+		"title": "Formación General Valórica 2",
+		"credits": 2,
+		"semester": 2,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00301",
+		"title": "Ecuaciones Diferenciales",
+		"credits": 5,
+		"semester": 3,
+		"approvalrate": 0.69,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00265",
+			"DCCB-00266"
+		]
+	},
+	{
+		"code": "DCCB-00401",
+		"title": "Cálculo III",
+		"credits": 5,
+		"semester": 3,
+		"approvalrate": 0.63,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00265"
+		]
+	},
+	{
+		"code": "ECIN-00200",
+		"title": "Programación",
+		"credits": 5,
+		"semester": 3,
+		"approvalrate": 0.44,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00100",
+			"DCCB-00266"
+		]
+	},
+	{
+		"code": "ECIN-00336",
+		"title": "Estadística",
+		"credits": 6,
+		"semester": 3,
+		"approvalrate": 0.53,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00265"
+		]
+	},
+	{
+		"code": "ECIN-00337",
+		"title": "Proyecto : Diseño E Innovación",
+		"credits": 6,
+		"semester": 3,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00100"
+		]
+	},
+	{
+		"code": "UNFE-10001",
+		"title": "Formación General Electiva I",
+		"credits": 2,
+		"semester": 3,
+		"approvalrate": 0.97,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00505",
+		"title": "Electromagnetismo",
+		"credits": 6,
+		"semester": 4,
+		"approvalrate": 0.67,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00107",
+			"DCCB-00216",
+			"DCCB-00401"
+		]
+	},
+	{
+		"code": "ECIN-00402",
+		"title": "Economía",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.64,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00265",
+			"DCCB-00266"
+		]
+	},
+	{
+		"code": "ECIN-00500",
+		"title": "Estadística Aplicada",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.73,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00336"
+		]
+	},
+	{
+		"code": "ECIN-00504",
+		"title": "Adm. De La Producción I",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.91,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00265"
+		]
+	},
+	{
+		"code": "ECIN-00600",
+		"title": "Termodinámica",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.57,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00264",
+			"DCCB-00265"
+		]
+	},
+	{
+		"code": "SSED-02020",
+		"title": "Comunicación Efectiva II",
+		"credits": 2,
+		"semester": 4,
+		"approvalrate": 0.97,
+		"iselective": false,
+		"prerequisites": [
+			"SSED-00102"
+		]
+	},
+	{
+		"code": "ECIN-00505",
+		"title": "Investigación Operativa I",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.69,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00266",
+			"DCCB-00401"
+		]
+	},
+	{
+		"code": "ECIN-00519",
+		"title": "Ciencia De Datos",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.94,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00200",
+			"ECIN-00500"
+		]
+	},
+	{
+		"code": "ECIN-00605",
+		"title": "Contabilidad De Dirección",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.84,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00402"
+		]
+	},
+	{
+		"code": "ECIN-00704",
+		"title": "Proyecto: Sistemas Productivos",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00337",
+			"ECIN-00504"
+		]
+	},
+	{
+		"code": "UNFP-05001",
+		"title": "Electivo Cs De La Ingeniería",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00301"
+		]
+	},
+	{
+		"code": "UNFP-50001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00098",
+		"title": "Emprendimiento",
+		"credits": 3,
+		"semester": 6,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00403",
+		"title": "Proyecto: Calidad",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.98,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00704"
+		]
+	},
+	{
+		"code": "ECIN-00603",
+		"title": "Ingeniería Económica",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.74,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00605"
+		]
+	},
+	{
+		"code": "ECIN-00604",
+		"title": "Investigación Operativa II",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.84,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00500",
+			"ECIN-00505"
+		]
+	},
+	{
+		"code": "ECIN-00802",
+		"title": "Adm. De La Producción II",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.86,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00504",
+			"ECIN-00505"
+		]
+	},
+	{
+		"code": "UNFP-60001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFV-03003",
+		"title": "Formación General Valórica 3",
+		"credits": 2,
+		"semester": 6,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCTE-00005",
+		"title": "Ética Profesional",
+		"credits": 2,
+		"semester": 7,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00301",
+		"title": "Tecnologías De Información",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.69,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00519",
+			"ECIN-00802"
+		]
+	},
+	{
+		"code": "ECIN-00606",
+		"title": "Pr. Form. Eva. Proy. Inversión",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00403",
+			"ECIN-00603"
+		]
+	},
+	{
+		"code": "ECIN-00700",
+		"title": "Simulación",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.84,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00604"
+		]
+	},
+	{
+		"code": "ECIN-00703",
+		"title": "Cadena De Suministros",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.93,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00604",
+			"ECIN-00802"
+		]
+	},
+	{
+		"code": "ECIN-00800",
+		"title": "Ing. Y Desarrollo Sustentable",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.98,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-08616",
+		"title": "Práctica Pre-Profesional",
+		"credits": 12,
+		"semester": 7,
+		"approvalrate": 0.96,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00504",
+			"ECIN-00505"
+		]
+	},
+	{
+		"code": "UNFP-70001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00803",
+		"title": "Planificación Estratégica",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704"
+		]
+	},
+	{
+		"code": "ECIN-00804",
+		"title": "Proyecto Cadena De Suministros",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00606",
+			"ECIN-00703"
+		]
+	},
+	{
+		"code": "ECIN-00901",
+		"title": "Gestión De Activos",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00603",
+			"ECIN-00703"
+		]
+	},
+	{
+		"code": "ECIN-00903",
+		"title": "Gestión De Capital Humano",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704"
+		]
+	},
+	{
+		"code": "ECIN-00905",
+		"title": "Organización Digital",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 0.98,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00301"
+		]
+	},
+	{
+		"code": "UNFP-80001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 8,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90002",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90003",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90004",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90005",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFP-90006",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 9,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-01000",
+		"title": "Capstone Project",
+		"credits": 30,
+		"semester": 10,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00301",
+			"ECIN-00606",
+			"ECIN-00700",
+			"ECIN-00703",
+			"ECIN-00800",
+			"ECIN-08616",
+			"ECIN-00803",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00903",
+			"ECIN-00905"
+		]
+	}
+]

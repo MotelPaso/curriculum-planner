@@ -75,6 +75,7 @@ export default function App() {
 				<ProyectionGraph
 					courses={courses}
 					proyection={proyection}
+					theme={theme}
 					setShowProyection={setSeeProyection}
 				/>
 			)}

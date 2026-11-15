@@ -1,0 +1,529 @@
+[
+	{
+		"code": "DCCB-00141",
+		"title": "Cálculo I",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.68,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00142",
+		"title": "Álgebra I",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.73,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00144",
+		"title": "Física I",
+		"credits": 6,
+		"semester": 1,
+		"approvalrate": 0.64,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCTE-00000",
+		"title": "Identidad, Univ. Y Eq. De Gén.",
+		"credits": 2,
+		"semester": 1,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00115",
+		"title": "Proy. Intro. A La Ingeniería",
+		"credits": 5,
+		"semester": 1,
+		"approvalrate": 0.81,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "SSED-01184",
+		"title": "Inglés 1",
+		"credits": 4,
+		"semester": 1,
+		"approvalrate": 0.93,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFE-10001",
+		"title": "Formación General Electiva I",
+		"credits": 2,
+		"semester": 1,
+		"approvalrate": 0.97,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "DCCB-00244",
+		"title": "Física II",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.71,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00144"
+		]
+	},
+	{
+		"code": "DCCB-00245",
+		"title": "Cálculo II",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.72,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00141"
+		]
+	},
+	{
+		"code": "DCCB-00246",
+		"title": "Álgebra II",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.7,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00142"
+		]
+	},
+	{
+		"code": "ECIN-00261",
+		"title": "Programación",
+		"credits": 6,
+		"semester": 2,
+		"approvalrate": 0.36,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00142",
+			"ECIN-00115"
+		]
+	},
+	{
+		"code": "SSED-00102",
+		"title": "Comunicación Efectiva I",
+		"credits": 2,
+		"semester": 2,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "SSED-02184",
+		"title": "Inglés 2",
+		"credits": 4,
+		"semester": 2,
+		"approvalrate": 0.94,
+		"iselective": false,
+		"prerequisites": [
+			"SSED-01184"
+		]
+	},
+	{
+		"code": "DCCB-00341",
+		"title": "Química General",
+		"credits": 6,
+		"semester": 3,
+		"approvalrate": 0.81,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00360",
+		"title": "Pr. Programación Avanzada",
+		"credits": 6,
+		"semester": 3,
+		"approvalrate": 0.94,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00115",
+			"ECIN-00261"
+		]
+	},
+	{
+		"code": "ECIN-00361",
+		"title": "Programación Orientada A Obj.",
+		"credits": 5,
+		"semester": 3,
+		"approvalrate": 0.4,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00261"
+		]
+	},
+	{
+		"code": "ECIN-00362",
+		"title": "Estadística",
+		"credits": 6,
+		"semester": 3,
+		"approvalrate": 0.57,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00245"
+		]
+	},
+	{
+		"code": "ECIN-00363",
+		"title": "Electrotecnia",
+		"credits": 5,
+		"semester": 3,
+		"approvalrate": 0.62,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00244"
+		]
+	},
+	{
+		"code": "UNFV-02002",
+		"title": "Formación General Valórica 2",
+		"credits": 2,
+		"semester": 3,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00416",
+		"title": "Estructura De Datos",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.61,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00361"
+		]
+	},
+	{
+		"code": "ECIN-00460",
+		"title": "Pr. Sistemas Digitales",
+		"credits": 6,
+		"semester": 4,
+		"approvalrate": 0.97,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00360",
+			"ECIN-00363"
+		]
+	},
+	{
+		"code": "ECIN-00462",
+		"title": "Ciencia De Datos",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.72,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00362"
+		]
+	},
+	{
+		"code": "ECIN-00464",
+		"title": "Arquitectura Y Org. De Comp.",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 0.84,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00361"
+		]
+	},
+	{
+		"code": "SSED-02020",
+		"title": "Comunicación Efectiva II",
+		"credits": 2,
+		"semester": 4,
+		"approvalrate": 0.97,
+		"iselective": false,
+		"prerequisites": [
+			"SSED-00102"
+		]
+	},
+	{
+		"code": "UNFP-40001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 4,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "UNFV-03003",
+		"title": "Formación General Valórica 3",
+		"credits": 2,
+		"semester": 4,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00560",
+		"title": "Proyecto Iot",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00416",
+			"ECIN-00460"
+		]
+	},
+	{
+		"code": "ECIN-00561",
+		"title": "Ingeniería De Software",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00416"
+		]
+	},
+	{
+		"code": "ECIN-00562",
+		"title": "Bases De Datos",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00416"
+		]
+	},
+	{
+		"code": "ECIN-00563",
+		"title": "Fundamentos De Cs. De Comp.",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.58,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00361"
+		]
+	},
+	{
+		"code": "ECIN-00564",
+		"title": "Sistemas Operativos",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 0.92,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00464"
+		]
+	},
+	{
+		"code": "UNFP-50001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 5,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00660",
+		"title": "Pr. Desarrollo Ágil",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00560",
+			"ECIN-00563"
+		]
+	},
+	{
+		"code": "ECIN-00661",
+		"title": "Sistemas De Información",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.79,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00561"
+		]
+	},
+	{
+		"code": "ECIN-00662",
+		"title": "Desarrollo Soluc. Web/Móvil",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.95,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00561",
+			"ECIN-00562"
+		]
+	},
+	{
+		"code": "ECIN-00663",
+		"title": "Creatividad E Innovación Dig.",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.96,
+		"iselective": false,
+		"prerequisites": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"ECIN-00115",
+			"SSED-01184",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564"
+		]
+	},
+	{
+		"code": "ECIN-00664",
+		"title": "Redes De Computadores I",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 0.74,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00564"
+		]
+	},
+	{
+		"code": "ECIN-08266",
+		"title": "Práctica Profesional",
+		"credits": 12,
+		"semester": 6,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00561",
+			"ECIN-00562"
+		]
+	},
+	{
+		"code": "UNFP-60001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 6,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "DCTE-00005",
+		"title": "Ética Profesional",
+		"credits": 2,
+		"semester": 7,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-00705",
+		"title": "Gestión De Proyectos Ti",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.98,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00661",
+			"ECIN-00662"
+		]
+	},
+	{
+		"code": "ECIN-00760",
+		"title": "Pr. Desarrollo Ágil Escalado",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.94,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00660"
+		]
+	},
+	{
+		"code": "ECIN-00761",
+		"title": "Emprendimiento",
+		"credits": 3,
+		"semester": 7,
+		"approvalrate": 1.0,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00663"
+		]
+	},
+	{
+		"code": "ECIN-00762",
+		"title": "Ing. De Datos Y Big Data",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.91,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00462",
+			"ECIN-00662"
+		]
+	},
+	{
+		"code": "ECIN-00764",
+		"title": "Redes De Computadores II",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 0.98,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00664"
+		]
+	},
+	{
+		"code": "UNFP-70001",
+		"title": "Formación Profesional Electiva",
+		"credits": 5,
+		"semester": 7,
+		"approvalrate": 1.0,
+		"iselective": true,
+		"prerequisites": []
+	},
+	{
+		"code": "ECIN-01000",
+		"title": "Capstone Project",
+		"credits": 30,
+		"semester": 8,
+		"approvalrate": 0.99,
+		"iselective": false,
+		"prerequisites": [
+			"ECIN-00660",
+			"ECIN-00661",
+			"ECIN-00662",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-08266",
+			"ECIN-00705",
+			"ECIN-00760",
+			"ECIN-00761",
+			"ECIN-00762",
+			"ECIN-00764"
+		]
+	}
+]

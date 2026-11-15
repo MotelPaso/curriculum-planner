@@ -1,0 +1,9916 @@
+[
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 0,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001",
+			"ECIN-00506",
+			"ECIN-00508",
+			"ECIN-00610",
+			"ECIN-00618",
+			"ECIN-00619",
+			"UNFP-60001",
+			"ECIN-00608",
+			"ECIN-00609",
+			"ECIN-00706",
+			"ECIN-00708",
+			"ECIN-00805",
+			"UNFP-70001",
+			"UNFV-03003"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001",
+			"ECIN-00506",
+			"ECIN-00508",
+			"ECIN-00610",
+			"ECIN-00618",
+			"ECIN-00619",
+			"UNFP-60001",
+			"ECIN-00608",
+			"ECIN-00609",
+			"ECIN-00706",
+			"ECIN-00708",
+			"ECIN-00805",
+			"UNFP-70001",
+			"UNFV-03003",
+			"DCTE-00005",
+			"ECIN-00705",
+			"ECIN-00806",
+			"ECIN-00808",
+			"ECIN-00809",
+			"ECIN-00907",
+			"UNFP-80001",
+			"ECIN-00910",
+			"ECIN-08606",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001",
+			"ECIN-00506",
+			"ECIN-00508",
+			"ECIN-00610",
+			"ECIN-00618",
+			"ECIN-00619",
+			"UNFP-60001",
+			"ECIN-00608",
+			"ECIN-00609",
+			"ECIN-00706",
+			"ECIN-00708",
+			"ECIN-00805",
+			"UNFP-70001",
+			"UNFV-03003",
+			"DCTE-00005",
+			"ECIN-00705",
+			"ECIN-00806",
+			"ECIN-00808",
+			"ECIN-00809",
+			"ECIN-00907",
+			"UNFP-80001",
+			"ECIN-00910",
+			"ECIN-08606",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005",
+			"ECIN-01000"
+		],
+		"minor_id": 0,
+		"proyeccion": {}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00265"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002",
+					"DCCB-00264"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001",
+					"ECIN-00336",
+					"ECIN-00408"
+				],
+				"credits": 31
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00407",
+					"ECIN-00409",
+					"ECIN-00498",
+					"ECIN-00404",
+					"UNFP-50001"
+				],
+				"credits": 29
+			},
+			"6": {
+				"courses": [
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"ECIN-00506",
+					"ECIN-00508"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001",
+					"ECIN-00608",
+					"ECIN-00609",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFP-70001",
+					"DCTE-00005",
+					"UNFP-80001"
+				],
+				"credits": 27
+			},
+			"9": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-90001"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 25
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00119",
+			"ECIN-00100",
+			"SSED-01184",
+			"DCCB-00265",
+			"ECIN-00201",
+			"UNFV-02002",
+			"DCCB-00301",
+			"ECIN-00307",
+			"SSED-02020",
+			"DCCB-00505",
+			"ECIN-00407",
+			"ECIN-00409",
+			"ECIN-00404",
+			"ECIN-00510",
+			"ECIN-00513",
+			"ECIN-00506",
+			"ECIN-00610",
+			"ECIN-00619",
+			"ECIN-00608",
+			"ECIN-00706",
+			"ECIN-00805",
+			"UNFV-03003",
+			"ECIN-00705",
+			"ECIN-00808",
+			"ECIN-00907",
+			"ECIN-00910",
+			"UNFP-90001",
+			"UNFP-90003",
+			"UNFP-90005"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCTE-00000",
+					"SSED-00102",
+					"DCCB-00216",
+					"SSED-02184"
+				],
+				"credits": 20
+			},
+			"3": {
+				"courses": [
+					"DCCB-00266",
+					"DCCB-00264",
+					"DCCB-00401",
+					"ECIN-00308",
+					"UNFE-10001"
+				],
+				"credits": 21
+			},
+			"4": {
+				"courses": [
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00498",
+					"ECIN-00507",
+					"UNFP-50001"
+				],
+				"credits": 23
+			},
+			"5": {
+				"courses": [
+					"ECIN-00512",
+					"ECIN-00508",
+					"ECIN-00618",
+					"UNFP-60001"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00609",
+					"ECIN-00708",
+					"UNFP-70001",
+					"DCTE-00005",
+					"ECIN-00806",
+					"UNFP-80001"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00809",
+					"UNFP-90002",
+					"UNFP-90004"
+				],
+				"credits": 15
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCTE-00000",
+			"SSED-01184",
+			"DCCB-00266",
+			"UNFV-02002",
+			"DCCB-00401",
+			"SSED-02020",
+			"ECIN-00336",
+			"ECIN-00409",
+			"ECIN-00507",
+			"ECIN-00513",
+			"ECIN-00508",
+			"ECIN-00619",
+			"ECIN-00609",
+			"ECIN-00805",
+			"DCTE-00005",
+			"ECIN-00808",
+			"UNFP-80001",
+			"UNFP-90001",
+			"UNFP-90004"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCCB-00119",
+					"ECIN-00100",
+					"SSED-00102",
+					"DCCB-00265",
+					"SSED-02184"
+				],
+				"credits": 29
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"ECIN-00201",
+					"DCCB-00264",
+					"DCCB-00301",
+					"UNFE-10001"
+				],
+				"credits": 25
+			},
+			"4": {
+				"courses": [
+					"ECIN-00307",
+					"ECIN-00308",
+					"DCCB-00505",
+					"ECIN-00408",
+					"ECIN-00498"
+				],
+				"credits": 20
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404",
+					"ECIN-00510",
+					"UNFP-50001"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00512",
+					"ECIN-00506",
+					"ECIN-00610",
+					"ECIN-00618",
+					"UNFP-60001"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00706",
+					"ECIN-00708",
+					"UNFP-70001",
+					"UNFV-03003",
+					"ECIN-00705",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00806",
+					"ECIN-00809",
+					"ECIN-00910",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"UNFP-50001",
+			"UNFP-60001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"6": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"ECIN-00506"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"ECIN-00608",
+					"ECIN-00609"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 19
+			},
+			"9": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 25
+			},
+			"10": {
+				"courses": [
+					"ECIN-00910"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"ECIN-00805",
+			"ECIN-00806",
+			"ECIN-00808",
+			"ECIN-00809"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"6": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"UNFP-70001",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 29
+			},
+			"9": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00907",
+					"UNFP-80001",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 15
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00216",
+			"DCCB-00266",
+			"DCCB-00505",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00201",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00507",
+			"ECIN-00608",
+			"ECIN-00609",
+			"ECIN-00618",
+			"ECIN-00706",
+			"ECIN-00805",
+			"SSED-01184",
+			"UNFE-10001",
+			"UNFP-60001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00264",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020"
+				],
+				"credits": 21
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 24
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001",
+					"ECIN-00506"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00619",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 22
+			},
+			"7": {
+				"courses": [
+					"ECIN-00708",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 25
+			},
+			"8": {
+				"courses": [
+					"ECIN-00809",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00308",
+			"ECIN-00336",
+			"ECIN-00608",
+			"ECIN-00610",
+			"ECIN-00618",
+			"ECIN-00705",
+			"ECIN-00706",
+			"ECIN-00805",
+			"ECIN-08606",
+			"SSED-02020",
+			"SSED-02184",
+			"UNFP-50001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"ECIN-00307",
+					"DCCB-00505",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 23
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404",
+					"ECIN-00510"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00507",
+					"ECIN-00512",
+					"ECIN-00513",
+					"ECIN-00506",
+					"ECIN-00508",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"ECIN-00609",
+					"UNFV-03003"
+				],
+				"credits": 12
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"DCTE-00005",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 22
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00401",
+			"DCTE-00000",
+			"ECIN-00100",
+			"ECIN-00201",
+			"ECIN-00307",
+			"ECIN-00308",
+			"ECIN-00404",
+			"ECIN-00409",
+			"ECIN-00506",
+			"ECIN-00608",
+			"ECIN-00618",
+			"ECIN-00708",
+			"ECIN-00806",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 24
+			},
+			"3": {
+				"courses": [
+					"DCCB-00266",
+					"SSED-02184",
+					"DCCB-00264",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 20
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001",
+					"ECIN-00508"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00610",
+					"ECIN-00619",
+					"UNFP-60001",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"UNFP-70001",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"UNFP-80001"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90005"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00505",
+			"DCTE-00000",
+			"ECIN-00201",
+			"ECIN-00307",
+			"ECIN-00404",
+			"ECIN-00506",
+			"ECIN-00609",
+			"ECIN-00610",
+			"ECIN-00618",
+			"ECIN-00808",
+			"ECIN-00809",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFP-80001",
+			"UNFP-90002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00266",
+					"UNFV-02002"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"SSED-02184",
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498",
+					"ECIN-00510"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00507",
+					"ECIN-00512",
+					"ECIN-00513",
+					"UNFP-50001",
+					"ECIN-00508",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00619",
+					"ECIN-00608",
+					"ECIN-00706",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00708",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00907"
+				],
+				"credits": 22
+			},
+			"8": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404",
+					"UNFP-50001"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"UNFP-70001",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 20
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 15
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 0,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001",
+			"ECIN-00098",
+			"ECIN-00403",
+			"ECIN-00603",
+			"ECIN-00604",
+			"ECIN-00802",
+			"UNFP-60001",
+			"UNFV-03003",
+			"DCTE-00005",
+			"ECIN-00301",
+			"ECIN-00606",
+			"ECIN-00700",
+			"ECIN-00703",
+			"ECIN-00800",
+			"ECIN-08616",
+			"UNFP-70001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001",
+			"ECIN-00098",
+			"ECIN-00403",
+			"ECIN-00603",
+			"ECIN-00604",
+			"ECIN-00802",
+			"UNFP-60001",
+			"UNFV-03003",
+			"DCTE-00005",
+			"ECIN-00301",
+			"ECIN-00606",
+			"ECIN-00700",
+			"ECIN-00703",
+			"ECIN-00800",
+			"ECIN-08616",
+			"UNFP-70001",
+			"ECIN-00803",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00903",
+			"ECIN-00905",
+			"UNFP-80001",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005",
+			"UNFP-90006"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001",
+			"ECIN-00098",
+			"ECIN-00403",
+			"ECIN-00603",
+			"ECIN-00604",
+			"ECIN-00802",
+			"UNFP-60001",
+			"UNFV-03003",
+			"DCTE-00005",
+			"ECIN-00301",
+			"ECIN-00606",
+			"ECIN-00700",
+			"ECIN-00703",
+			"ECIN-00800",
+			"ECIN-08616",
+			"UNFP-70001",
+			"ECIN-00803",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00903",
+			"ECIN-00905",
+			"UNFP-80001",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005",
+			"UNFP-90006",
+			"ECIN-01000"
+		],
+		"minor_id": 0,
+		"proyeccion": {}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00402",
+					"ECIN-00504"
+				],
+				"credits": 31
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00500",
+					"ECIN-00600",
+					"SSED-02020",
+					"ECIN-00505",
+					"ECIN-00605"
+				],
+				"credits": 28
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001",
+					"ECIN-00098",
+					"ECIN-00603",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFP-60001",
+					"DCTE-00005",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-80001",
+					"UNFP-90001",
+					"UNFP-90002"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 20
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00119",
+			"ECIN-00100",
+			"SSED-01184",
+			"DCCB-00264",
+			"DCCB-00266",
+			"UNFV-02002",
+			"DCCB-00401",
+			"ECIN-00336",
+			"UNFE-10001",
+			"ECIN-00402",
+			"ECIN-00504",
+			"SSED-02020",
+			"ECIN-00519",
+			"ECIN-00704",
+			"UNFP-50001",
+			"ECIN-00403",
+			"ECIN-00604",
+			"UNFP-60001",
+			"DCTE-00005",
+			"ECIN-00606",
+			"ECIN-00703",
+			"ECIN-08616",
+			"ECIN-00803",
+			"ECIN-00901",
+			"ECIN-00905",
+			"UNFP-90001",
+			"UNFP-90003",
+			"UNFP-90005",
+			"ECIN-01000"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCTE-00000",
+					"SSED-00102",
+					"DCCB-00216",
+					"DCCB-00265",
+					"SSED-02184"
+				],
+				"credits": 26
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00200",
+					"ECIN-00337",
+					"DCCB-00505",
+					"ECIN-00500",
+					"ECIN-00600"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00605",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 20
+			},
+			"5": {
+				"courses": [
+					"ECIN-00603",
+					"ECIN-00802",
+					"ECIN-00700",
+					"ECIN-00800",
+					"UNFP-70001"
+				],
+				"credits": 25
+			},
+			"6": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00804",
+					"ECIN-00903",
+					"UNFP-80001"
+				],
+				"credits": 20
+			},
+			"7": {
+				"courses": [
+					"UNFP-90002",
+					"UNFP-90004",
+					"UNFP-90006"
+				],
+				"credits": 15
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCTE-00000",
+			"SSED-01184",
+			"DCCB-00265",
+			"UNFV-02002",
+			"ECIN-00200",
+			"UNFE-10001",
+			"ECIN-00500",
+			"SSED-02020",
+			"ECIN-00605",
+			"UNFP-50001",
+			"ECIN-00603",
+			"UNFP-60001",
+			"ECIN-00301",
+			"ECIN-00703",
+			"UNFP-70001",
+			"ECIN-00901",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90006"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00107",
+					"DCCB-00119",
+					"ECIN-00100",
+					"SSED-00102",
+					"DCCB-00264",
+					"SSED-02184"
+				],
+				"credits": 29
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00266",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00337"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00504",
+					"ECIN-00600"
+				],
+				"credits": 26
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00704",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 25
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 22
+			},
+			"7": {
+				"courses": [
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00803",
+					"ECIN-00903",
+					"ECIN-00905"
+				],
+				"credits": 25
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"UNFP-05001",
+			"UNFP-50001",
+			"UNFP-60001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005",
+			"UNFP-90006"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"6": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"ECIN-00802",
+			"ECIN-00800",
+			"ECIN-00803",
+			"ECIN-00804"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"6": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005",
+					"ECIN-00301"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"UNFP-70001",
+					"ECIN-00903",
+					"ECIN-00905"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-00901",
+					"UNFP-80001",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 10
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"DCCB-00505",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00504",
+			"ECIN-00600",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00703",
+			"ECIN-00802",
+			"ECIN-00905",
+			"ECIN-08616",
+			"UNFP-90004",
+			"UNFP-90005",
+			"UNFV-03003"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 29
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"SSED-02184",
+					"UNFV-02002",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001",
+					"SSED-02020"
+				],
+				"credits": 16
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 25
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"UNFP-60001"
+				],
+				"credits": 28
+			},
+			"7": {
+				"courses": [
+					"ECIN-00700",
+					"ECIN-00800",
+					"UNFP-70001",
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00903",
+					"UNFP-80001",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00301",
+			"DCCB-00401",
+			"DCTE-00005",
+			"ECIN-00098",
+			"ECIN-00200",
+			"ECIN-00337",
+			"ECIN-00500",
+			"ECIN-00604",
+			"ECIN-00606",
+			"ECIN-00703",
+			"ECIN-00800",
+			"ECIN-00802",
+			"ECIN-00905",
+			"SSED-01184",
+			"SSED-02184",
+			"UNFE-10001",
+			"UNFP-90004",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"DCCB-00264"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266"
+				],
+				"credits": 18
+			},
+			"4": {
+				"courses": [
+					"ECIN-00336",
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"UNFP-60001",
+					"ECIN-00301",
+					"ECIN-00700",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"UNFP-80001",
+					"UNFP-90001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 20
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00266",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00098",
+			"ECIN-00100",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"ECIN-00403",
+			"ECIN-00519",
+			"ECIN-00700",
+			"ECIN-00802",
+			"SSED-02020",
+			"UNFP-70001",
+			"UNFP-90003",
+			"UNFP-90006",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 24
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"SSED-02184",
+					"UNFE-10001"
+				],
+				"credits": 12
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00505",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 31
+			},
+			"6": {
+				"courses": [
+					"ECIN-00603",
+					"ECIN-00604",
+					"UNFP-60001",
+					"UNFV-03003",
+					"ECIN-00301",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00606",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903",
+					"ECIN-00905",
+					"UNFP-80001"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCCB-00264",
+			"DCCB-00266",
+			"DCTE-00000",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00336",
+			"ECIN-00403",
+			"ECIN-00519",
+			"ECIN-00604",
+			"ECIN-00802",
+			"ECIN-00803",
+			"ECIN-00901",
+			"ECIN-00903",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-70001",
+			"UNFP-90005"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 19
+			},
+			"3": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"SSED-02184",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"5": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00505",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"UNFP-50001"
+				],
+				"credits": 31
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00603",
+					"UNFP-60001",
+					"UNFV-03003",
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00606",
+					"UNFP-80001"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90006"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505",
+					"UNFP-50001"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"UNFP-60001",
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 22
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00903",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 25
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [],
+		"minor_id": 0,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"UNFP-60001",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764",
+					"UNFP-70001"
+				],
+				"credits": 28
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"UNFP-60001",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764",
+					"UNFP-70001"
+				],
+				"credits": 28
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"UNFP-60001",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764",
+					"UNFP-70001"
+				],
+				"credits": 28
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"UNFP-60001",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764",
+					"UNFP-70001"
+				],
+				"credits": 28
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001",
+			"ECIN-00660",
+			"ECIN-00661",
+			"ECIN-00662",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-08266",
+			"UNFP-60001",
+			"DCTE-00005",
+			"ECIN-00705",
+			"ECIN-00760",
+			"ECIN-00761",
+			"ECIN-00762",
+			"ECIN-00764",
+			"UNFP-70001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001",
+			"ECIN-00660",
+			"ECIN-00661",
+			"ECIN-00662",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-08266",
+			"UNFP-60001",
+			"DCTE-00005",
+			"ECIN-00705",
+			"ECIN-00760",
+			"ECIN-00761",
+			"ECIN-00762",
+			"ECIN-00764",
+			"UNFP-70001",
+			"ECIN-01000"
+		],
+		"minor_id": 0,
+		"proyeccion": {}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00245"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184",
+					"DCCB-00341"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020",
+					"UNFP-40001"
+				],
+				"credits": 31
+			},
+			"5": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 28
+			},
+			"6": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564",
+					"UNFP-50001",
+					"UNFP-60001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005",
+					"UNFP-70001"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00144",
+			"ECIN-00115",
+			"UNFE-10001",
+			"DCCB-00245",
+			"ECIN-00261",
+			"SSED-02184",
+			"ECIN-00360",
+			"ECIN-00362",
+			"UNFV-02002",
+			"ECIN-00460",
+			"ECIN-00464",
+			"UNFP-40001",
+			"ECIN-00560",
+			"ECIN-00562",
+			"ECIN-00564",
+			"ECIN-00660",
+			"ECIN-00662",
+			"ECIN-00664",
+			"UNFP-60001",
+			"ECIN-00705",
+			"ECIN-00761",
+			"ECIN-00764",
+			"ECIN-01000"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00142",
+					"DCTE-00000",
+					"SSED-01184",
+					"DCCB-00244",
+					"SSED-00102"
+				],
+				"credits": 20
+			},
+			"3": {
+				"courses": [
+					"DCCB-00246",
+					"DCCB-00341",
+					"ECIN-00361",
+					"ECIN-00363"
+				],
+				"credits": 22
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00462",
+					"SSED-02020",
+					"UNFV-03003",
+					"ECIN-00563",
+					"UNFP-50001"
+				],
+				"credits": 24
+			},
+			"5": {
+				"courses": [
+					"ECIN-00561"
+				],
+				"credits": 5
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00663",
+					"DCTE-00005",
+					"ECIN-00760",
+					"ECIN-00762",
+					"UNFP-70001"
+				],
+				"credits": 27
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCTE-00000",
+			"UNFE-10001",
+			"DCCB-00246",
+			"SSED-02184",
+			"ECIN-00361",
+			"UNFV-02002",
+			"ECIN-00462",
+			"UNFP-40001",
+			"ECIN-00561",
+			"ECIN-00564",
+			"ECIN-00661",
+			"ECIN-00664",
+			"DCTE-00005",
+			"ECIN-00761",
+			"UNFP-70001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00142",
+					"DCCB-00144",
+					"ECIN-00115",
+					"SSED-01184",
+					"DCCB-00245",
+					"SSED-00102"
+				],
+				"credits": 29
+			},
+			"3": {
+				"courses": [
+					"DCCB-00244",
+					"ECIN-00261",
+					"DCCB-00341",
+					"ECIN-00362"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00363",
+					"ECIN-00416",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003"
+				],
+				"credits": 25
+			},
+			"5": {
+				"courses": [
+					"ECIN-00460",
+					"ECIN-00562",
+					"ECIN-00563",
+					"UNFP-50001"
+				],
+				"credits": 21
+			},
+			"6": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00662",
+					"UNFP-60001"
+				],
+				"credits": 15
+			},
+			"7": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00663",
+					"ECIN-00705",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 25
+			},
+			"8": {
+				"courses": [
+					"ECIN-00760"
+				],
+				"credits": 5
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"UNFP-40001",
+			"UNFP-50001",
+			"UNFP-60001",
+			"UNFP-70001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"4": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"5": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 28
+			},
+			"6": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"7": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"9": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00244",
+			"DCCB-00246",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00261",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00464",
+			"ECIN-00561",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-00705",
+			"SSED-02020",
+			"UNFE-10001",
+			"UNFP-60001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"ECIN-00115",
+					"SSED-01184",
+					"SSED-00102"
+				],
+				"credits": 29
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00363"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00362",
+					"UNFV-02002",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 15
+			},
+			"5": {
+				"courses": [
+					"ECIN-00462",
+					"ECIN-00560",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00761",
+					"ECIN-00764",
+					"UNFP-70001"
+				],
+				"credits": 28
+			},
+			"7": {
+				"courses": [
+					"ECIN-00760",
+					"ECIN-00762"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00144",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00363",
+			"ECIN-00462",
+			"ECIN-00660",
+			"ECIN-00663",
+			"ECIN-00760",
+			"ECIN-08266",
+			"SSED-00102",
+			"SSED-02184",
+			"UNFP-50001",
+			"UNFP-60001",
+			"UNFV-02002"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00244"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261"
+				],
+				"credits": 18
+			},
+			"4": {
+				"courses": [
+					"ECIN-00362",
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 31
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564"
+				],
+				"credits": 25
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00664",
+					"DCTE-00005",
+					"ECIN-00761",
+					"UNFP-70001"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 15
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCTE-00000",
+			"ECIN-00115",
+			"ECIN-00261",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"ECIN-00560",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-00764",
+			"SSED-02184",
+			"UNFP-40001",
+			"UNFP-60001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"SSED-01184",
+					"UNFE-10001",
+					"SSED-00102"
+				],
+				"credits": 26
+			},
+			"3": {
+				"courses": [
+					"DCCB-00246",
+					"DCCB-00341",
+					"ECIN-00360",
+					"UNFV-02002"
+				],
+				"credits": 20
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564",
+					"UNFP-50001",
+					"ECIN-00660"
+				],
+				"credits": 25
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"DCTE-00005",
+					"ECIN-00760",
+					"ECIN-00761",
+					"UNFP-70001"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00762"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCCB-00245",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00261",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00660",
+			"ECIN-00662",
+			"ECIN-00663",
+			"ECIN-00664",
+			"ECIN-00762",
+			"ECIN-08266",
+			"UNFP-70001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00244",
+					"DCCB-00246",
+					"SSED-00102"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00363",
+					"UNFV-02002"
+				],
+				"credits": 23
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"UNFP-60001",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705"
+				],
+				"credits": 5
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 30
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCCB-00244",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00361",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00660",
+			"ECIN-00705",
+			"ECIN-00761",
+			"UNFP-60001"
+		],
+		"minor_id": 0,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00246",
+					"SSED-00102"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"ECIN-00261",
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00363",
+					"UNFV-02002"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00362",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFP-40001",
+					"UNFV-03003"
+				],
+				"credits": 26
+			},
+			"5": {
+				"courses": [
+					"ECIN-00462",
+					"ECIN-00563",
+					"ECIN-00564",
+					"UNFP-50001"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"ECIN-00760",
+					"UNFP-70001"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 1,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00047"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00048"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00049",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00050"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 1,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00047"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00048"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00049",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00050"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 1,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00047",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00048",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00049",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"MNOR-00050",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 1,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404"
+				],
+				"credits": 10
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"MNOR-00047",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"MNOR-00048",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"MNOR-00049",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"MNOR-00050",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 2,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00051"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00052"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00053",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00054"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 2,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00051"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00052"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00053",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00054"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 2,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00051",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00052",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00053",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"MNOR-00054",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 2,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404"
+				],
+				"credits": 10
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"MNOR-00051",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"MNOR-00052",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"MNOR-00053",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"MNOR-00054",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 3,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00055"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00056"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00057",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00058"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 3,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00055"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00056"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00057",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00058"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 3,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00055",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00056",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00057",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"MNOR-00058",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 3,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404"
+				],
+				"credits": 10
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"MNOR-00055",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"MNOR-00056",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"MNOR-00057",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"MNOR-00058",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 4,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00066"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00067"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00068",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00069"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 4,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00066"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00067"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00068",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00069"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 4,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00066",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00067",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00068",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"MNOR-00069",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 4,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404",
+					"MNOR-00066"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"MNOR-00067"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"MNOR-00068",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907",
+					"MNOR-00069"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 15
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [],
+		"minor_id": 5,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00264",
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00307",
+					"ECIN-00308",
+					"SSED-02020",
+					"UNFE-10001"
+				],
+				"credits": 27
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00069"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00070"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00071",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00072"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001"
+		],
+		"minor_id": 5,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00336",
+					"ECIN-00407",
+					"ECIN-00408",
+					"ECIN-00409",
+					"ECIN-00498"
+				],
+				"credits": 29
+			},
+			"5": {
+				"courses": [
+					"ECIN-00404",
+					"ECIN-00507",
+					"ECIN-00510",
+					"ECIN-00512",
+					"ECIN-00513",
+					"MNOR-00069"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619",
+					"MNOR-00070"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"MNOR-00071",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907",
+					"MNOR-00072"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00265",
+			"DCCB-00266",
+			"ECIN-00201",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00264",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00307",
+			"ECIN-00308",
+			"SSED-02020",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00336",
+			"ECIN-00407",
+			"ECIN-00408",
+			"ECIN-00409",
+			"ECIN-00498",
+			"ECIN-00404",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00513",
+			"UNFP-50001"
+		],
+		"minor_id": 5,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00069",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"ECIN-00619"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00070",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00706",
+					"ECIN-00708",
+					"ECIN-00805",
+					"UNFV-03003"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00071",
+					"DCTE-00005",
+					"ECIN-00705",
+					"ECIN-00806",
+					"ECIN-00808",
+					"ECIN-00809",
+					"ECIN-00907"
+				],
+				"credits": 32
+			},
+			"9": {
+				"courses": [
+					"MNOR-00072",
+					"ECIN-00910",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90005"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICCI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00401",
+			"DCCB-00505",
+			"DCTE-00005",
+			"ECIN-00498",
+			"ECIN-00507",
+			"ECIN-00510",
+			"ECIN-00512",
+			"ECIN-00706",
+			"ECIN-00806",
+			"ECIN-00910",
+			"ECIN-01000",
+			"ECIN-08606",
+			"UNFE-10001",
+			"UNFP-80001",
+			"UNFP-90002",
+			"UNFP-90003",
+			"UNFP-90004"
+		],
+		"minor_id": 5,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"UNFV-02002"
+				],
+				"credits": 27
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"ECIN-00201",
+					"SSED-02184",
+					"SSED-02020"
+				],
+				"credits": 24
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"ECIN-00307",
+					"ECIN-00308",
+					"ECIN-00336",
+					"ECIN-00408",
+					"ECIN-00409"
+				],
+				"credits": 27
+			},
+			"5": {
+				"courses": [
+					"ECIN-00407",
+					"ECIN-00404",
+					"MNOR-00069"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00513",
+					"ECIN-00506",
+					"ECIN-00508",
+					"ECIN-00610",
+					"ECIN-00618",
+					"MNOR-00070"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"ECIN-00619",
+					"ECIN-00608",
+					"ECIN-00609",
+					"ECIN-00805",
+					"MNOR-00071",
+					"UNFV-03003"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"ECIN-00708",
+					"ECIN-00705",
+					"ECIN-00808",
+					"ECIN-00907",
+					"MNOR-00072"
+				],
+				"credits": 25
+			},
+			"9": {
+				"courses": [
+					"ECIN-00809",
+					"UNFP-90001",
+					"UNFP-90005"
+				],
+				"credits": 15
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 6,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00043"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00044",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00045"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00046"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 6,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00043"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00044",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00045"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00046"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 6,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00043",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00044",
+					"DCTE-00005",
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00045",
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"MNOR-00046",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90006"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 6,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505",
+					"MNOR-00043"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00044",
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 22
+			},
+			"8": {
+				"courses": [
+					"MNOR-00045",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 15
+			},
+			"9": {
+				"courses": [
+					"MNOR-00046",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 7,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00059"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00060",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00061"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00062"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 7,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00059"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00060",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00061"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00062"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 7,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00059",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00060",
+					"DCTE-00005",
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00061",
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"MNOR-00062",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90006"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 7,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505",
+					"MNOR-00059"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00060",
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 22
+			},
+			"8": {
+				"courses": [
+					"MNOR-00061",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 15
+			},
+			"9": {
+				"courses": [
+					"MNOR-00062",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 8,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00059"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00063",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00064"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00065"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 8,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"MNOR-00059"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"MNOR-00063",
+					"UNFV-03003",
+					"DCTE-00005"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"MNOR-00064"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905",
+					"MNOR-00065"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 8,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"MNOR-00059",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00063",
+					"DCTE-00005",
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"8": {
+				"courses": [
+					"MNOR-00064",
+					"ECIN-00803",
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00903",
+					"ECIN-00905"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"MNOR-00065",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003",
+					"UNFP-90004",
+					"UNFP-90005"
+				],
+				"credits": 30
+			},
+			"10": {
+				"courses": [
+					"UNFP-90006"
+				],
+				"credits": 5
+			},
+			"11": {
+				"courses": [
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 8,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505",
+					"MNOR-00059"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"MNOR-00063",
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800"
+				],
+				"credits": 22
+			},
+			"8": {
+				"courses": [
+					"MNOR-00064",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 15
+			},
+			"9": {
+				"courses": [
+					"MNOR-00065",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 20
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 9,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 9,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 9,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 9,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505"
+				],
+				"credits": 10
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"9": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [],
+		"minor_id": 10,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCCB-00119",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00216",
+					"DCCB-00264",
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00200",
+					"ECIN-00336",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001"
+		],
+		"minor_id": 10,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"DCCB-00505",
+					"ECIN-00402",
+					"ECIN-00500",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00505",
+					"ECIN-00519",
+					"ECIN-00605",
+					"ECIN-00704",
+					"UNFP-05001",
+					"ECIN-00098",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"6": {
+				"courses": [
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00106",
+			"DCCB-00107",
+			"DCCB-00119",
+			"DCTE-00000",
+			"ECIN-00100",
+			"SSED-00102",
+			"SSED-01184",
+			"DCCB-00216",
+			"DCCB-00264",
+			"DCCB-00265",
+			"DCCB-00266",
+			"SSED-02184",
+			"UNFV-02002",
+			"DCCB-00301",
+			"DCCB-00401",
+			"ECIN-00200",
+			"ECIN-00336",
+			"ECIN-00337",
+			"UNFE-10001",
+			"DCCB-00505",
+			"ECIN-00402",
+			"ECIN-00500",
+			"ECIN-00504",
+			"ECIN-00600",
+			"SSED-02020",
+			"ECIN-00505",
+			"ECIN-00519",
+			"ECIN-00605",
+			"ECIN-00704",
+			"UNFP-05001",
+			"UNFP-50001"
+		],
+		"minor_id": 10,
+		"proyeccion": {
+			"6": {
+				"courses": [
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003",
+					"DCTE-00005",
+					"ECIN-00800"
+				],
+				"credits": 32
+			},
+			"7": {
+				"courses": [
+					"ECIN-00301",
+					"ECIN-00606",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 30
+			},
+			"8": {
+				"courses": [
+					"ECIN-00804",
+					"ECIN-00901",
+					"ECIN-00905",
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90003"
+				],
+				"credits": 30
+			},
+			"9": {
+				"courses": [
+					"UNFP-90004",
+					"UNFP-90005",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"10": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ICI",
+		"courses_sent": [
+			"DCCB-00119",
+			"DCCB-00216",
+			"DCCB-00505",
+			"ECIN-00200",
+			"ECIN-00301",
+			"ECIN-00402",
+			"ECIN-00605",
+			"ECIN-00606",
+			"ECIN-00704",
+			"ECIN-00804",
+			"ECIN-00901",
+			"ECIN-00905",
+			"ECIN-01000",
+			"UNFP-05001",
+			"UNFP-70001",
+			"UNFP-80001",
+			"UNFP-90003",
+			"UNFP-90004",
+			"UNFP-90005"
+		],
+		"minor_id": 10,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00106",
+					"DCCB-00107",
+					"DCTE-00000",
+					"ECIN-00100",
+					"SSED-00102",
+					"SSED-01184",
+					"DCCB-00264"
+				],
+				"credits": 31
+			},
+			"3": {
+				"courses": [
+					"DCCB-00265",
+					"DCCB-00266",
+					"SSED-02184",
+					"UNFV-02002",
+					"ECIN-00337",
+					"UNFE-10001"
+				],
+				"credits": 26
+			},
+			"4": {
+				"courses": [
+					"DCCB-00301",
+					"DCCB-00401",
+					"ECIN-00336",
+					"ECIN-00504",
+					"ECIN-00600",
+					"SSED-02020"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00500",
+					"ECIN-00505"
+				],
+				"credits": 10
+			},
+			"6": {
+				"courses": [
+					"ECIN-00519",
+					"ECIN-00098",
+					"ECIN-00403",
+					"ECIN-00603",
+					"ECIN-00604",
+					"ECIN-00802",
+					"UNFV-03003"
+				],
+				"credits": 30
+			},
+			"7": {
+				"courses": [
+					"DCTE-00005",
+					"ECIN-00700",
+					"ECIN-00703",
+					"ECIN-00800",
+					"ECIN-00803",
+					"ECIN-00903"
+				],
+				"credits": 27
+			},
+			"8": {
+				"courses": [
+					"UNFP-90001",
+					"UNFP-90002",
+					"UNFP-90006"
+				],
+				"credits": 15
+			},
+			"9": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [],
+		"minor_id": 11,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002"
+		],
+		"minor_id": 11,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001"
+		],
+		"minor_id": 11,
+		"proyeccion": {
+			"5": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"6": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"7": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCCB-00244",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00361",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00660",
+			"ECIN-00705",
+			"ECIN-00761",
+			"UNFP-60001"
+		],
+		"minor_id": 11,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00246",
+					"SSED-00102"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"ECIN-00261",
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00363",
+					"UNFV-02002"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00362",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003"
+				],
+				"credits": 21
+			},
+			"5": {
+				"courses": [
+					"ECIN-00462",
+					"ECIN-00563",
+					"ECIN-00564"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"ECIN-00760"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"MNOR-00051",
+					"MNOR-00052",
+					"MNOR-00053",
+					"MNOR-00054",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [],
+		"minor_id": 12,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002"
+		],
+		"minor_id": 12,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001"
+		],
+		"minor_id": 12,
+		"proyeccion": {
+			"5": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"6": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"7": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCCB-00244",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00361",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00660",
+			"ECIN-00705",
+			"ECIN-00761",
+			"UNFP-60001"
+		],
+		"minor_id": 12,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00246",
+					"SSED-00102"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"ECIN-00261",
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00363",
+					"UNFV-02002"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00362",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003"
+				],
+				"credits": 21
+			},
+			"5": {
+				"courses": [
+					"ECIN-00462",
+					"ECIN-00563",
+					"ECIN-00564"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"ECIN-00760"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"MNOR-00047",
+					"MNOR-00048",
+					"MNOR-00049",
+					"MNOR-00050",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [],
+		"minor_id": 13,
+		"proyeccion": {
+			"1": {
+				"courses": [
+					"DCCB-00141",
+					"DCCB-00142",
+					"DCCB-00144",
+					"DCTE-00000",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001"
+				],
+				"credits": 31
+			},
+			"2": {
+				"courses": [
+					"DCCB-00244",
+					"DCCB-00245",
+					"DCCB-00246",
+					"ECIN-00261",
+					"SSED-00102",
+					"SSED-02184"
+				],
+				"credits": 30
+			},
+			"3": {
+				"courses": [
+					"DCCB-00341",
+					"ECIN-00360",
+					"ECIN-00361",
+					"ECIN-00362",
+					"ECIN-00363",
+					"UNFV-02002",
+					"SSED-02020"
+				],
+				"credits": 32
+			},
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 28
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00055",
+					"MNOR-00056",
+					"MNOR-00057",
+					"MNOR-00058",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002"
+		],
+		"minor_id": 13,
+		"proyeccion": {
+			"4": {
+				"courses": [
+					"ECIN-00416",
+					"ECIN-00460",
+					"ECIN-00462",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003",
+					"ECIN-00563"
+				],
+				"credits": 30
+			},
+			"5": {
+				"courses": [
+					"ECIN-00560",
+					"ECIN-00561",
+					"ECIN-00562",
+					"ECIN-00564"
+				],
+				"credits": 20
+			},
+			"6": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"7": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"8": {
+				"courses": [
+					"MNOR-00055",
+					"MNOR-00056",
+					"MNOR-00057",
+					"MNOR-00058",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00141",
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCTE-00000",
+			"ECIN-00115",
+			"SSED-01184",
+			"UNFE-10001",
+			"DCCB-00244",
+			"DCCB-00245",
+			"DCCB-00246",
+			"ECIN-00261",
+			"SSED-00102",
+			"SSED-02184",
+			"DCCB-00341",
+			"ECIN-00360",
+			"ECIN-00361",
+			"ECIN-00362",
+			"ECIN-00363",
+			"UNFV-02002",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00462",
+			"ECIN-00464",
+			"SSED-02020",
+			"UNFP-40001",
+			"UNFV-03003",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00563",
+			"ECIN-00564",
+			"UNFP-50001"
+		],
+		"minor_id": 13,
+		"proyeccion": {
+			"5": {
+				"courses": [
+					"ECIN-00660",
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"DCTE-00005"
+				],
+				"credits": 27
+			},
+			"6": {
+				"courses": [
+					"ECIN-00705",
+					"ECIN-00760",
+					"ECIN-00761",
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 23
+			},
+			"7": {
+				"courses": [
+					"MNOR-00055",
+					"MNOR-00056",
+					"MNOR-00057",
+					"MNOR-00058",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	},
+	{
+		"career": "ITI",
+		"courses_sent": [
+			"DCCB-00142",
+			"DCCB-00144",
+			"DCCB-00244",
+			"DCTE-00000",
+			"DCTE-00005",
+			"ECIN-00361",
+			"ECIN-00416",
+			"ECIN-00460",
+			"ECIN-00560",
+			"ECIN-00561",
+			"ECIN-00562",
+			"ECIN-00660",
+			"ECIN-00705",
+			"ECIN-00761",
+			"UNFP-60001"
+		],
+		"minor_id": 13,
+		"proyeccion": {
+			"2": {
+				"courses": [
+					"DCCB-00141",
+					"ECIN-00115",
+					"SSED-01184",
+					"UNFE-10001",
+					"DCCB-00246",
+					"SSED-00102"
+				],
+				"credits": 25
+			},
+			"3": {
+				"courses": [
+					"DCCB-00245",
+					"ECIN-00261",
+					"SSED-02184",
+					"DCCB-00341",
+					"ECIN-00363",
+					"UNFV-02002"
+				],
+				"credits": 29
+			},
+			"4": {
+				"courses": [
+					"ECIN-00360",
+					"ECIN-00362",
+					"ECIN-00464",
+					"SSED-02020",
+					"UNFV-03003"
+				],
+				"credits": 21
+			},
+			"5": {
+				"courses": [
+					"ECIN-00462",
+					"ECIN-00563",
+					"ECIN-00564"
+				],
+				"credits": 15
+			},
+			"6": {
+				"courses": [
+					"ECIN-00661",
+					"ECIN-00662",
+					"ECIN-00663",
+					"ECIN-00664",
+					"ECIN-00760"
+				],
+				"credits": 25
+			},
+			"7": {
+				"courses": [
+					"ECIN-00762",
+					"ECIN-00764"
+				],
+				"credits": 10
+			},
+			"8": {
+				"courses": [
+					"MNOR-00055",
+					"MNOR-00056",
+					"MNOR-00057",
+					"MNOR-00058",
+					"ECIN-01000"
+				],
+				"credits": 0
+			}
+		}
+	}
+]

@@ -1,0 +1,679 @@
+[
+	{
+		"id": 1,
+		"name": "Seguridad Digital y Ciberinteligencia",
+		"career": "ICCI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00047",
+				"title": "Seguridad INF. Y Hácking Ético",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00048",
+				"title": "Seguridad INF. En Plataf. TI",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00047"
+				]
+			},
+			{
+				"code": "MNOR-00049",
+				"title": "Seguridad INF. En Des. SW.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00048"
+				]
+			},
+			{
+				"code": "MNOR-00050",
+				"title": "Seguridad De La Información",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00049"
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Sistemas Inteligentes",
+		"career": "ICCI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00051",
+				"title": "Programación Científica ",
+				"credits": 5,
+				"approvalrate": 0.76,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00052",
+				"title": "Machine Learning\\n",
+				"credits": 5,
+				"approvalrate": 0.9,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00051"
+				]
+			},
+			{
+				"code": "MNOR-00053",
+				"title": "Deep Learning",
+				"credits": 5,
+				"approvalrate": 0.97,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00052"
+				]
+			},
+			{
+				"code": "MNOR-00054",
+				"title": "Gestión de Proyectos De IA",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00053"
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Desarrollo y Arquitectura de Software",
+		"career": "ICCI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00055",
+				"title": "Patrones De Software Y Prog.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00056",
+				"title": "Bases de Datos no Relacionales",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00055"
+				]
+			},
+			{
+				"code": "MNOR-00057",
+				"title": "Introducción Al Devops",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00056"
+				]
+			},
+			{
+				"code": "MNOR-00058",
+				"title": "Cloud Computing",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00057"
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Modelamiento Financiero De Negocios",
+		"career": "ICCI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00066",
+				"title": "Economía",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00336"
+				]
+			},
+			{
+				"code": "MNOR-00067",
+				"title": "Contabilidad De Dirección",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00066"
+				]
+			},
+			{
+				"code": "MNOR-00068",
+				"title": "Ingeniería Económica",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00067"
+				]
+			},
+			{
+				"code": "MNOR-00069",
+				"title": "Estadística Aplicada",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"ECIN-00336",
+					"MNOR-00068"
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Optimización De Procesos",
+		"career": "ICCI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00069",
+				"title": "Estadística Aplicada",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00336"
+				]
+			},
+			{
+				"code": "MNOR-00070",
+				"title": "Adm. De La Producción I",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00069"
+				]
+			},
+			{
+				"code": "MNOR-00071",
+				"title": "Investigación Operativa I",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00070"
+				]
+			},
+			{
+				"code": "MNOR-00072",
+				"title": "Simulación",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00071"
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Gestión Empresarial",
+		"career": "ICI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00043",
+				"title": "Economía II",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00402"
+				]
+			},
+			{
+				"code": "MNOR-00044",
+				"title": "Marketing",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00043"
+				]
+			},
+			{
+				"code": "MNOR-00045",
+				"title": "Dirección Financiera",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00044"
+				]
+			},
+			{
+				"code": "MNOR-00046",
+				"title": "Administración",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00045"
+				]
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Desarrollo de Aplicaciones Digitales",
+		"career": "ICI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00059",
+				"title": "Programación Orientada A Obj.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00200"
+				]
+			},
+			{
+				"code": "MNOR-00060",
+				"title": "Estructuras De Datos",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00059"
+				]
+			},
+			{
+				"code": "MNOR-00061",
+				"title": "Bases De Datos",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00060"
+				]
+			},
+			{
+				"code": "MNOR-00062",
+				"title": "Int. Al Desarrollo Web/Móvil",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00061"
+				]
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Sistemas Digitales",
+		"career": "ICI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00059",
+				"title": "Programación Orientada A Obj.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00200"
+				]
+			},
+			{
+				"code": "MNOR-00063",
+				"title": "Diseño De Sistemas Digitales",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00059"
+				]
+			},
+			{
+				"code": "MNOR-00064",
+				"title": "Arquitectura Y Org. De Comp.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00063"
+				]
+			},
+			{
+				"code": "MNOR-00065",
+				"title": "Sistemas Operativos",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00064"
+				]
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Sistemas Inteligentes",
+		"career": "ICI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00051",
+				"title": "Programación Científica",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00052",
+				"title": "Machine Learning",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00051"
+				]
+			},
+			{
+				"code": "MNOR-00053",
+				"title": "Deep Learning",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00052"
+				]
+			},
+			{
+				"code": "MNOR-00054",
+				"title": "Gestión De Proyectos De IA",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00053"
+				]
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Seguridad Digital y Ciberinteligencia",
+		"career": "ICI",
+		"start_semester": 5,
+		"courses": [
+			{
+				"code": "MNOR-00047",
+				"title": "Seguridad Inf. Y Hácking Ético",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00048",
+				"title": "Seguridad Inf. En Plataf. Ti",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00047"
+				]
+			},
+			{
+				"code": "MNOR-00049",
+				"title": "Seguridad Inf. En Des. Sw.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00048"
+				]
+			},
+			{
+				"code": "MNOR-00050",
+				"title": "Seguridad De La Información",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 8,
+				"prerequisites": [
+					"MNOR-00049"
+				]
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Sistemas Inteligentes",
+		"career": "ITI",
+		"start_semester": 4,
+		"courses": [
+			{
+				"code": "MNOR-00051",
+				"title": "Programación Científica",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 4,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00052",
+				"title": "Machine Learning",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"MNOR-00051"
+				]
+			},
+			{
+				"code": "MNOR-00053",
+				"title": "Deep Learning",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00052"
+				]
+			},
+			{
+				"code": "MNOR-00054",
+				"title": "Gestión De Proyectos De Ia",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00053"
+				]
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Seguridad Digital y Ciberinteligencia",
+		"career": "ITI",
+		"start_semester": 4,
+		"courses": [
+			{
+				"code": "MNOR-00047",
+				"title": "Seguridad Inf. Y Hácking Ético",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 4,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00048",
+				"title": "Seguridad Inf. En Plataf. Ti",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"MNOR-00047"
+				]
+			},
+			{
+				"code": "MNOR-00049",
+				"title": "Seguridad Inf. En Des. Sw.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00048"
+				]
+			},
+			{
+				"code": "MNOR-00050",
+				"title": "Seguridad De La Información",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00049"
+				]
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Desarrollo y Arquitectura de Software",
+		"career": "ITI",
+		"start_semester": 4,
+		"courses": [
+			{
+				"code": "MNOR-00055",
+				"title": "Patrones De Software Y Prog.",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 4,
+				"prerequisites": [
+					"ECIN-00407"
+				]
+			},
+			{
+				"code": "MNOR-00056",
+				"title": "Bases De Datos No Relacionales",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 5,
+				"prerequisites": [
+					"MNOR-00055"
+				]
+			},
+			{
+				"code": "MNOR-00057",
+				"title": "Introducción Al Devops",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 6,
+				"prerequisites": [
+					"MNOR-00056"
+				]
+			},
+			{
+				"code": "MNOR-00058",
+				"title": "Cloud Computing",
+				"credits": 5,
+				"approvalrate": 1.0,
+				"iselective": false,
+				"semester": 7,
+				"prerequisites": [
+					"MNOR-00057"
+				]
+			}
+		]
+	}
+]

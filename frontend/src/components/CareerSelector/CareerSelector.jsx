@@ -1,4 +1,4 @@
-import { getCoursesBase, wakeBackend } from "../../services/API";
+import { getCoursesBase } from "../../services/API";
 import ErrorMessage from "../ErrorMessage";
 import ThemeButton from "../ThemeButton";
 import CareerButton from "./CareerButton";
@@ -23,7 +23,6 @@ export default function CareerSelector({
 			setError(courses.error);
 			return;
 		}
-		wakeBackend();
 		setCareer(career);
 		setCourses(courses.data);
 		setBaseCourses(courses.data);
