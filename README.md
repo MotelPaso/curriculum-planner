@@ -4,23 +4,26 @@ A full-stack web app that helps students plan and visualize their academic curri
 
 ## Features
 
-- **Progress tracking** -> Check the prerequisites of each course and toggle between passed, currently taking and not passed. 
+- **Progress tracking** -> Check the prerequisites of each course and toggle between passed, currently taking and not passed.
 - **Semester projection** -> Automatically schedules remaining courses via topological sorting, respecting prerequisites, credit limits, and dispersion constraints
 - **Privacy First** -> progress saved locally via `localStorage`, with no personal data saved on a server.
 
 ## Tech Stack
 
 **Frontend**
+
 - React + Vite
 - ReactFlow (graph visualization)
 - Tailwind CSS v4
 
 **Backend**
+
 - FastAPI
 - PostgreSQL (via Supabase)
 - `python-dotenv` for environment management
 
 **Deployment**
+
 - Frontend: GitHub Pages
 - Backend: Render
 - Database: Supabase
@@ -60,7 +63,7 @@ pip install -r requirements.txt
 
 Create a `.env` file with your database credentials:
 
-```
+```bash
 DATABASE_URL=postgresql://user:password@host:port/dbname
 ```
 
@@ -80,7 +83,7 @@ npm run dev
 
 Create a `.env` file with your Supabase credentials:
 
-```
+```bash
 VITE_SUPABASE_URL=your-supabase-url
 VITE_SUPABASE_ANON_KEY=your-anon-key
 ```
