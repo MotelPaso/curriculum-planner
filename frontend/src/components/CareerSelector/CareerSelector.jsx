@@ -1,35 +1,14 @@
-import { getCoursesBase } from "../../services/API";
 import ErrorMessage from "../ErrorMessage";
 import ThemeButton from "../ThemeButton";
 import CareerButton from "./CareerButton";
-export default function CareerSelector({
-	setCourses,
-	setBaseCourses,
-	setCareer,
-	setSelectedMinorId,
-	setShowGraph,
-	setTheme,
-	error,
-	setError,
-	loading,
-	setLoading,
-	theme,
-}) {
-	const sendCourseData = async (career) => {
-		setLoading(career);
-		const courses = await getCoursesBase(career);
-		setLoading(null);
-		if (courses.error) {
-			setError(courses.error);
-			return;
-		}
-		setCareer(career);
-		setCourses(courses.data);
-		setBaseCourses(courses.data);
-		setSelectedMinorId(0);
-		setShowGraph(true);
-	};
 
+export default function CareerSelector({
+	onSelect,
+	error,
+	loading,
+	theme,
+	setTheme,
+}) {
 	return (
 		<div className="flex items-center justify-center w-full h-full">
 			<div className="flex flex-col justify-evenly items-center rounded-2xl shadow-2xl w-112 h-80 bg-white border-(--color-border) border-4">
@@ -38,18 +17,10 @@ export default function CareerSelector({
 					<CareerButton
 						career={"ICCI"}
 						loading={loading}
-						func={() => sendCourseData("ICCI")}
+						func={onSelect}
 					/>
-					<CareerButton
-						career={"ICI"}
-						loading={loading}
-						func={() => sendCourseData("ICI")}
-					/>
-					<CareerButton
-						career={"ITI"}
-						loading={loading}
-						func={() => sendCourseData("ITI")}
-					/>
+					<CareerButton career={"ICI"} loading={loading} func={onSelect} />
+					<CareerButton career={"ITI"} loading={loading} func={onSelect} />
 				</div>
 				{error && <ErrorMessage error={error} />}
 			</div>

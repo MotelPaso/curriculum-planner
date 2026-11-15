@@ -20,17 +20,16 @@ export default function CurriculumGraph({
 	courses,
 	progress,
 	setCourses,
-	setShowGraph,
 	setTheme,
 	setEditMode,
 	setProgress,
-	setProyection,
-	setSeeProyection,
 	editMode,
 	theme,
 	selectedMinorId,
 	setSelectedMinorId,
 	baseCourses,
+	onShowCareerSelector,
+	onShowProyection,
 }) {
 	const [selectedCourse, setSelectedCourse] = useState(null);
 	const [isResetting, setIsResetting] = useState(false);
@@ -45,7 +44,7 @@ export default function CurriculumGraph({
 		selectedMinorId,
 		setSelectedMinorId,
 	);
-	const { cycleProgress } = useProgressSync(progress, setProgress);
+	const { cycleProgress } = useProgressSync(setProgress);
 
 	const { nodes: initialNodes, edges: initialEdges } = useMemo(
 		() => buildGraph(courses, progress),
@@ -68,6 +67,19 @@ export default function CurriculumGraph({
 	useEffect(() => {
 		originalCoursesRef.current = baseCourses;
 	}, [career, baseCourses]);
+
+	// The selected minor lives in the URL, so applying it here keeps deep links
+	// and browser navigation in sync.
+	useEffect(() => {
+		if (!baseCourses) return;
+		let cancelled = false;
+		applyMinor(selectedMinorId).then((result) => {
+			if (!cancelled && result) setCourses(result);
+		});
+		return () => {
+			cancelled = true;
+		};
+	}, [selectedMinorId, baseCourses, applyMinor, setCourses]);
 
 	const resetLayout = useCallback(() => {
 		setIsResetting(true);
@@ -97,26 +109,13 @@ export default function CurriculumGraph({
 			if (remaining > 0) {
 				await new Promise((resolve) => setTimeout(resolve, remaining));
 			}
-			setProyection(result.data);
-			setSeeProyection(true);
+			onShowProyection(result.data);
 		} catch {
 			setShowError("Ha ocurrido un error procesando sus datos...");
 		} finally {
 			setLoadingProyection(false);
 		}
-	}, [career, progress, selectedMinorId, setProyection, setSeeProyection]);
-
-	const handleMinorChange = useCallback(
-		async (minorId) => {
-			const result = await applyMinor(minorId);
-			if (!result) {
-				setShowError("Ha ocurrido un error obteniendo los cursos del minor...");
-				return;
-			}
-			setCourses(result);
-		},
-		[applyMinor, setCourses],
-	);
+	}, [career, progress, selectedMinorId, onShowProyection]);
 
 	const onNodeClick = useCallback(
 		(event, node) => {
@@ -166,7 +165,7 @@ export default function CurriculumGraph({
 				/>
 				<Panel position="top-center">
 					<TopBar
-						setShowGraph={setShowGraph}
+						onBack={onShowCareerSelector}
 						theme={theme}
 						setTheme={setTheme}
 						setEditMode={setEditMode}
@@ -185,7 +184,7 @@ export default function CurriculumGraph({
 						minors={minors}
 						selectedMinorId={selectedMinorId}
 						onChange={(id) => {
-							handleMinorChange(id);
+							setSelectedMinorId(id);
 						}}
 					/>
 				</Panel>

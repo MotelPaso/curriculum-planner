@@ -1,11 +1,9 @@
-import { useEffect, useCallback } from "react";
+import { useCallback } from "react";
 import { TYPES_PROGRESS } from "../utils/constants";
 
-export function useProgressSync(progress, setProgress) {
-	useEffect(() => {
-		localStorage.setItem("progress", JSON.stringify(progress));
-	}, [progress]);
-
+// Progress itself is persisted by PlannerProvider, so this hook only owns the
+// cascade rule for toggling a course and its prerequisites.
+export function useProgressSync(setProgress) {
 	const cycleProgress = useCallback(
 		(courseCode, prereqs) => {
 			setProgress((prev) => {

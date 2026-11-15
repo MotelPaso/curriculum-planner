@@ -10,16 +10,8 @@ const HEADER_HEIGHT = 80;
 
 function SemesterHeader({ data }) {
 	return (
-		<div
-			className="bg-(--color-semester-header) backdrop-blur-3xl rounded-4sxl text-center font-bold w-[276px] text-(--course-font)"
-			style={{
-				maskImage:
-					"radial-gradient(circle at center, var(--color-semester-header) 50%, transparent 100%)",
-				WebkitMaskImage:
-					"radial-gradient(circle at center, var(--color-semester-header) 60%, transparent 100%)",
-			}}
-		>
-			<p className="text-3xl">{data.semester}</p>
+		<div className="backdrop-blur-3xl rounded-4sxl text-center font-bold w-[276px] text-(--course-font)">
+			<p className="text-3xl">Semestre {data.semester}</p>
 			<p className="text-lg font-medium">{data.credits} SCT</p>
 		</div>
 	);
@@ -102,16 +94,12 @@ export default function ProyectionGraph({
 	courses,
 	proyection,
 	theme,
-	setShowProyection,
+	onBack,
 }) {
 	const { nodes, edges } = useMemo(
 		() => buildGraph(courses, proyection, theme),
 		[courses, proyection, theme],
 	);
-
-	const returnToMalla = () => {
-		setShowProyection(false);
-	};
 
 	return (
 		<div style={{ width: "100vw", height: "100vh" }}>
@@ -138,7 +126,7 @@ export default function ProyectionGraph({
 					<div className="text-3xl">
 						<button
 							className="cursor-pointer"
-							onClick={returnToMalla}
+							onClick={onBack}
 							title="Volver a la malla"
 						>
 							<FaArrowLeft color={theme === "light" ? "black" : "white"} />

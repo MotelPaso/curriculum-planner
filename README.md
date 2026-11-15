@@ -24,6 +24,8 @@ curriculum-planner/
 ├── frontend/
 │   ├── src/
 │   │   ├── data/                      # frozen curriculum (courses + minors)
+│   │   ├── pages/                     # one component per route
+│   │   ├── planner/                   # shared state (progress, theme, career)
 │   │   ├── services/API.js            # local data access, keeps the old async API
 │   │   ├── utils/proyeccion.js        # projection engine (port of the Python one)
 │   │   └── components/
@@ -34,6 +36,18 @@ curriculum-planner/
 ├── backend/                           # legacy FastAPI version, kept for reference
 └── README.md
 ```
+
+## Routes
+
+The app is client-side routed, so every view is linkable and the browser back/forward buttons work:
+
+| Path | View |
+| --- | --- |
+| `/` | career selector |
+| `/:career` | curriculum graph (`/ICCI`, `/ICI`, `/ITI`) |
+| `/:career/proyeccion` | semester projection |
+
+A selected minor is kept in the query string (`?minor=3`), so links like `/ICCI/proyeccion?minor=1` reproduce the exact view. Progress stays in `localStorage`, so a shared link shows the projection for *your* completed courses.
 
 ## Getting Started
 
@@ -87,6 +101,8 @@ One quirk is deliberately preserved: only `UNFP-{4..8}0001` placeholders are swa
 ## Deployment
 
 `.github/workflows/deploy.yml` builds and publishes the app to GitHub Pages whenever `frontend/**` changes on `master` (or manually via *Run workflow*). It runs `npm ci`, the golden tests, `npm run build`, and then deploys `frontend/dist` with `actions/deploy-pages`.
+
+The build also emits `dist/404.html` (a copy of `index.html`), because Pages answers unknown paths with that file — that's what makes deep links like `/curriculum-planner/ICCI/proyeccion?minor=1` work on a static host.
 
 One-time repository setup — **Settings → Pages → Source: GitHub Actions**. If the site was previously published from the `gh-pages` branch, switching the source retires that branch; the legacy `npm run deploy` script and `gh-pages` dev dependency can then be removed.
 
