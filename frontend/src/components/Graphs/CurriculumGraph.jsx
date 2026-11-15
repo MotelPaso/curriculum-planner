@@ -11,6 +11,7 @@ import { useGraphNodes } from "../../hooks/useGraphNodes";
 import { useMinors } from "../../hooks/useMinors";
 import { useProgressSync } from "../../hooks/useProgressSync";
 import ErrorProyection from "../ErrorProyection";
+import { PROYECTION_MIN_DELAY_MS } from "../../utils/constants";
 
 const nodeTypes = { courseNode: CourseNextNode };
 
@@ -83,11 +84,18 @@ export default function CurriculumGraph({
 		}
 
 		setLoadingProyection(true);
+		const startedAt = performance.now();
 		try {
 			const result = await getProyection(career, courses_sent, selectedMinorId);
 			if (!result.state) {
 				setShowError(result.error);
 				return;
+			}
+			// The projection is computed locally now, so hold the loading state
+			// briefly to keep the view change readable.
+			const remaining = PROYECTION_MIN_DELAY_MS - (performance.now() - startedAt);
+			if (remaining > 0) {
+				await new Promise((resolve) => setTimeout(resolve, remaining));
 			}
 			setProyection(result.data);
 			setSeeProyection(true);

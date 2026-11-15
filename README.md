@@ -50,8 +50,9 @@ Other commands:
 ```bash
 npm run test     # golden-test the JS projection engine against the Python one
 npm run build    # production build (base path /curriculum-planner/)
-npm run deploy   # publish dist/ to GitHub Pages
 ```
+
+Deployments are handled by GitHub Actions on push to `master` (see [Deployment](#deployment)).
 
 ## How It Works
 
@@ -73,7 +74,21 @@ cd frontend && npm run test
 
 ### Behaviour parity
 
-The JS engine is a line-by-line port of `backend/connection.py::getProyeccion`. `scripts/gen_fixtures.py` runs the real Python implementation over the frozen data and records its output for 101 career/minor/progress combinations; `npm run test` asserts the JS engine reproduces every one of them. One quirk is deliberately preserved: only `UNFP-{4..8}0001` placeholders are swapped for minor courses, so careers with placeholders outside that range keep them.
+The JS engine is a line-by-line port of `backend/connection.py::getProyeccion`. `scripts/gen_fixtures.py` runs the real Python implementation over the frozen data and records its output for 101 career/minor/progress combinations; `npm run test` asserts the JS engine reproduces every one of them.
+
+The generator reads `CREDIT_LIMIT` and `DISPERSION_LIMIT` straight out of `frontend/src/utils/proyeccion.js` (currently **32 SCT** and **3 semesters**) and applies them to the Python engine, so tuning the rules only means editing one constant and re-running:
+
+```bash
+python3 scripts/gen_fixtures.py && cd frontend && npm test
+```
+
+One quirk is deliberately preserved: only `UNFP-{4..8}0001` placeholders are swapped for minor courses, so careers with placeholders outside that range keep them.
+
+## Deployment
+
+`.github/workflows/deploy.yml` builds and publishes the app to GitHub Pages whenever `frontend/**` changes on `master` (or manually via *Run workflow*). It runs `npm ci`, the golden tests, `npm run build`, and then deploys `frontend/dist` with `actions/deploy-pages`.
+
+One-time repository setup — **Settings → Pages → Source: GitHub Actions**. If the site was previously published from the `gh-pages` branch, switching the source retires that branch; the legacy `npm run deploy` script and `gh-pages` dev dependency can then be removed.
 
 ## Legacy backend
 

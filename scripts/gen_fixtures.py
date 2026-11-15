@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import sys
 import types
 from pathlib import Path
@@ -24,9 +25,23 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BACKEND_DIR = REPO_ROOT / "backend"
 DATA_DIR = REPO_ROOT / "frontend" / "src" / "data"
+ENGINE_JS = REPO_ROOT / "frontend" / "src" / "utils" / "proyeccion.js"
 FIXTURE_PATH = REPO_ROOT / "frontend" / "tests" / "fixtures" / "proyeccion.json"
 
 CAREERS = ("ICCI", "ICI", "ITI")
+
+
+def engine_constants() -> dict[str, int]:
+    """Read the tunable limits from the JS engine so the two cannot drift."""
+    source = ENGINE_JS.read_text("utf-8")
+    constants = {}
+    for name in ("CREDIT_LIMIT", "DISPERSION_LIMIT"):
+        match = re.search(rf"export const {name} = (\d+);", source)
+        if match is None:
+            raise SystemExit(f"{name} not found in {ENGINE_JS}")
+        constants[name] = int(match.group(1))
+    return constants
+
 
 
 def load_data() -> tuple[dict[str, list[dict]], list[dict]]:
@@ -103,6 +118,10 @@ def main() -> int:
     courses_by_career, minors = load_data()
     connection = import_engine()
 
+    constants = engine_constants()
+    connection.CREDIT_LIMIT = constants["CREDIT_LIMIT"]
+    connection.DISPERSION_LIMIT = constants["DISPERSION_LIMIT"]
+
     connection.getCourses = lambda career: courses_by_career[career]
     connection.getMinorCourses = lambda minor_id: next(
         minor["courses"] for minor in minors if minor["id"] == minor_id
@@ -144,7 +163,9 @@ def main() -> int:
     )
     print(
         f"wrote {FIXTURE_PATH.relative_to(REPO_ROOT)} "
-        f"({len(fixtures)} fixtures, {len(minors)} minors)"
+        f"({len(fixtures)} fixtures, {len(minors)} minors) "
+        f"with CREDIT_LIMIT={constants['CREDIT_LIMIT']}, "
+        f"DISPERSION_LIMIT={constants['DISPERSION_LIMIT']}"
     )
     return 0
 
